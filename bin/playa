@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# playa operate CLI — symlink onto PATH on the droplet:
+#   ln -sf /var/www/playa/bin/playa /usr/local/bin/playa
+# Then: playa redeploy | restart | logs | backup | status
+set -euo pipefail
+
+APP="playa"
+DIR="/var/www/$APP"
+cd "$DIR"
+
+case "${1:-}" in
+  redeploy)
+    echo "==> git pull"
+    git pull --ff-only
+    echo "==> npm ci (no deps; validates lockstep)"
+    npm ci --omit=dev 2>/dev/null || npm install --omit=dev
+    echo "==> build"
+    npm run build
+    echo "==> pm2 restart $APP"
+    pm2 restart "$APP" --update-env
+    pm2 save
+    echo "==> done"
+    ;;
+  restart)
+    pm2 restart "$APP" --update-env && pm2 save
+    ;;
+  logs)
+    shift || true
+    pm2 logs "$APP" "$@"
+    ;;
+  status)
+    pm2 describe "$APP" || true
+    ;;
+  backup)
+    ts="$(date +%Y%m%d-%H%M%S)"
+    out="$DIR/backup-$APP-$ts.tar.gz"
+    tar -czf "$out" -C "$DIR" public .env 2>/dev/null || tar -czf "$out" -C "$DIR" public
+    echo "wrote $out"
+    ;;
+  *)
+    echo "usage: $APP {redeploy|restart|logs|status|backup}" >&2
+    exit 1
+    ;;
+esac

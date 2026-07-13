@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playa.Earth — Find your Burner world.</title>
+<meta name="description" content="A privacy-first global map for finding Burners, camps, and regional crews — year-round. Fuzzy location, opt-in always, no data for sale. Your people don't disappear when the event ends.">
+<style>
+  /* ============================================================
+     PLAYA.EARTH — DESIGN TOKENS
+     Inlined from playa-earth-tokens.css. Consume var(--pe-*)
+     everywhere. Do not hardcode colors/spacing/borders/radii.
+     ============================================================ */
+  :root {
+    /* ---- COLOR ---- */
+    --pe-bone:        #efe9db;
+    --pe-ink:         #141210;
+    --pe-safety:      #ff5714;
+    --pe-white:       #ffffff;
+
+    --pe-ink-50:      rgba(20,18,16,.5);
+    --pe-ink-13:      rgba(20,18,16,.13);
+    --pe-ink-05:      rgba(20,18,16,.05);
+    --pe-safety-18:   rgba(255,87,20,.18);
+
+    --pe-bg:          var(--pe-bone);
+    --pe-fg:          var(--pe-ink);
+    --pe-action:      var(--pe-safety);
+    --pe-alert:       var(--pe-safety);
+
+    /* ---- TYPE ---- */
+    --pe-font:        'Courier New', ui-monospace, Menlo, monospace;
+
+    --pe-text-stamp:  10px;
+    --pe-text-micro:  11px;
+    --pe-text-xs:     12px;
+    --pe-text-sm:     13px;
+    --pe-text-base:   14px;
+    --pe-text-md:     15px;
+    --pe-text-lg:     20px;
+    --pe-text-xl:     22px;
+    --pe-text-2xl:    24px;
+    --pe-display-fluid: clamp(40px, 7vw, 80px);
+    --pe-h2-fluid:      clamp(26px, 4vw, 44px);
+
+    --pe-weight:      700;
+
+    --pe-leading-tight:  .98;
+    --pe-leading-flat:   1;
+    --pe-leading-body:   1.5;
+    --pe-leading-copy:   1.6;
+
+    --pe-track-display: -.02em;
+    --pe-track-tight:   .04em;
+    --pe-track-wide:    .14em;
+    --pe-track-wider:   .18em;
+    --pe-track-widest:  .2em;
+
+    /* ---- SPACING ---- */
+    --pe-space-1:  4px;
+    --pe-space-2:  8px;
+    --pe-space-3:  12px;
+    --pe-space-4:  16px;
+    --pe-space-5:  22px;
+    --pe-space-6:  30px;
+    --pe-space-7:  44px;
+    --pe-space-8:  64px;
+
+    /* ---- BORDERS ---- */
+    --pe-radius:      0;
+    --pe-border-2:    2px solid var(--pe-ink);
+    --pe-border-3:    3px solid var(--pe-ink);
+    --pe-border-2w:   2px;
+    --pe-border-3w:   3px;
+    --pe-divider:     2px dashed var(--pe-ink);
+    --pe-divider-3:   3px dashed var(--pe-ink);
+
+    /* ---- SHADOW ---- */
+    --pe-shadow-block:      4px 4px 0 var(--pe-ink);
+    --pe-shadow-block-in:   1px 1px 0 var(--pe-ink);
+    --pe-shadow-tag:        3px 3px 0 var(--pe-safety);
+
+    /* ---- MOTION ---- */
+    --pe-dur-0:       0ms;
+    --pe-dur-snap:    60ms;
+    --pe-ease:        steps(1, end);
+
+    /* ---- FOCUS ---- */
+    --pe-focus-width: 3px;
+    --pe-focus:       3px solid var(--pe-safety);
+    --pe-focus-offset: 2px;
+
+    /* ---- ROTATION ---- */
+    --pe-rot-stamp:   -3deg;
+    --pe-rot-stamp-alt: 2deg;
+  }
+
+  /* ============================================================
+     UTILITY CLASSES (from playa-earth-tokens.css)
+     ============================================================ */
+  .pe-stamp {
+    display: inline-block;
+    border: 2px solid var(--pe-safety);
+    color: var(--pe-safety);
+    padding: 3px 8px;
+    font: var(--pe-weight) var(--pe-text-stamp)/1 var(--pe-font);
+    letter-spacing: var(--pe-track-widest);
+    text-transform: uppercase;
+    transform: rotate(var(--tilt, var(--pe-rot-stamp)));
+  }
+  .pe-stamp--alt { transform: rotate(var(--tilt, var(--pe-rot-stamp-alt))); }
+  .pe-stamp--inverse { color: var(--pe-white); border-color: var(--pe-white); }
+
+  .pe-block {
+    border: var(--pe-border-2);
+    box-shadow: var(--pe-shadow-block);
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+  }
+  .pe-block:hover {
+    box-shadow: var(--pe-shadow-block-in);
+    transform: translate(3px, 3px) rotate(var(--tilt, 0deg));
+  }
+  .pe-block:active {
+    box-shadow: 0 0 0 var(--pe-ink);
+    transform: translate(4px, 4px) rotate(var(--tilt, 0deg));
+  }
+
+  .pe-focus:focus-visible,
+  :where(a, button, input, select, [tabindex]):focus-visible {
+    outline: var(--pe-focus);
+    outline-offset: var(--pe-focus-offset);
+  }
+
+  .pe-disabled, :disabled {
+    border-style: dashed !important;
+    color: var(--pe-ink-50) !important;
+    box-shadow: none !important;
+    cursor: not-allowed;
+    transform: none !important;
+  }
+
+  .pe-error {
+    border-color: var(--pe-safety) !important;
+    border-width: var(--pe-border-3w) !important;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+    .pe-block:hover, .pe-block:active { transform: rotate(var(--tilt, 0deg)); box-shadow: var(--pe-shadow-block); }
+  }
+
+  /* ============================================================
+     BASE
+     ============================================================ */
+  *{ box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+  body{
+    background: var(--pe-bg);
+    color: var(--pe-fg);
+    font-family: var(--pe-font);
+    font-size: var(--pe-text-md);
+    line-height: var(--pe-leading-body);
+    background-image: radial-gradient(var(--pe-ink-05) 1px, transparent 1px);
+    background-size: 5px 5px;
+  }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+  img, svg { display: block; max-width: 100%; }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 var(--pe-space-4); }
+
+  .mono-label {
+    font-size: var(--pe-text-micro);
+    letter-spacing: var(--pe-track-wider);
+    text-transform: uppercase;
+    font-weight: var(--pe-weight);
+  }
+
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px;
+    padding: 0; margin: -1px; overflow: hidden;
+    clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+  }
+
+  .skip-link {
+    position: absolute; left: var(--pe-space-2); top: -100px;
+    background: var(--pe-ink); color: var(--pe-bone);
+    padding: var(--pe-space-2) var(--pe-space-4);
+    border: var(--pe-border-2); z-index: 100;
+    transition: top var(--pe-dur-snap) var(--pe-ease);
+  }
+  .skip-link:focus { top: var(--pe-space-2); }
+
+  /* ---- Buttons ---- */
+  .btn {
+    display: inline-block;
+    font-family: inherit; font-weight: var(--pe-weight);
+    font-size: var(--pe-text-sm); letter-spacing: var(--pe-track-wide);
+    text-transform: uppercase;
+    background: var(--pe-safety); color: var(--pe-white);
+    border: var(--pe-border-2);
+    box-shadow: var(--pe-shadow-block);
+    padding: var(--pe-space-3) var(--pe-space-5);
+    cursor: pointer;
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+    transform: rotate(var(--tilt, 0deg));
+  }
+  .btn:hover { box-shadow: var(--pe-shadow-block-in); transform: translate(3px,3px) rotate(var(--tilt, 0deg)); }
+  .btn:active { box-shadow: 0 0 0 var(--pe-ink); transform: translate(4px,4px) rotate(var(--tilt, 0deg)); }
+
+  .btn--ghost {
+    background: transparent; color: var(--pe-ink);
+    border: var(--pe-border-2);
+    box-shadow: none;
+  }
+  .btn--ghost:hover { background: var(--pe-ink); color: var(--pe-bone); }
+
+  .btn--inverse { background: var(--pe-bone); color: var(--pe-ink); }
+  .btn--inverse:hover { background: var(--pe-safety); color: var(--pe-white); }
+
+  /* ---- Header / nav ---- */
+  header {
+    border-bottom: var(--pe-border-3);
+    background: var(--pe-bone);
+    position: sticky; top: 0; z-index: 20;
+  }
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: var(--pe-space-4) var(--pe-space-4);
+    flex-wrap: wrap; gap: var(--pe-space-3);
+    max-width: 1120px; margin: 0 auto;
+  }
+  .wordmark {
+    font-weight: var(--pe-weight); font-size: var(--pe-text-xl);
+    letter-spacing: var(--pe-track-tight); text-transform: uppercase;
+    border: var(--pe-border-3); padding: var(--pe-space-2) var(--pe-space-3);
+    background: var(--pe-ink); color: var(--pe-bone);
+    transform: rotate(var(--tilt, 0deg));
+    display: inline-block;
+  }
+  .navlinks { display: flex; gap: 0; flex-wrap: wrap; }
+  .navlinks a {
+    padding: var(--pe-space-2) var(--pe-space-4);
+    border: var(--pe-border-2); border-right-width: 0;
+    font-size: var(--pe-text-xs); letter-spacing: var(--pe-track-wide);
+    text-transform: uppercase; font-weight: var(--pe-weight);
+  }
+  .navlinks a:last-child { border-right-width: var(--pe-border-2w); }
+  .navlinks a:hover { background: var(--pe-safety); color: var(--pe-white); }
+  .nav-cta { display: flex; align-items: center; }
+
+  /* ---- Hero ---- */
+  .hero { border-bottom: var(--pe-border-3); }
+  .hero-inner {
+    max-width: 1120px; margin: 0 auto;
+    display: grid; grid-template-columns: 1.3fr 1fr;
+  }
+  .hero-l { padding: var(--pe-space-7) var(--pe-space-4) var(--pe-space-7); border-right: var(--pe-divider-3); }
+  .hero-r { padding: var(--pe-space-7) var(--pe-space-5); display: flex; flex-direction: column; justify-content: center; }
+  .hero-tags { display: flex; gap: var(--pe-space-3); margin-bottom: var(--pe-space-6); flex-wrap: wrap; }
+  .display {
+    font-weight: var(--pe-weight);
+    font-size: var(--pe-display-fluid);
+    line-height: var(--pe-leading-tight);
+    letter-spacing: var(--pe-track-display);
+    text-transform: uppercase;
+  }
+  .display .hi { color: var(--pe-safety); background: var(--pe-ink); padding: 0 var(--pe-space-1); }
+  .hero-sub {
+    font-size: var(--pe-text-md); line-height: var(--pe-leading-copy);
+    border-left: var(--pe-border-3w) solid var(--pe-safety);
+    padding-left: var(--pe-space-4);
+  }
+  .hero-r .mono-label { display: block; margin-bottom: var(--pe-space-3); }
+  .hero-cta { margin-top: var(--pe-space-6); display: flex; flex-direction: column; gap: var(--pe-space-2); align-items: flex-start; }
+  .hero-cta .btn { font-size: var(--pe-text-base); padding: var(--pe-space-4) var(--pe-space-6); }
+  .hero-cta small { font-size: var(--pe-text-micro); letter-spacing: var(--pe-track-tight); color: var(--pe-ink-50); text-transform: uppercase; }
+
+  /* ---- Section shell ---- */
+  section { border-bottom: var(--pe-border-3); }
+  .section-inner { max-width: 1120px; margin: 0 auto; padding: var(--pe-space-7) var(--pe-space-4); }
+  .section__label { display: block; margin-bottom: var(--pe-space-6); }
+  h2.section-h {
+    font-weight: var(--pe-weight);
+    font-size: var(--pe-h2-fluid);
+    line-height: var(--pe-leading-flat);
+    letter-spacing: var(--pe-track-tight);
+    text-transform: uppercase;
+    margin-bottom: var(--pe-space-5);
+  }
+  .section-intro { max-width: 760px; font-size: var(--pe-text-md); line-height: var(--pe-leading-copy); margin-bottom: var(--pe-space-6); }
+
+  /* ---- Privacy section (inverse, prominent) ---- */
+  .privacy { background: var(--pe-ink); color: var(--pe-bone); }
+  .privacy .stamp-row { display: flex; gap: var(--pe-space-3); margin-bottom: var(--pe-space-5); flex-wrap: wrap; }
+  .privacy .pe-stamp { border-color: var(--pe-safety); color: var(--pe-safety); }
+  .privacy h2.section-h { color: var(--pe-bone); }
+  .privacy .section-intro { color: var(--pe-bone); }
+  .privacy-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: var(--pe-space-6);
+    padding: var(--pe-space-2);
+  }
+  .privacy-item {
+    padding: var(--pe-space-5);
+    background: var(--pe-bone);
+    color: var(--pe-ink);
+    border: var(--pe-border-2);
+    box-shadow: var(--pe-shadow-block);
+    transform: rotate(var(--tilt, 0deg));
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+  }
+  .privacy-item:hover {
+    box-shadow: var(--pe-shadow-block-in);
+    transform: translate(3px, 3px) rotate(var(--tilt, 0deg));
+  }
+  .privacy-item .pnum {
+    display: inline-block; font-size: var(--pe-text-micro); font-weight: var(--pe-weight);
+    letter-spacing: var(--pe-track-widest); border: 2px solid var(--pe-safety);
+    color: var(--pe-safety); padding: 2px 7px; margin-bottom: var(--pe-space-3);
+  }
+  .privacy-item h3 {
+    font-size: var(--pe-text-lg); text-transform: uppercase;
+    letter-spacing: var(--pe-track-tight); margin-bottom: var(--pe-space-2);
+    color: var(--pe-ink);
+  }
+  .privacy-item p { font-size: var(--pe-text-base); color: var(--pe-ink); }
+
+  /* ---- Problem / solution ---- */
+  .split-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: var(--pe-space-7);
+    padding: var(--pe-space-2);
+  }
+  .split-col {
+    border: var(--pe-border-2);
+    background: var(--pe-bone);
+    padding: var(--pe-space-5);
+    box-shadow: var(--pe-shadow-block);
+    transform: rotate(var(--tilt, 0deg));
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+    position: relative;
+  }
+  .split-col:hover {
+    box-shadow: var(--pe-shadow-block-in);
+    transform: translate(3px, 3px) rotate(var(--tilt, 0deg));
+  }
+  .split-col h3 {
+    font-size: var(--pe-text-lg); text-transform: uppercase;
+    margin-bottom: var(--pe-space-3); letter-spacing: var(--pe-track-tight);
+  }
+  .split-col p { font-size: var(--pe-text-base); margin-bottom: var(--pe-space-3); }
+  .split-col p:last-child { margin-bottom: 0; }
+  .split-col--accent { border-color: var(--pe-safety); border-width: var(--pe-border-3w); }
+  .split-col--accent::before {
+    content: "Fix";
+    position: absolute; top: 0; right: 0;
+    transform: translate(30%, -50%);
+    background: var(--pe-bone);
+    border: 2px solid var(--pe-safety);
+    color: var(--pe-safety);
+    font-size: var(--pe-text-stamp); font-weight: var(--pe-weight);
+    letter-spacing: var(--pe-track-widest); text-transform: uppercase;
+    padding: 3px 8px;
+  }
+
+  /* ---- Who it's for ---- */
+  .whocard-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--pe-space-6);
+    padding: var(--pe-space-2);
+  }
+  .whocard {
+    border: var(--pe-border-2);
+    padding: var(--pe-space-4);
+    background: var(--pe-bone);
+    box-shadow: var(--pe-shadow-block);
+    transform: rotate(var(--tilt, 0deg));
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+  }
+  .whocard:hover {
+    box-shadow: var(--pe-shadow-block-in);
+    transform: translate(3px, 3px) rotate(var(--tilt, 0deg));
+  }
+  .whocard .wtag {
+    display: inline-block; font-size: var(--pe-text-micro); font-weight: var(--pe-weight);
+    letter-spacing: var(--pe-track-wider); border: 2px solid var(--pe-ink);
+    padding: 2px 8px; margin-bottom: var(--pe-space-3); text-transform: uppercase;
+  }
+  .whocard h3 { font-size: var(--pe-text-lg); text-transform: uppercase; margin-bottom: var(--pe-space-2); letter-spacing: var(--pe-track-tight); }
+  .whocard p { font-size: var(--pe-text-base); }
+
+  /* ---- Trust ---- */
+  .trust-steps {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--pe-space-6);
+    padding: var(--pe-space-2);
+  }
+  .trust-step {
+    padding: var(--pe-space-5);
+    background: var(--pe-bone);
+    border: var(--pe-border-2);
+    box-shadow: var(--pe-shadow-block);
+    transform: rotate(var(--tilt, 0deg));
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+  }
+  .trust-step:hover {
+    box-shadow: var(--pe-shadow-block-in);
+    transform: translate(3px, 3px) rotate(var(--tilt, 0deg));
+  }
+  .trust-step .vnum {
+    font-size: var(--pe-text-micro); font-weight: var(--pe-weight); letter-spacing: var(--pe-track-widest);
+    border: 2px solid var(--pe-ink); display: inline-block; padding: 2px 7px; margin-bottom: var(--pe-space-3);
+  }
+  .trust-step h3 { font-size: var(--pe-text-lg); text-transform: uppercase; margin-bottom: var(--pe-space-2); letter-spacing: var(--pe-track-tight); }
+  .trust-step p { font-size: var(--pe-text-base); }
+  .trust-footer {
+    margin-top: var(--pe-space-5); font-size: var(--pe-text-base);
+    border-left: var(--pe-border-3w) solid var(--pe-safety); padding-left: var(--pe-space-4);
+  }
+
+  /* ---- Beta callout ---- */
+  .beta { background: var(--pe-safety); }
+  .beta .section-inner { padding-top: var(--pe-space-8); padding-bottom: var(--pe-space-8); }
+  .beta-card {
+    background: var(--pe-ink);
+    color: var(--pe-white);
+    border: var(--pe-border-3);
+    border-color: var(--pe-ink);
+    box-shadow: var(--pe-shadow-block);
+    padding: var(--pe-space-7);
+    transform: rotate(var(--tilt, 0deg));
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+  }
+  .beta-card:hover {
+    box-shadow: var(--pe-shadow-block-in);
+    transform: translate(3px, 3px) rotate(var(--tilt, 0deg));
+  }
+  .beta .pe-stamp { color: var(--pe-white); border-color: var(--pe-white); }
+  .beta h2.section-h { color: var(--pe-white); }
+  .beta-inner {
+    display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--pe-space-6); align-items: center;
+  }
+  .beta-copy p { font-size: var(--pe-text-md); line-height: var(--pe-leading-copy); margin-bottom: var(--pe-space-4); }
+  .beta-cta { display: flex; flex-direction: column; gap: var(--pe-space-3); align-items: flex-start; }
+  .beta .btn--inverse { font-size: var(--pe-text-base); padding: var(--pe-space-4) var(--pe-space-6); }
+  .beta-cta small { font-size: var(--pe-text-micro); text-transform: uppercase; letter-spacing: var(--pe-track-tight); color: var(--pe-bone); }
+
+  /* ---- Support ---- */
+  .support-card {
+    display: grid; grid-template-columns: 1fr auto; gap: var(--pe-space-6); align-items: center;
+    background: var(--pe-bone);
+    border: var(--pe-border-2);
+    box-shadow: var(--pe-shadow-block);
+    padding: var(--pe-space-6);
+    transform: rotate(var(--tilt, 0deg));
+    transition: box-shadow var(--pe-dur-snap) var(--pe-ease),
+                transform var(--pe-dur-snap) var(--pe-ease);
+  }
+  .support-card:hover {
+    box-shadow: var(--pe-shadow-block-in);
+    transform: translate(3px, 3px) rotate(var(--tilt, 0deg));
+  }
+  .support-points { display: flex; gap: var(--pe-space-3); flex-wrap: wrap; margin-top: var(--pe-space-4); }
+  .support-points .pe-stamp { color: var(--pe-ink); border-color: var(--pe-ink); }
+
+  /* ---- Footer ---- */
+  footer { border-top: var(--pe-border-3); background: var(--pe-ink); color: var(--pe-bone); padding: var(--pe-space-5) 0; border-bottom: 0; }
+  footer .foot-inner {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    flex-wrap: wrap; gap: var(--pe-space-4);
+    max-width: 1120px; margin: 0 auto; padding: 0 var(--pe-space-4);
+  }
+  footer .foot-brand { font-size: var(--pe-text-lg); font-weight: var(--pe-weight); letter-spacing: var(--pe-track-tight); text-transform: uppercase; }
+  footer .disclaimer { font-size: var(--pe-text-sm); max-width: 520px; color: var(--pe-bone); opacity: .85; line-height: var(--pe-leading-body); }
+  footer .footnav { display: flex; gap: var(--pe-space-3); }
+  footer .footnav a {
+    font-size: var(--pe-text-xs); letter-spacing: var(--pe-track-wide); text-transform: uppercase;
+    border: 2px solid var(--pe-bone); padding: var(--pe-space-1) var(--pe-space-3); font-weight: var(--pe-weight);
+  }
+  footer .footnav a:hover { background: var(--pe-safety); border-color: var(--pe-safety); }
+  footer .foot-bottom {
+    max-width: 1120px; margin: var(--pe-space-4) auto 0; padding: var(--pe-space-4) var(--pe-space-4) 0;
+    border-top: 2px dashed var(--pe-bone);
+    font-size: var(--pe-text-sm); opacity: .85;
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 820px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .hero-l { border-right: 0; border-bottom: var(--pe-divider-3); }
+    .split-grid { grid-template-columns: 1fr; }
+    .whocard-grid { grid-template-columns: 1fr 1fr; }
+    .trust-steps { grid-template-columns: 1fr; }
+    .beta-inner { grid-template-columns: 1fr; }
+    .support-card { grid-template-columns: 1fr; }
+    .privacy-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .whocard-grid { grid-template-columns: 1fr; }
+    footer .foot-inner { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="nav">
+    <div class="wordmark">Playa.Earth</div>
+    <nav class="navlinks" aria-label="Primary">
+      <a href="#privacy">Privacy</a>
+      <a href="#who">Who's This For</a>
+      <a href="#trust">Trust</a>
+      <a href="#beta">Beta</a>
+    </nav>
+    <div class="nav-cta">
+      <!-- Production: this should point to https://beta.playa.earth -->
+      <a class="btn" href="beta.html" target="_blank" rel="noopener">Try the beta</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-l">
+        <div class="hero-tags">
+          <span class="pe-stamp">Dept. of Public Works</span>
+          <span class="pe-stamp pe-stamp--alt">No.&nbsp;01</span>
+        </div>
+        <h1 class="display">Find your <span class="hi">Burner</span> world.</h1>
+      </div>
+      <div class="hero-r">
+        <span class="mono-label">// Transmission</span>
+        <p class="hero-sub">A privacy-first map for finding Burners, camps, and regional crews near you — long after the trash fence comes down. Fuzzy location, opt-in only, and none of your business handed to anyone else.</p>
+        <div class="hero-cta">
+          <!-- Production: this should point to https://beta.playa.earth -->
+          <a class="btn" href="beta.html" target="_blank" rel="noopener">Wander into the beta</a>
+          <small>Playa.Earth beta — a live regional pilot</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACY PROMISE -->
+  <section id="privacy" class="privacy">
+    <div class="section-inner">
+      <div class="stamp-row">
+        <span class="pe-stamp">Privacy Promise</span>
+        <span class="pe-stamp pe-stamp--alt">Read This First</span>
+      </div>
+      <h2 class="section-h">Discovery, not surveillance.</h2>
+      <p class="section-intro">We built this backwards from most apps: privacy first, features second. Nothing below is a settings toggle you have to go hunt for — it's just how the thing works, out of the box.</p>
+      <div class="privacy-grid">
+        <div class="privacy-item">
+          <span class="pnum">01</span>
+          <h3>Fuzzy on purpose</h3>
+          <p>City-level, roughly ±5km — enough to say "nearby," not enough to say "there." Your exact coordinates never touch our servers. We couldn't hand them over if we wanted to.</p>
+        </div>
+        <div class="privacy-item">
+          <span class="pnum">02</span>
+          <h3>Opt-in, always</h3>
+          <p>Nobody sees you until you decide to be seen. No default broadcasting, no "public unless you dig through settings." Silence is the starting state.</p>
+        </div>
+        <div class="privacy-item">
+          <span class="pnum">03</span>
+          <h3>Private until you say otherwise</h3>
+          <p>Every new profile starts invisible. Becoming findable is something you reach for, not something that happens to you.</p>
+        </div>
+        <div class="privacy-item">
+          <span class="pnum">04</span>
+          <h3>We don't sell your dust</h3>
+          <p>No scraping, no export, no public API for profile data, no selling anything to anybody — ever. We're not building a data business. We're building a map.</p>
+        </div>
+        <div class="privacy-item">
+          <span class="pnum">05</span>
+          <h3>Delete means gone</h3>
+          <p>Hit delete and you actually disappear — live data and backups, on a real clock. Not "deactivated." Not lurking in some snapshot. Gone.</p>
+        </div>
+        <div class="privacy-item">
+          <span class="pnum">06</span>
+          <h3>18+. No exceptions</h3>
+          <p>This is a grown-folks space. Accounts for minors are excluded and enforced at signup — some things aren't for the kids' table.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT / WHY -->
+  <section id="what">
+    <div class="section-inner">
+      <span class="mono-label section__label">/// The Problem — And The Fix</span>
+      <h2 class="section-h">Your people don't disappear when the trash fence comes down.</h2>
+      <div class="split-grid">
+        <div class="split-col">
+          <h3>The problem</h3>
+          <p>Right now, finding your people is a scavenger hunt. Regional directories go stale the second the season ends. On-playa friend-finder apps vanish the moment the gate closes. Event guides list camps like org charts — never the actual humans inside them.</p>
+          <p>There's no year-round, opt-in, actually-private way to find nearby Burners, camps, and projects once the dust settles.</p>
+        </div>
+        <div class="split-col split-col--accent">
+          <h3>The fix</h3>
+          <p>A living map and directory that doesn't go to sleep in October. Opt-in, deliberately fuzzy, built for finding your people — not for watching them.</p>
+          <p>Discovery, not surveillance. Connection, not another feed to doomscroll. Twelve months a year, not just burn week.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO IT'S FOR -->
+  <section id="who">
+    <div class="section-inner">
+      <span class="mono-label section__label">/// Field Guide — Who It's For</span>
+      <h2 class="section-h">Built for every flavor of Burner.</h2>
+      <div class="whocard-grid">
+        <div class="whocard">
+          <span class="wtag">Newcomer</span>
+          <h3>First Burn</h3>
+          <p>Find a home camp and a local regional crew before you've even bought your ticket.</p>
+        </div>
+        <div class="whocard">
+          <span class="wtag">Camp Lead</span>
+          <h3>Organizer</h3>
+          <p>Round up members, coordinate builds, and find regional talent without waiting for next August.</p>
+        </div>
+        <div class="whocard">
+          <span class="wtag">Regional</span>
+          <h3>Community Member</h3>
+          <p>Stay plugged in locally, all year — not just at the one reunion potluck.</p>
+        </div>
+        <div class="whocard">
+          <span class="wtag">Artist</span>
+          <h3>Project Owner</h3>
+          <p>Find collaborators, spare hands, and weird skills for whatever you're building.</p>
+        </div>
+        <div class="whocard">
+          <span class="wtag">Traveler</span>
+          <h3>Host / Guest</h3>
+          <p>Offer a ride, find a couch, pass through somewhere new without starting from zero.</p>
+        </div>
+        <div class="whocard">
+          <span class="wtag">Lurker</span>
+          <h3>Browse Privately</h3>
+          <p>Stay invisible and just look around — confirm the community's real before you ever show up on the map yourself.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section id="trust">
+    <div class="section-inner">
+      <span class="mono-label section__label">/// How Trust Works</span>
+      <h2 class="section-h">Trust is the product.</h2>
+      <p class="section-intro">Visibility is always your call, and when the system isn't sure, it guesses toward less exposure — never more. No dark patterns nudging you to overshare.</p>
+      <div class="trust-steps">
+        <div class="trust-step">
+          <span class="vnum">01</span>
+          <h3>Verification</h3>
+          <p>Vouched for by a camp or a regional org contact — a real human signal, not just an email address nobody checked.</p>
+        </div>
+        <div class="trust-step">
+          <span class="vnum">02</span>
+          <h3>Two clear states</h3>
+          <p>Private (browse-only, invisible) or Searchable (findable at coarse resolution). That's it — no confusing ladder of settings, plus a verified badge so you know who's legit.</p>
+        </div>
+        <div class="trust-step">
+          <span class="vnum">03</span>
+          <h3>Fails safe</h3>
+          <p>Everyone starts Private. Nothing widens your exposure on its own — going Searchable is something you choose, not something that sneaks up on you.</p>
+        </div>
+      </div>
+      <p class="trust-footer">No camp? No problem. Camp affiliation is completely optional — verification, visibility, and full participation all work just fine without one.</p>
+    </div>
+  </section>
+
+  <!-- BETA CALLOUT -->
+  <section id="beta" class="beta">
+    <div class="section-inner">
+      <div class="beta-card beta-inner">
+        <div class="beta-copy">
+          <span class="pe-stamp pe-stamp--inverse">Live Now</span>
+          <h2 class="section-h" style="margin-top: var(--pe-space-4)">The beta's up and running.</h2>
+          <p>The beta is out in the wild right now, as a real regional pilot — an actual working map and directory, not a rendering. Come poke around, see what year-round Burner community looks like, and help us figure out where this goes next.</p>
+        </div>
+        <div class="beta-cta">
+          <!-- Production: this should point to https://beta.playa.earth -->
+          <a class="btn btn--inverse" href="beta.html" target="_blank" rel="noopener">Wander into the beta</a>
+          <small>Opens the Playa.Earth beta in a new tab</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORT -->
+  <section id="support">
+    <div class="section-inner">
+      <span class="mono-label section__label">/// Keep It Running</span>
+      <h2 class="section-h">Free forever. No ads. No paywalls.</h2>
+      <div class="support-card">
+        <div>
+          <p class="section-intro" style="margin-bottom:0">Playa.Earth runs on donations, not a business model. Money keeps the lights on for the project — it never buys anyone a leg up, a badge, or a bigger dot on the map. Every feature, free, for everyone, always.</p>
+          <div class="support-points">
+            <span class="pe-stamp">No Ads</span>
+            <span class="pe-stamp pe-stamp--alt">No Paywalls</span>
+            <span class="pe-stamp">No Pay-For-Visibility</span>
+          </div>
+        </div>
+        <div>
+          <!-- Voluntary / external donate link — no in-app checkout -->
+          <a class="btn btn--ghost" href="#" rel="noopener">Chip in, keep it free ►</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <div>
+      <div class="foot-brand">Playa.Earth</div>
+    </div>
+    <p class="disclaimer">Playa.Earth is an independent project and is not affiliated with, endorsed by, or verified by Burning Man Project.</p>
+    <nav class="footnav" aria-label="Footer">
+      <a href="beta.html" target="_blank" rel="noopener">Beta</a>
+      <a href="#support">Support</a>
+    </nav>
+  </div>
+  <div class="foot-bottom wrap">
+    <p>Demo — landing page. Every Burner, camp, and dot on the beta map is made up.</p>
+  </div>
+</footer>
+
+<script>
+  /* ---- Zine tilt ---------------------------------------------
+     Seeded PRNG (mulberry32) so the tilt pattern is identical on
+     every load — gritty but deliberate, not jittery. Small stamped
+     items get bigger tilts; big blocks stay subtle. Segmented runs
+     (nav links, footer nav) are left untilted so shared borders
+     still meet flush. Tilt is a static posture, not motion, so it
+     is applied regardless of reduced-motion (no animation occurs). */
+  (function () {
+    var s = 137;
+    function rnd() {
+      s |= 0; s = (s + 0x6D2B79F5) | 0;
+      var t = Math.imul(s ^ (s >>> 15), 1 | s);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    }
+    function tilt(sel, min, max) {
+      document.querySelectorAll(sel).forEach(function (el) {
+        el.style.setProperty('--tilt', (min + rnd() * (max - min)).toFixed(2) + 'deg');
+      });
+    }
+    tilt('.pe-stamp', -6, 4);
+    tilt('.btn, .wordmark', -3, 3);
+    tilt('.mono-label.section__label', -1, 1);
+    tilt('.privacy-item, .whocard, .trust-step, .split-col, .support-card, .beta-card', -2, 2);
+  })();
+</script>
+
+</body>
+</html>

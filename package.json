@@ -1,0 +1,14 @@
+{
+  "name": "playa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Playa.Earth — landing + beta, static site (lab980 deploy)",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "node -e \"const fs=require('fs');for(const f of ['public/index.html','public/beta.html'])fs.accessSync(f);console.log('build ok: static assets present')\""
+  }
+}
