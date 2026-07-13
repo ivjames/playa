@@ -10,6 +10,19 @@ const router = express.Router();
 // never a deleted account.
 const SEARCHABLE = { visibility: 'searchable', user: { deletedAt: null } };
 
+// Profile ids the signed-in viewer has blocked or been blocked by — hidden
+// from their directory/map. Returns [] for anonymous viewers.
+async function hiddenIdsFor(req) {
+  const me = req.user && req.user.profile;
+  if (!me) return [];
+  const blocks = await prisma.block.findMany({
+    where: { OR: [{ actorId: me.id }, { targetId: me.id }] },
+  });
+  const ids = new Set();
+  for (const b of blocks) ids.add(b.actorId === me.id ? b.targetId : b.actorId);
+  return [...ids];
+}
+
 function matchesLooking(profile, looking) {
   if (!looking) return true;
   return decodeList(profile.looking).some((x) => x.toLowerCase() === looking.toLowerCase());
@@ -28,6 +41,8 @@ router.get('/directory', async (req, res, next) => {
     const where = { ...SEARCHABLE };
     if (region) where.region = { name: region };
     else if (continent) where.region = { continent };
+    const hidden = await hiddenIdsFor(req);
+    if (hidden.length) where.id = { notIn: hidden };
 
     // Fetch candidates, then apply text/looking filters in app (JSON lists).
     const candidates = await prisma.profile.findMany({
@@ -52,12 +67,12 @@ router.get('/directory', async (req, res, next) => {
 });
 
 // GET /api/map?layer=  -> coarse points for Searchable members
-router.get('/map', async (_req, res, next) => {
+router.get('/map', async (req, res, next) => {
   try {
-    const members = await prisma.profile.findMany({
-      where: { ...SEARCHABLE, geohash: { not: null } },
-      include: { region: true },
-    });
+    const hidden = await hiddenIdsFor(req);
+    const where = { ...SEARCHABLE, geohash: { not: null } };
+    if (hidden.length) where.id = { notIn: hidden };
+    const members = await prisma.profile.findMany({ where, include: { region: true } });
     const points = members.map((p) => {
       const pt = geo.displayPoint(p.geohash, p.id);
       if (!pt) return null;

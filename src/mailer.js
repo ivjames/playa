@@ -18,17 +18,22 @@ function getTransport() {
   return transporter;
 }
 
-async function sendMagicLink(email, url) {
+async function sendMail(to, subject, text) {
   const t = getTransport();
-  const subject = 'Your Playa.Earth sign-in link';
-  const text = `Sign in to Playa.Earth:\n\n${url}\n\nThis link expires in 15 minutes. If you didn't request it, ignore this email.`;
   if (!t) {
-    // Dev / unconfigured: surface the link instead of sending.
-    console.log(`\n[mailer:dev] magic link for ${email}\n  ${url}\n`);
-    return { delivered: false, devLink: url };
+    console.log(`\n[mailer:dev] to ${to} — ${subject}\n${text}\n`);
+    return { delivered: false };
   }
-  await t.sendMail({ from: env.MAIL_FROM, to: email, subject, text });
+  await t.sendMail({ from: env.MAIL_FROM, to, subject, text });
   return { delivered: true };
 }
 
-module.exports = { sendMagicLink };
+async function sendMagicLink(email, url) {
+  const subject = 'Your Playa.Earth sign-in link';
+  const text = `Sign in to Playa.Earth:\n\n${url}\n\nThis link expires in 15 minutes. If you didn't request it, ignore this email.`;
+  const r = await sendMail(email, subject, text);
+  if (!r.delivered) return { delivered: false, devLink: url };
+  return { delivered: true };
+}
+
+module.exports = { sendMagicLink, sendMail };
