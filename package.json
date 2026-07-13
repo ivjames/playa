@@ -2,13 +2,23 @@
   "name": "playa",
   "version": "0.1.0",
   "private": true,
-  "description": "Playa.Earth — landing + beta, static site (lab980 deploy)",
+  "description": "Playa.Earth — landing + beta app (lab980 deploy)",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=18.18"
   },
   "scripts": {
     "start": "node server.js",
-    "build": "node -e \"const fs=require('fs');for(const f of ['public/index.html','public/beta.html'])fs.accessSync(f);console.log('build ok: static assets present')\""
+    "build": "prisma generate && node -e \"const fs=require('fs');for(const f of ['public/index.html','public/beta.html'])fs.accessSync(f);console.log('build ok: static assets present')\"",
+    "migrate:deploy": "prisma migrate deploy",
+    "migrate:dev": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "ngeohash": "^0.6.3",
+    "nodemailer": "^9.0.3",
+    "prisma": "^6.19.3"
   }
 }

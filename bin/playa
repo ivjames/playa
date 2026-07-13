@@ -12,9 +12,11 @@ case "${1:-}" in
   redeploy)
     echo "==> git pull"
     git pull --ff-only
-    echo "==> npm ci (no deps; validates lockstep)"
+    echo "==> npm ci"
     npm ci --omit=dev 2>/dev/null || npm install --omit=dev
-    echo "==> build"
+    echo "==> prisma migrate deploy"
+    npm run migrate:deploy
+    echo "==> build (prisma generate + asset check)"
     npm run build
     echo "==> pm2 restart $APP"
     pm2 restart "$APP" --update-env
@@ -34,7 +36,13 @@ case "${1:-}" in
   backup)
     ts="$(date +%Y%m%d-%H%M%S)"
     out="$DIR/backup-$APP-$ts.tar.gz"
-    tar -czf "$out" -C "$DIR" public .env 2>/dev/null || tar -czf "$out" -C "$DIR" public
+    # Consistent SQLite snapshot via the backup API, then archive it with .env.
+    tmpdb="$DIR/data/backup-$ts.db"
+    if command -v sqlite3 >/dev/null && [ -f "$DIR/data/playa.db" ]; then
+      sqlite3 "$DIR/data/playa.db" ".backup '$tmpdb'"
+    fi
+    tar -czf "$out" -C "$DIR" data/playa.db .env 2>/dev/null || tar -czf "$out" -C "$DIR" data
+    rm -f "$tmpdb"
     echo "wrote $out"
     ;;
   *)

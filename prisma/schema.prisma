@@ -1,0 +1,141 @@
+// Playa.Earth data model. SQLite in data/ per lab980 convention.
+// Privacy invariants live in application code (see src/): exact location is
+// never persisted — only a coarse ~5km geohash.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String    @id @default(cuid())
+  email          String    @unique
+  over18         Boolean   @default(false)
+  magicTokenHash String?
+  magicExpires   DateTime?
+  createdAt      DateTime  @default(now())
+  deletedAt      DateTime?
+  sessions       Session[]
+  profile        Profile?
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+}
+
+model Region {
+  id        String    @id @default(cuid())
+  name      String    @unique
+  continent String?
+  lat       Float?
+  lng       Float?
+  profiles  Profile[]
+  camps     Camp[]
+}
+
+model Profile {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  pn          String
+  dn          String?
+  pronouns    String?
+  avatar      String?
+  bio         String?
+  years       Int      @default(0)
+  burns       Int      @default(0)
+  role        String?
+  camp        String?
+  avail       String?
+  contactPref String   @default("in_app") // in_app | email_after_intro
+  visibility  String   @default("private") // private | searchable
+  verified    String   @default("unverified") // unverified | verified | flagged
+  regionId    String?
+  region      Region?  @relation(fields: [regionId], references: [id])
+  homeCity    String?
+  geohash     String? // coarse ~5km bucket — never exact coordinates
+  // JSON-encoded string lists (normalized in a later phase if query needs it)
+  skills      String   @default("[]")
+  interests   String   @default("[]")
+  projects    String   @default("[]")
+  looking     String   @default("[]")
+  langs       String   @default("[]")
+  regional    String   @default("[]")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  campMemberships        CampMember[]
+  sentMessages           Message[]      @relation("from")
+  recvMessages           Message[]      @relation("to")
+  verificationsRequested Verification[] @relation("subject")
+  verificationsVouched   Verification[] @relation("voucher")
+}
+
+model Camp {
+  id          String       @id @default(cuid())
+  name        String
+  regionId    String?
+  region      Region?      @relation(fields: [regionId], references: [id])
+  url         String?
+  description String?
+  members     CampMember[]
+}
+
+model CampMember {
+  id        String  @id @default(cuid())
+  campId    String
+  camp      Camp    @relation(fields: [campId], references: [id], onDelete: Cascade)
+  profileId String
+  profile   Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  role      String  @default("member") // member | lead
+
+  @@unique([campId, profileId])
+}
+
+model Verification {
+  id        String   @id @default(cuid())
+  subjectId String
+  subject   Profile  @relation("subject", fields: [subjectId], references: [id], onDelete: Cascade)
+  voucherId String?
+  voucher   Profile? @relation("voucher", fields: [voucherId], references: [id])
+  method    String?
+  status    String   @default("pending") // pending | approved | rejected
+  createdAt DateTime @default(now())
+}
+
+model Message {
+  id        String    @id @default(cuid())
+  fromId    String
+  from      Profile   @relation("from", fields: [fromId], references: [id], onDelete: Cascade)
+  toId      String
+  to        Profile   @relation("to", fields: [toId], references: [id], onDelete: Cascade)
+  body      String
+  createdAt DateTime  @default(now())
+  readAt    DateTime?
+}
+
+model Report {
+  id        String   @id @default(cuid())
+  actorId   String
+  targetId  String
+  reason    String?
+  createdAt DateTime @default(now())
+}
+
+model Block {
+  id        String   @id @default(cuid())
+  actorId   String
+  targetId  String
+  createdAt DateTime @default(now())
+
+  @@unique([actorId, targetId])
+}

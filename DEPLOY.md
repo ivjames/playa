@@ -1,14 +1,34 @@
 # Deploying playa (Playa.Earth) to lab980
 
-`playa` is a **static site** — a landing page (`public/index.html`) and a beta
-map/directory (`public/beta.html`, self-contained, pulls Leaflet/d3/Esri tiles
-from CDNs at runtime). It's served by a tiny zero-dependency Node static server
-(`server.js`) on a local port, managed by **pm2**, with **nginx** proxying the
-fqdn to that port and **certbot** handling TLS — the standard lab980 shape.
+`playa` is a **Node app** (Express + Prisma/SQLite). It serves the static site
+— landing (`public/index.html`) and beta app shell (`public/beta.html`) — plus
+a JSON API at `/api/*`. Managed by **pm2** on a local port, with **nginx**
+proxying the fqdn to that port and **certbot** handling TLS — the standard
+lab980 shape. Data (SQLite) lives in `data/`; config in `.env`.
 
 - Web root / app dir: `/var/www/playa`
 - Default subdomain: `playa.lab980.com` (landing at `/`, beta at `/beta.html`)
 - Local port: assigned by `provision-site` (next free 8060+), seeded into `.env`
+- Database: `data/playa.db` (SQLite, Prisma migrations in `prisma/migrations/`)
+
+## 0. Secrets — fill in `.env` before first deploy
+
+`provision-site` seeds `PORT`. Add the rest (copy from `.env.example`):
+
+```bash
+cd /var/www/playa
+cp -n .env.example .env   # if not present
+# then edit .env and set:
+#   APP_URL=https://playa.lab980.com
+#   SESSION_SECRET=$(node -e "console.log(require('crypto').randomBytes(32).toString('hex'))")
+#   RESEND_API_KEY=re_...           # from resend.com (transactional email)
+#   MAIL_FROM="Playa.Earth <noreply@your-verified-domain>"
+#   NODE_ENV=production
+```
+
+Magic-link email only sends when `NODE_ENV=production` **and** `RESEND_API_KEY`
+is set; otherwise links are logged to the console (dev). `MAIL_FROM` must use a
+domain verified in Resend.
 
 ## 1. Provision (once, on the droplet, as root)
 
@@ -26,8 +46,9 @@ is built to sit behind exactly that proxy vhost.
 
 ```bash
 cd /var/www/playa
-npm ci --omit=dev        # no runtime deps; just validates
-npm run build            # sanity-checks the static assets exist
+npm ci --omit=dev            # installs deps (incl. prisma)
+npm run migrate:deploy       # applies prisma/migrations to data/playa.db
+npm run build                # prisma generate + static-asset check
 pm2 start ecosystem.config.js
 pm2 save
 ```
