@@ -12,6 +12,18 @@ const SEED_DOMAIN = 'seed.playa.earth'; // synthetic accounts — purge with see
 const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 const enc = (a) => JSON.stringify(Array.isArray(a) ? a : []);
 
+// The demo's exact per-member jitter (±0.04° ≈ ~4km, centered on the city,
+// derived from the playa name). Replicated so seeded pins land where the demo
+// put them — near their cities, not on a coarse grid cell.
+function demoJitter(pn) {
+  let h = 0;
+  for (let k = 0; k < pn.length; k++) h = (h * 31 + pn.charCodeAt(k)) >>> 0;
+  return { lat: (((h % 2000) / 1000) - 1) * 0.04, lng: ((((h >>> 8) % 2000) / 1000) - 1) * 0.04 };
+}
+// Synthetic demo members are placed at city precision (they're not real people,
+// so the ~5km privacy fuzz that applies to real signups isn't needed here).
+const SEED_GEOHASH_PRECISION = 7; // ~150m — round-trips the city+jitter point
+
 async function main() {
   const dataPath = path.join(__dirname, '..', 'prisma', 'seed-data.json');
   if (!fs.existsSync(dataPath)) {
@@ -55,11 +67,12 @@ async function main() {
   for (const mem of members) {
     const email = `${slug(mem.pn)}@${SEED_DOMAIN}`;
     const region = regionRowByName.get(mem.region) || null;
-    // Prefer the member's city-level coords (spreads a region's members across
-    // its real cities, as the demo did); fall back to the region centroid.
+    // Place at city coords + the demo's jitter (spreads a region's members
+    // across its real cities); fall back to region centroid if no city.
     let geohash = null;
     if (mem.lat != null && mem.lng != null) {
-      geohash = ngeohash.encode(mem.lat, mem.lng, 5);
+      const j = demoJitter(mem.pn);
+      geohash = ngeohash.encode(mem.lat + j.lat, mem.lng + j.lng, SEED_GEOHASH_PRECISION);
     } else if (region && region.lat != null && region.lng != null) {
       geohash = ngeohash.encode(region.lat, region.lng, 5);
     }
