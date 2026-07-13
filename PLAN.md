@@ -66,8 +66,11 @@ data) into a working app, without disturbing the landing page or the design.
   demo's open-data lists. Front-end swaps hardcoded arrays for `fetch`.
 - **Phase 3 — trust & contact:** verification vouching, messaging + email
   notifications, block/report + moderation, account deletion + backup purge.
-- **Phase 4 — polish:** i18n locales + language switch, donations
-  (external link or Stripe Checkout — never pay-for-visibility), admin tooling.
+- **Phase 4 — polish:** donations (external link via `DONATE_URL`; no in-app
+  checkout, never pay-for-visibility) ✓; admin/moderation console at
+  `/admin.html` (ADMIN_EMAILS-gated) ✓. **i18n deferred:** the mechanism is in
+  place (string catalog + language-aware map tiles), but shipping locales is a
+  translation effort needing native review — intentionally not auto-generated.
 
 ## External dependencies (confirm network policy on the droplet)
 

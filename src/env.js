@@ -23,6 +23,7 @@ module.exports = {
   RESEND_API_KEY: process.env.RESEND_API_KEY || '',
   MAIL_FROM: process.env.MAIL_FROM || 'Playa.Earth <onboarding@resend.dev>',
   ADMIN_EMAILS: (process.env.ADMIN_EMAILS || '').split(',').map((s) => s.trim().toLowerCase()).filter(Boolean),
+  DONATE_URL: process.env.DONATE_URL || '',
   NODE_ENV: process.env.NODE_ENV || 'development',
   isProd: (process.env.NODE_ENV || 'development') === 'production',
 };

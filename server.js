@@ -33,6 +33,10 @@ app.use(auth.loadUser);
 
 // ---- API ----
 app.get('/api/health', (_req, res) => res.json({ ok: true }));
+app.get('/api/config', (req, res) => res.json({
+  donateUrl: env.DONATE_URL,
+  isAdmin: !!(req.user && env.ADMIN_EMAILS.includes(String(req.user.email).toLowerCase())),
+}));
 app.get('/api/me', authRouter.me);
 app.use('/api/auth', authRouter);
 app.use('/api/profile', profileRouter);

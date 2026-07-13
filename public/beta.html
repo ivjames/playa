@@ -2625,8 +2625,20 @@ window.STRINGS = {
     try { ME = await getJSON('/api/me'); } catch (e) { ME = { user: null, profile: null }; }
   }
 
+  // Runtime config (donation link, admin flag) from the server.
+  var DONATE_HREF = '#';
+  var IS_ADMIN = false;
+  async function loadConfig() {
+    try {
+      var cfg = await getJSON('/api/config');
+      if (cfg && cfg.donateUrl) { DONATE_HREF = cfg.donateUrl; S.donateNote = 'External link · voluntary'; }
+      IS_ADMIN = !!(cfg && cfg.isAdmin);
+    } catch (e) { /* config optional */ }
+  }
+
   if (LIVE) { await hydrateLive(); }
   await loadMe();
+  await loadConfig();
 
   /* ============================================================
      CAMP_GEO — coarse city-centroid coordinates for every distinct
@@ -3121,9 +3133,11 @@ window.STRINGS = {
   setText('onb-confirm-body', S.onbConfirmBody);
   setText('onb-confirm-close', S.closeAndReturn);
 
-  /* Donate links — external, voluntary, no checkout built. */
-  byId('donate-btn').href = '#';
-  byId('footer-donate').href = '#';
+  /* Donate links — external, voluntary, no in-app checkout. URL from server
+     config (DONATE_URL); falls back to '#' when unset. */
+  byId('donate-btn').href = DONATE_HREF;
+  byId('footer-donate').href = DONATE_HREF;
+  if (DONATE_HREF === '#') { byId('donate-btn').setAttribute('aria-disabled', 'true'); }
 
   /* ============================================================
      NAV

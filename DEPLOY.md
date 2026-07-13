@@ -23,8 +23,13 @@ cp -n .env.example .env   # if not present
 #   SESSION_SECRET=$(node -e "console.log(require('crypto').randomBytes(32).toString('hex'))")
 #   RESEND_API_KEY=re_...           # from resend.com (transactional email)
 #   MAIL_FROM="Playa.Earth <noreply@your-verified-domain>"
+#   ADMIN_EMAILS=you@example.com    # who can use /admin.html (moderation)
+#   DONATE_URL=https://...          # optional external donation link
 #   NODE_ENV=production
 ```
+
+Moderation console lives at `https://playa.lab980.com/admin.html` — sign in with
+an `ADMIN_EMAILS` address (magic link lands on the beta; return to `/admin.html`).
 
 Magic-link email only sends when `NODE_ENV=production` **and** `RESEND_API_KEY`
 is set; otherwise links are logged to the console (dev). `MAIL_FROM` must use a
