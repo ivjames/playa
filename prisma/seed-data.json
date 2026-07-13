@@ -1682,7 +1682,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "San Marcos, TX",
+      "lat": 29.8833,
+      "lng": -97.9414
     },
     {
       "pn": "Sparkplug",
@@ -1720,7 +1723,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Red Deer, AB",
+      "lat": 52.2681,
+      "lng": -113.8112
     },
     {
       "pn": "Willow",
@@ -1758,7 +1764,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "South Lake Tahoe, CA",
+      "lat": 38.9399,
+      "lng": -119.9772
     },
     {
       "pn": "Cinder",
@@ -1795,7 +1804,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Richmond, BC",
+      "lat": 49.1666,
+      "lng": -123.1336
     },
     {
       "pn": "Marigold",
@@ -1834,7 +1846,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Santa Monica, CA",
+      "lat": 34.0195,
+      "lng": -118.4712
     },
     {
       "pn": "Quasar",
@@ -1873,7 +1888,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Pachuca, HGO",
+      "lat": 20.1011,
+      "lng": -98.7591
     },
     {
       "pn": "Tumbleweed",
@@ -1913,7 +1931,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "The Bronx, NY",
+      "lat": 40.8448,
+      "lng": -73.8648
     },
     {
       "pn": "Obsidian",
@@ -1951,7 +1972,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Lethbridge, AB",
+      "lat": 49.6956,
+      "lng": -112.8451
     },
     {
       "pn": "Bramble",
@@ -1990,7 +2014,10 @@
       ],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Oak Park, IL",
+      "lat": 41.885,
+      "lng": -87.7845
     },
     {
       "pn": "Kestrel",
@@ -2031,7 +2058,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Carson City, NV",
+      "lat": 39.1638,
+      "lng": -119.7674
     },
     {
       "pn": "Solara",
@@ -2070,7 +2100,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Fort Lauderdale, FL",
+      "lat": 26.1224,
+      "lng": -80.1773
     },
     {
       "pn": "Nimbus",
@@ -2109,7 +2142,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Tarragona, ES",
+      "lat": 41.1189,
+      "lng": 1.2445
     },
     {
       "pn": "Fennel",
@@ -2148,7 +2184,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Leipzig, DE",
+      "lat": 51.3397,
+      "lng": 12.3731
     },
     {
       "pn": "Ember",
@@ -2187,7 +2226,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Munich, DE",
+      "lat": 48.1351,
+      "lng": 11.582
     },
     {
       "pn": "Cobalt",
@@ -2227,7 +2269,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Lausanne, CH",
+      "lat": 46.5197,
+      "lng": 6.6323
     },
     {
       "pn": "Zephyr",
@@ -2267,7 +2312,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Rishon LeZion, IL",
+      "lat": 31.971,
+      "lng": 34.7894
     },
     {
       "pn": "Baobab",
@@ -2308,7 +2356,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Stellenbosch, ZA",
+      "lat": -33.9321,
+      "lng": 18.8602
     },
     {
       "pn": "Coral",
@@ -2346,7 +2397,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Penrith, NSW",
+      "lat": -33.7506,
+      "lng": 150.6941
     },
     {
       "pn": "Ridge",
@@ -2384,7 +2438,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Gosford, NSW",
+      "lat": -33.4269,
+      "lng": 151.3428
     },
     {
       "pn": "Kauri",
@@ -2423,7 +2480,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Rotorua, NZ",
+      "lat": -38.1368,
+      "lng": 176.2497
     },
     {
       "pn": "Wildchild",
@@ -2462,7 +2522,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Kuta, ID",
+      "lat": -8.702,
+      "lng": 115.1719
     },
     {
       "pn": "Landsbeyond",
@@ -2502,7 +2565,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Bogota, CO",
+      "lat": 4.711,
+      "lng": -74.0721
     },
     {
       "pn": "Grilled",
@@ -2540,7 +2606,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Georgetown, TX",
+      "lat": 30.6333,
+      "lng": -97.6772
     },
     {
       "pn": "Highdesert",
@@ -2578,7 +2647,10 @@
       ],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "San Antonio, TX",
+      "lat": 29.4241,
+      "lng": -98.4936
     },
     {
       "pn": "Pixel",
@@ -2616,7 +2688,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Hialeah, FL",
+      "lat": 25.8576,
+      "lng": -80.2781
     },
     {
       "pn": "Driftwood",
@@ -2649,7 +2724,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Miami Beach, FL",
+      "lat": 25.7907,
+      "lng": -80.16
     },
     {
       "pn": "Motherlode",
@@ -2688,7 +2766,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Nanaimo, BC",
+      "lat": 49.1659,
+      "lng": -123.9401
     },
     {
       "pn": "Halcyon",
@@ -2722,7 +2803,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Mississauga, ON",
+      "lat": 43.589,
+      "lng": -79.6441
     },
     {
       "pn": "Foxfire",
@@ -2761,7 +2845,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Houston, TX",
+      "lat": 29.7604,
+      "lng": -95.3698
     },
     {
       "pn": "Ratchet",
@@ -2800,7 +2887,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "New Braunfels, TX",
+      "lat": 29.703,
+      "lng": -98.1245
     },
     {
       "pn": "Juniper",
@@ -2840,7 +2930,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Naperville, IL",
+      "lat": 41.7508,
+      "lng": -88.1535
     },
     {
       "pn": "Wrenchwench",
@@ -2877,7 +2970,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Seattle, WA",
+      "lat": 47.6101,
+      "lng": -122.3244
     },
     {
       "pn": "Glimmer",
@@ -2916,7 +3012,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Osasco, BR",
+      "lat": -23.5325,
+      "lng": -46.7917
     },
     {
       "pn": "Driftglass",
@@ -2951,7 +3050,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Hillsboro, OR",
+      "lat": 45.5228,
+      "lng": -122.9898
     },
     {
       "pn": "Sagebrush",
@@ -2988,7 +3090,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "West Palm Beach, FL",
+      "lat": 26.7153,
+      "lng": -80.1034
     },
     {
       "pn": "Vellichor",
@@ -3024,7 +3129,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Boca Raton, FL",
+      "lat": 26.3683,
+      "lng": -80.1689
     },
     {
       "pn": "Palomino",
@@ -3062,7 +3170,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Cuautla, MOR",
+      "lat": 18.8111,
+      "lng": -98.9536
     },
     {
       "pn": "Static",
@@ -3100,7 +3211,10 @@
       ],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Vallejo, CA",
+      "lat": 38.1041,
+      "lng": -122.2566
     },
     {
       "pn": "Cascabel",
@@ -3139,7 +3253,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Mexico City, CDMX",
+      "lat": 19.4326,
+      "lng": -99.1332
     },
     {
       "pn": "Nightjar",
@@ -3174,7 +3291,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Ventura, CA",
+      "lat": 34.2746,
+      "lng": -119.229
     },
     {
       "pn": "Petrichor",
@@ -3213,7 +3333,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Fort Collins, CO",
+      "lat": 40.5853,
+      "lng": -105.0844
     },
     {
       "pn": "Ledger",
@@ -3249,7 +3372,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Mysore, IN",
+      "lat": 12.2958,
+      "lng": 76.6394
     },
     {
       "pn": "Copperhead",
@@ -3288,7 +3414,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Vancouver, BC",
+      "lat": 49.2488,
+      "lng": -123.0921
     },
     {
       "pn": "Thistledown",
@@ -3323,7 +3452,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Canmore, AB",
+      "lat": 51.0884,
+      "lng": -115.3481
     },
     {
       "pn": "Salgado",
@@ -3362,7 +3494,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Naucalpan, MEX",
+      "lat": 19.4785,
+      "lng": -99.2394
     },
     {
       "pn": "Feuerbird",
@@ -3396,7 +3531,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Augsburg, DE",
+      "lat": 48.3705,
+      "lng": 10.8978
     },
     {
       "pn": "Haloumi",
@@ -3437,7 +3575,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Tel Aviv, IL",
+      "lat": 32.0819,
+      "lng": 34.7889
     },
     {
       "pn": "Amandla",
@@ -3476,7 +3617,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Paarl, ZA",
+      "lat": -33.7342,
+      "lng": 18.9621
     },
     {
       "pn": "Boomerang",
@@ -3510,7 +3654,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Bathurst, NSW",
+      "lat": -33.4193,
+      "lng": 149.5775
     },
     {
       "pn": "Kowhai",
@@ -3547,7 +3694,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Auckland, NZ",
+      "lat": -36.8485,
+      "lng": 174.7633
     },
     {
       "pn": "Anggur",
@@ -3586,7 +3736,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Sanur, ID",
+      "lat": -8.6678,
+      "lng": 115.2624
     },
     {
       "pn": "Quiet Satellite",
@@ -3625,7 +3778,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Jundiaí, BR",
+      "lat": -23.1857,
+      "lng": -46.8978
     },
     {
       "pn": "Windswept Prairie",
@@ -3660,7 +3816,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Genoa, IT",
+      "lat": 44.4056,
+      "lng": 8.9463
     },
     {
       "pn": "Prismatic Antler",
@@ -3701,7 +3860,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Madison, WI",
+      "lat": 43.0731,
+      "lng": -89.4012
     },
     {
       "pn": "Rusty Jackal",
@@ -3740,7 +3902,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Aarhus, DK",
+      "lat": 56.1629,
+      "lng": 10.2039
     },
     {
       "pn": "Grizzled Raven",
@@ -3782,7 +3947,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Goulburn, NSW",
+      "lat": -34.7544,
+      "lng": 149.7166
     },
     {
       "pn": "Neon Compass",
@@ -3817,7 +3985,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Golden, CO",
+      "lat": 39.7555,
+      "lng": -105.2211
     },
     {
       "pn": "Wild Jackal",
@@ -3859,7 +4030,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Lansing, MI",
+      "lat": 42.7325,
+      "lng": -84.5555
     },
     {
       "pn": "Barefoot Coyote",
@@ -3900,7 +4074,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Zapopan, JAL",
+      "lat": 20.7167,
+      "lng": -103.3833
     },
     {
       "pn": "Sunburnt Vulture",
@@ -3939,7 +4116,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Camden, NJ",
+      "lat": 39.9259,
+      "lng": -75.1196
     },
     {
       "pn": "Electric Badger",
@@ -3978,7 +4158,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Riverside, CA",
+      "lat": 33.9806,
+      "lng": -117.3755
     },
     {
       "pn": "Wandering Tumbleweed",
@@ -4011,7 +4194,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Sydney, NSW",
+      "lat": -33.8688,
+      "lng": 151.2093
     },
     {
       "pn": "Frosted Yucca",
@@ -4047,7 +4233,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Miami, FL",
+      "lat": 25.7617,
+      "lng": -80.2218
     },
     {
       "pn": "Feathered Badger",
@@ -4085,7 +4274,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Minneapolis, MN",
+      "lat": 44.9778,
+      "lng": -93.265
     },
     {
       "pn": "Grizzled Lantern",
@@ -4122,7 +4314,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Frankston, VIC",
+      "lat": -38.142,
+      "lng": 145.1215
     },
     {
       "pn": "Salty Wren",
@@ -4161,7 +4356,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Montreal, QC",
+      "lat": 45.5017,
+      "lng": -73.5673
     },
     {
       "pn": "Radiant Jackal",
@@ -4195,7 +4393,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Franklin, TN",
+      "lat": 35.9251,
+      "lng": -86.8689
     },
     {
       "pn": "Cosmic Satellite",
@@ -4234,7 +4435,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Hamilton, NZ",
+      "lat": -37.787,
+      "lng": 175.2793
     },
     {
       "pn": "Static Marmot",
@@ -4272,7 +4476,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Saitama, JP",
+      "lat": 35.8617,
+      "lng": 139.6455
     },
     {
       "pn": "Barefoot Prairie",
@@ -4312,7 +4519,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Wilmington, DE",
+      "lat": 39.7447,
+      "lng": -75.5484
     },
     {
       "pn": "Barefoot Compass",
@@ -4350,7 +4560,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Scottsdale, AZ",
+      "lat": 33.4942,
+      "lng": -111.9261
     },
     {
       "pn": "Sunburnt Lantern",
@@ -4385,7 +4598,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Hangzhou, CN",
+      "lat": 30.2741,
+      "lng": 120.1551
     },
     {
       "pn": "Sunburnt Comet",
@@ -4423,7 +4639,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Truckee, CA",
+      "lat": 39.328,
+      "lng": -120.1833
     },
     {
       "pn": "Barefoot Owlet",
@@ -4460,7 +4679,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Hyderabad, IN",
+      "lat": 17.385,
+      "lng": 78.4867
     },
     {
       "pn": "Electric Marmot",
@@ -4496,7 +4718,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Portsmouth, NH",
+      "lat": 43.0718,
+      "lng": -70.7626
     },
     {
       "pn": "Amber Comet",
@@ -4534,7 +4759,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Hamilton, ON",
+      "lat": 43.2557,
+      "lng": -79.8711
     },
     {
       "pn": "Wily Coyote",
@@ -4570,7 +4798,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Tacoma, WA",
+      "lat": 47.2529,
+      "lng": -122.4443
     },
     {
       "pn": "Static Badger",
@@ -4604,7 +4835,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Tauranga, NZ",
+      "lat": -37.6878,
+      "lng": 176.1651
     },
     {
       "pn": "Electric Tumbleweed",
@@ -4638,7 +4872,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Staten Island, NY",
+      "lat": 40.5795,
+      "lng": -74.1502
     },
     {
       "pn": "Barefoot Heron",
@@ -4678,7 +4915,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Everett, WA",
+      "lat": 47.979,
+      "lng": -122.2021
     },
     {
       "pn": "Ashen Ferret 622",
@@ -4717,7 +4957,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Kailua, HI",
+      "lat": 21.4022,
+      "lng": -157.7394
     },
     {
       "pn": "Glimmering Wren",
@@ -4755,7 +4998,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Medellin, CO",
+      "lat": 6.2442,
+      "lng": -75.5812
     },
     {
       "pn": "Feathered Antler",
@@ -4789,7 +5035,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Brasilia, DF",
+      "lat": -15.7942,
+      "lng": -47.8822
     },
     {
       "pn": "Sunburnt Tumbleweed",
@@ -4828,7 +5077,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Buenos Aires, AR",
+      "lat": -34.6037,
+      "lng": -58.3816
     },
     {
       "pn": "Rusty Prairie 121",
@@ -4870,7 +5122,10 @@
       ],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "La Paz, BO",
+      "lat": -16.4897,
+      "lng": -68.1193
     },
     {
       "pn": "Prismatic Magpie",
@@ -4910,7 +5165,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Cusco, PE",
+      "lat": -13.5319,
+      "lng": -71.9675
     },
     {
       "pn": "Feathered Compass",
@@ -4947,7 +5205,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "San Francisco, CA",
+      "lat": 37.7699,
+      "lng": -122.4469
     },
     {
       "pn": "Wily Antler",
@@ -4981,7 +5242,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Cuenca, EC",
+      "lat": -2.9006,
+      "lng": -79.0045
     },
     {
       "pn": "Iron Heron",
@@ -5020,7 +5284,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Niteroi, BR",
+      "lat": -22.8833,
+      "lng": -43.1036
     },
     {
       "pn": "Luminous Vulture",
@@ -5058,7 +5325,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Colorado Springs, CO",
+      "lat": 38.8339,
+      "lng": -104.8214
     },
     {
       "pn": "Molten Tumbleweed",
@@ -5096,7 +5366,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "São Paulo, BR",
+      "lat": -23.5505,
+      "lng": -46.6333
     },
     {
       "pn": "Feral Wren",
@@ -5135,7 +5408,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Eindhoven, NL",
+      "lat": 51.4416,
+      "lng": 5.4697
     },
     {
       "pn": "Iron Owlet",
@@ -5176,7 +5452,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Thessaloniki, GR",
+      "lat": 40.6401,
+      "lng": 22.9444
     },
     {
       "pn": "Wandering Badger",
@@ -5217,7 +5496,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Valencia, ES",
+      "lat": 39.4699,
+      "lng": -0.3763
     },
     {
       "pn": "Cosmic Marmot",
@@ -5254,7 +5536,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Novi Sad, RS",
+      "lat": 45.2671,
+      "lng": 19.8335
     },
     {
       "pn": "Cosmic Coyote",
@@ -5292,7 +5577,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Dresden, DE",
+      "lat": 51.0504,
+      "lng": 13.7373
     },
     {
       "pn": "Cosmic Thistle",
@@ -5327,7 +5615,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Luxembourg, LU",
+      "lat": 49.6116,
+      "lng": 6.1319
     },
     {
       "pn": "Glimmering Pelican",
@@ -5367,7 +5658,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Szeged, HU",
+      "lat": 46.253,
+      "lng": 20.1414
     },
     {
       "pn": "Dusty Wren",
@@ -5406,7 +5700,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "La Plata, AR",
+      "lat": -34.9215,
+      "lng": -57.9545
     },
     {
       "pn": "Cosmic Puddle",
@@ -5446,7 +5743,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Cork, IE",
+      "lat": 51.8985,
+      "lng": -8.4756
     },
     {
       "pn": "Scrappy Cactus",
@@ -5484,7 +5784,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Espoo, FI",
+      "lat": 60.2055,
+      "lng": 24.6559
     },
     {
       "pn": "Neon Jackal",
@@ -5522,7 +5825,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Izmir, TR",
+      "lat": 38.4237,
+      "lng": 27.1428
     },
     {
       "pn": "Dusty Magpie",
@@ -5557,7 +5863,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Kharkiv, UA",
+      "lat": 49.9935,
+      "lng": 36.2304
     },
     {
       "pn": "Prismatic Pelican",
@@ -5597,7 +5906,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Lisbon, PT",
+      "lat": 38.7223,
+      "lng": -9.1393
     },
     {
       "pn": "Feathered Wren",
@@ -5636,7 +5948,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Jaffa, IL",
+      "lat": 32.0546,
+      "lng": 34.7502
     },
     {
       "pn": "Rusty Ferret",
@@ -5676,7 +5991,10 @@
       ],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Alcala de Henares, ES",
+      "lat": 40.4818,
+      "lng": -3.3635
     },
     {
       "pn": "Cosmic Sparrow",
@@ -5713,7 +6031,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Birmingham, UK",
+      "lat": 52.4862,
+      "lng": -1.8904
     },
     {
       "pn": "Windswept Badger",
@@ -5750,7 +6071,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Groningen, NL",
+      "lat": 53.2194,
+      "lng": 6.5665
     },
     {
       "pn": "Static Ember",
@@ -5789,7 +6113,10 @@
       ],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Nizhny Novgorod, RU",
+      "lat": 56.2965,
+      "lng": 43.9361
     },
     {
       "pn": "Wild Lark 945",
@@ -5830,7 +6157,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Pattaya, TH",
+      "lat": 12.9236,
+      "lng": 100.8825
     },
     {
       "pn": "Feathered Ember",
@@ -5864,7 +6194,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Bellevue, WA",
+      "lat": 47.6101,
+      "lng": -122.2015
     },
     {
       "pn": "Amber Badger",
@@ -5901,7 +6234,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Versailles, FR",
+      "lat": 48.8049,
+      "lng": 2.1204
     },
     {
       "pn": "Rusty Satellite",
@@ -5942,7 +6278,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Park City, UT",
+      "lat": 40.6461,
+      "lng": -111.498
     },
     {
       "pn": "Feathered Cactus",
@@ -5976,7 +6315,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Bologna, IT",
+      "lat": 44.4949,
+      "lng": 11.3426
     },
     {
       "pn": "Luminous Yucca",
@@ -6013,7 +6355,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Stockholm, SE",
+      "lat": 59.3293,
+      "lng": 18.0686
     },
     {
       "pn": "Ashen Wren",
@@ -6049,7 +6394,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Innsbruck, AT",
+      "lat": 47.2692,
+      "lng": 11.4041
     },
     {
       "pn": "Quiet Prairie 689",
@@ -6086,7 +6434,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Poznan, PL",
+      "lat": 52.4064,
+      "lng": 16.9252
     },
     {
       "pn": "Velvet Pelican",
@@ -6125,7 +6476,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Zurich, CH",
+      "lat": 47.3769,
+      "lng": 8.5417
     },
     {
       "pn": "Barefoot Sparrow",
@@ -6165,7 +6519,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Accra, GH",
+      "lat": 5.6037,
+      "lng": -0.187
     },
     {
       "pn": "Radiant Vulture",
@@ -6207,7 +6564,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Aswan, EG",
+      "lat": 24.0889,
+      "lng": 32.8998
     },
     {
       "pn": "Ashen Thistle",
@@ -6241,7 +6601,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Pretoria, ZA",
+      "lat": -25.7479,
+      "lng": 28.2293
     },
     {
       "pn": "Nocturnal Magpie",
@@ -6277,7 +6640,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Soweto, ZA",
+      "lat": -26.2678,
+      "lng": 27.8585
     },
     {
       "pn": "Amber Vulture",
@@ -6316,7 +6682,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Abuja, NG",
+      "lat": 9.0765,
+      "lng": 7.3986
     },
     {
       "pn": "Wandering Antler",
@@ -6357,7 +6726,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Agadir, MA",
+      "lat": 30.4278,
+      "lng": -9.5981
     },
     {
       "pn": "Dusty Tumbleweed",
@@ -6396,7 +6768,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Canberra, ACT",
+      "lat": -35.2809,
+      "lng": 149.13
     },
     {
       "pn": "Feathered Wren 160",
@@ -6433,7 +6808,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Denpasar, ID",
+      "lat": -8.6705,
+      "lng": 115.2126
     },
     {
       "pn": "Electric Dune",
@@ -6473,7 +6851,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Chennai, IN",
+      "lat": 13.0827,
+      "lng": 80.2707
     },
     {
       "pn": "Nocturnal Comet",
@@ -6511,7 +6892,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Chiang Mai, TH",
+      "lat": 18.7883,
+      "lng": 98.9853
     },
     {
       "pn": "Radiant Compass",
@@ -6549,7 +6933,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Kumasi, GH",
+      "lat": 6.6885,
+      "lng": -1.6244
     },
     {
       "pn": "Dusty Lantern",
@@ -6588,7 +6975,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Chiang Mai, TH",
+      "lat": 18.7883,
+      "lng": 98.9853
     },
     {
       "pn": "Tangled Mirage",
@@ -6626,7 +7016,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Flint, MI",
+      "lat": 43.0125,
+      "lng": -83.6875
     },
     {
       "pn": "Windswept Ember",
@@ -6666,7 +7059,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Gurgaon, IN",
+      "lat": 28.4595,
+      "lng": 77.0266
     },
     {
       "pn": "Grizzled Cactus",
@@ -6706,7 +7102,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Fort Lauderdale, FL",
+      "lat": 26.1224,
+      "lng": -80.1773
     },
     {
       "pn": "Barefoot Cactus",
@@ -6747,7 +7146,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Kowloon, HK",
+      "lat": 22.3167,
+      "lng": 114.1833
     },
     {
       "pn": "Luminous Satellite",
@@ -6787,7 +7189,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Bandung, ID",
+      "lat": -6.9175,
+      "lng": 107.6191
     },
     {
       "pn": "Static Vulture",
@@ -6826,7 +7231,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Aurora, IL",
+      "lat": 41.7606,
+      "lng": -88.3201
     },
     {
       "pn": "Barefoot Otter",
@@ -6866,7 +7274,10 @@
       ],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Makati, PH",
+      "lat": 14.5547,
+      "lng": 121.0244
     },
     {
       "pn": "Wily Raven",
@@ -6906,7 +7317,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Nashik, IN",
+      "lat": 19.9975,
+      "lng": 73.7898
     },
     {
       "pn": "Tangled Puddle",
@@ -6943,7 +7357,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Seoul, KR",
+      "lat": 37.5665,
+      "lng": 126.978
     },
     {
       "pn": "Feral Prairie",
@@ -6976,7 +7393,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Ottawa, ON",
+      "lat": 45.4215,
+      "lng": -75.6972
     },
     {
       "pn": "Dusty Owlet",
@@ -7011,7 +7431,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Tampines, SG",
+      "lat": 1.3496,
+      "lng": 103.9568
     },
     {
       "pn": "Neon Lark",
@@ -7049,7 +7472,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Taipei, TW",
+      "lat": 25.033,
+      "lng": 121.5654
     },
     {
       "pn": "Barefoot Mirage",
@@ -7088,7 +7514,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Nuremberg, DE",
+      "lat": 49.4521,
+      "lng": 11.0767
     },
     {
       "pn": "Prismatic Mirage",
@@ -7127,7 +7556,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Tokyo, JP",
+      "lat": 35.6762,
+      "lng": 139.6503
     },
     {
       "pn": "Wily Comet",
@@ -7167,7 +7599,10 @@
       ],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Whyalla, SA",
+      "lat": -33.0333,
+      "lng": 137.5667
     },
     {
       "pn": "Iron Marmot",
@@ -7202,7 +7637,10 @@
       ],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Verona, IT",
+      "lat": 45.4384,
+      "lng": 10.9916
     },
     {
       "pn": "Frosted Magpie",
@@ -7245,7 +7683,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Navi Mumbai, IN",
+      "lat": 19.033,
+      "lng": 73.0297
     },
     {
       "pn": "Quiet Lantern",
@@ -7282,7 +7723,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Queanbeyan, NSW",
+      "lat": -35.3549,
+      "lng": 149.234
     },
     {
       "pn": "Wandering Thistle",
@@ -7319,7 +7763,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Hobart, TAS",
+      "lat": -42.8821,
+      "lng": 147.3272
     },
     {
       "pn": "Barefoot Tumbleweed",
@@ -7359,7 +7806,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Shepparton, VIC",
+      "lat": -36.3805,
+      "lng": 145.399
     },
     {
       "pn": "Feathered Dune",
@@ -7395,7 +7845,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "London, ON",
+      "lat": 42.9849,
+      "lng": -81.2453
     },
     {
       "pn": "Frosted Heron",
@@ -7434,7 +7887,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Parramatta, NSW",
+      "lat": -33.815,
+      "lng": 151.0011
     },
     {
       "pn": "Luminous Prairie 308",
@@ -7471,7 +7927,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Wellington, NZ",
+      "lat": -41.2865,
+      "lng": 174.7762
     },
     {
       "pn": "Salty Sparrow",
@@ -7509,7 +7968,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Reading, UK",
+      "lat": 51.4543,
+      "lng": -0.9781
     },
     {
       "pn": "Wily Puddle",
@@ -7547,7 +8009,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Tangerang, ID",
+      "lat": -6.1783,
+      "lng": 106.6319
     },
     {
       "pn": "Amber Mirage",
@@ -7582,7 +8047,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Hamburg, DE",
+      "lat": 53.5511,
+      "lng": 9.9937
     },
     {
       "pn": "Nocturnal Marmot",
@@ -7621,7 +8089,10 @@
       ],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Oakland, CA",
+      "lat": 37.8044,
+      "lng": -122.2712
     },
     {
       "pn": "Rusty Sparrow",
@@ -7657,7 +8128,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Southampton, UK",
+      "lat": 50.9097,
+      "lng": -1.4044
     },
     {
       "pn": "Prismatic Dune",
@@ -7700,7 +8174,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "London, UK",
+      "lat": 51.5074,
+      "lng": -0.1278
     },
     {
       "pn": "Amber Puddle",
@@ -7740,7 +8217,10 @@
       ],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Amsterdam, NL",
+      "lat": 52.3676,
+      "lng": 4.9041
     },
     {
       "pn": "Cosmic Dune 905",
@@ -7780,7 +8260,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Cuernavaca, MOR",
+      "lat": 18.9186,
+      "lng": -99.2342
     },
     {
       "pn": "Feral Antler",
@@ -7819,7 +8302,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Kitchener, ON",
+      "lat": 43.4516,
+      "lng": -80.4925
     },
     {
       "pn": "Tangled Vulture",
@@ -7855,7 +8341,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "San Diego, CA",
+      "lat": 32.7157,
+      "lng": -117.1411
     },
     {
       "pn": "Static Satellite",
@@ -7891,7 +8380,10 @@
       ],
       "contact": "Email after intro",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Burnaby, BC",
+      "lat": 49.2488,
+      "lng": -122.9805
     },
     {
       "pn": "Grizzled Pelican",
@@ -7929,7 +8421,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Aurora, CO",
+      "lat": 39.7294,
+      "lng": -104.8319
     },
     {
       "pn": "Static Sparrow",
@@ -7972,7 +8467,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Yokohama, JP",
+      "lat": 35.4437,
+      "lng": 139.638
     },
     {
       "pn": "Velvet Ferret",
@@ -8013,7 +8511,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "New Orleans, LA",
+      "lat": 29.9511,
+      "lng": -90.0715
     },
     {
       "pn": "Glimmering Puddle",
@@ -8050,7 +8551,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Mar del Plata, AR",
+      "lat": -38.0055,
+      "lng": -57.5426
     },
     {
       "pn": "Ashen Dune",
@@ -8088,7 +8592,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Phuket, TH",
+      "lat": 7.8804,
+      "lng": 98.3923
     },
     {
       "pn": "Sunburnt Heron",
@@ -8125,7 +8632,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Newcastle, NSW",
+      "lat": -32.9283,
+      "lng": 151.7817
     },
     {
       "pn": "Nocturnal Dune",
@@ -8164,7 +8674,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Bangkok, TH",
+      "lat": 13.7563,
+      "lng": 100.5018
     },
     {
       "pn": "Wild Dune",
@@ -8202,7 +8715,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Surrey, BC",
+      "lat": 49.1913,
+      "lng": -122.849
     },
     {
       "pn": "Wily Tumbleweed",
@@ -8238,7 +8754,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Cairns, QLD",
+      "lat": -16.9203,
+      "lng": 145.771
     },
     {
       "pn": "Wily Owlet",
@@ -8274,7 +8793,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Palm Springs, CA",
+      "lat": 33.8303,
+      "lng": -116.5453
     },
     {
       "pn": "Prismatic Vulture",
@@ -8314,7 +8836,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Croydon, UK",
+      "lat": 51.3762,
+      "lng": -0.0982
     },
     {
       "pn": "Glimmering Comet",
@@ -8354,7 +8879,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Zaragoza, ES",
+      "lat": 41.6488,
+      "lng": -0.8891
     },
     {
       "pn": "Barefoot Thistle",
@@ -8393,7 +8921,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Adelaide, SA",
+      "lat": -34.9285,
+      "lng": 138.6007
     },
     {
       "pn": "Luminous Cactus",
@@ -8433,7 +8964,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Windsor, ON",
+      "lat": 42.3149,
+      "lng": -83.0364
     },
     {
       "pn": "Sunburnt Dune",
@@ -8476,7 +9010,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Cologne, DE",
+      "lat": 50.9375,
+      "lng": 6.9603
     },
     {
       "pn": "Feral Coyote",
@@ -8515,7 +9052,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Brighton, UK",
+      "lat": 50.8225,
+      "lng": -0.1372
     },
     {
       "pn": "Prismatic Sparrow",
@@ -8554,7 +9094,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Rotterdam, NL",
+      "lat": 51.9244,
+      "lng": 4.4777
     },
     {
       "pn": "Wily Vulture",
@@ -8588,7 +9131,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Wollongong, NSW",
+      "lat": -34.4278,
+      "lng": 150.8931
     },
     {
       "pn": "Scrappy Antler 308",
@@ -8627,7 +9173,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Newcastle, UK",
+      "lat": 54.9783,
+      "lng": -1.6178
     },
     {
       "pn": "Tangled Prairie",
@@ -8665,7 +9214,10 @@
       "regional": [],
       "contact": "In-app message",
       "verified": "flagged",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Canberra, ACT",
+      "lat": -35.2809,
+      "lng": 149.13
     },
     {
       "pn": "Nocturnal Compass",
@@ -8706,7 +9258,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Oxford, UK",
+      "lat": 51.752,
+      "lng": -1.2577
     },
     {
       "pn": "Feathered Falcon",
@@ -8741,7 +9296,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Barcelona, ES",
+      "lat": 41.3874,
+      "lng": 2.1686
     },
     {
       "pn": "Amber Raven",
@@ -8775,7 +9333,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Johannesburg, ZA",
+      "lat": -26.2041,
+      "lng": 28.0473
     },
     {
       "pn": "Iron Wren",
@@ -8815,7 +9376,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Waco, TX",
+      "lat": 31.5493,
+      "lng": -97.1467
     },
     {
       "pn": "Amber Falcon 300",
@@ -8855,7 +9419,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Brandenburg an der Havel, DE",
+      "lat": 52.4125,
+      "lng": 12.5316
     },
     {
       "pn": "Amber Badger 822",
@@ -8892,7 +9459,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Toronto, ON",
+      "lat": 43.6532,
+      "lng": -79.3832
     },
     {
       "pn": "Wily Lantern",
@@ -8928,7 +9498,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Noida, IN",
+      "lat": 28.5355,
+      "lng": 77.391
     },
     {
       "pn": "Dusty Prairie",
@@ -8966,7 +9539,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "West Valley City, UT",
+      "lat": 40.6916,
+      "lng": -112.0011
     },
     {
       "pn": "Scrappy Coyote",
@@ -9006,7 +9582,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Incline Village, NV",
+      "lat": 39.2404,
+      "lng": -119.9605
     },
     {
       "pn": "Wild Thistle",
@@ -9047,7 +9626,10 @@
       ],
       "contact": "In-app message",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Wellington, NZ",
+      "lat": -41.2865,
+      "lng": 174.7762
     },
     {
       "pn": "Scrappy Magpie 248",
@@ -9088,7 +9670,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Geneva, CH",
+      "lat": 46.2044,
+      "lng": 6.1432
     },
     {
       "pn": "Grizzled Heron",
@@ -9127,7 +9712,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Saint Paul, MN",
+      "lat": 44.9537,
+      "lng": -93.09
     },
     {
       "pn": "Wandering Puddle",
@@ -9163,7 +9751,10 @@
       ],
       "contact": "In-app message",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Launceston, TAS",
+      "lat": -41.4332,
+      "lng": 147.1441
     },
     {
       "pn": "Grizzled Otter",
@@ -9201,7 +9792,10 @@
       ],
       "contact": "Email after intro",
       "verified": "unverified",
-      "vis": "ghost"
+      "vis": "ghost",
+      "city": "Laval, QC",
+      "lat": 45.6066,
+      "lng": -73.7124
     },
     {
       "pn": "Barefoot Badger",
@@ -9237,7 +9831,10 @@
       ],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Toluca, MEX",
+      "lat": 19.2926,
+      "lng": -99.6557
     },
     {
       "pn": "Salty Thistle",
@@ -9272,7 +9869,10 @@
       "regional": [],
       "contact": "Email after intro",
       "verified": "verified",
-      "vis": "beacon"
+      "vis": "beacon",
+      "city": "Byron Bay, NSW",
+      "lat": -28.6474,
+      "lng": 153.602
     }
   ]
 }

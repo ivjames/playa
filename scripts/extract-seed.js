@@ -53,8 +53,21 @@ function buildRoster(src) {
   if (start < 0 || genIdx < 0) throw new Error('member-generator span not found');
   const end = src.indexOf('})();', genIdx) + '})();'.length;
   const code = src.slice(start, end);
+  // resolveMemberCity(m) (defined in the span) returns the member's city-level
+  // {lat,lng,label} — the same placement the demo map used. Capture it so we
+  // seed a per-city geohash, not a region centroid.
   // eslint-disable-next-line no-new-func
-  return Function(code + '\n; return MEMBERS;')();
+  return Function(code + `
+    ; return MEMBERS.map(function(m){
+        var c = null;
+        try { c = (typeof resolveMemberCity === 'function') ? resolveMemberCity(m) : null; } catch (e) {}
+        return Object.assign({}, m, {
+          _city: m.city || (c && c.label) || '',
+          _lat: c ? c.lat : null,
+          _lng: c ? c.lng : null,
+        });
+      });
+  `)();
 }
 const MEMBERS = buildRoster(html);
 
@@ -84,6 +97,7 @@ const members = MEMBERS.map((m) => ({
   avail: m.avail || '', regional: m.regional || [],
   contact: m.contact || 'In-app message', verified: m.verified || 'unverified',
   vis: m.vis || 'beacon',
+  city: m._city || '', lat: m._lat != null ? m._lat : null, lng: m._lng != null ? m._lng : null,
 }));
 
 const out = { continentOrder: CONTINENT_ORDER, regions, camps, members };

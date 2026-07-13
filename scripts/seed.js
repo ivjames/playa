@@ -55,8 +55,12 @@ async function main() {
   for (const mem of members) {
     const email = `${slug(mem.pn)}@${SEED_DOMAIN}`;
     const region = regionRowByName.get(mem.region) || null;
+    // Prefer the member's city-level coords (spreads a region's members across
+    // its real cities, as the demo did); fall back to the region centroid.
     let geohash = null;
-    if (region && region.lat != null && region.lng != null) {
+    if (mem.lat != null && mem.lng != null) {
+      geohash = ngeohash.encode(mem.lat, mem.lng, 5);
+    } else if (region && region.lat != null && region.lng != null) {
       geohash = ngeohash.encode(region.lat, region.lng, 5);
     }
     const user = await prisma.user.upsert({
@@ -69,7 +73,7 @@ async function main() {
       contactPref: mem.contact === 'Email after intro' ? 'email_after_intro' : 'in_app',
       visibility: mem.vis === 'ghost' ? 'private' : 'searchable',
       verified: ['verified', 'flagged', 'unverified'].includes(mem.verified) ? mem.verified : 'unverified',
-      regionId: region ? region.id : null, geohash,
+      regionId: region ? region.id : null, geohash, homeCity: mem.city || null,
       skills: enc(mem.skills), interests: enc(mem.interests), projects: enc(mem.projects),
       looking: enc(mem.looking), langs: enc(mem.langs), regional: enc(mem.regional),
     };
