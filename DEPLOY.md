@@ -59,8 +59,12 @@ pm2 start ecosystem.config.js
 pm2 save
 ```
 
-Re-run `npm run seed` only when `prisma/seed-data.json` changes (regenerate it
-from the beta page with `npm run extract-seed`). It never touches member data.
+`npm run seed` loads regions + camps **and** the curated member roster (51
+synthetic profiles under `@seed.playa.earth`, so the pilot directory/map aren't
+empty). It's idempotent (upserts). When real signups make the demo roster
+unnecessary, purge just the synthetic members with `npm run seed:clear`
+(regions/camps and real accounts are untouched). Regenerate `seed-data.json`
+from the beta page with `npm run extract-seed`.
 
 Confirm it's up:
 

@@ -42,6 +42,7 @@ const CITY = extractLiteral(html, 'CITY');
 const REGION_CONTINENT = extractLiteral(html, 'REGION_CONTINENT');
 const CONTINENT_ORDER = extractLiteral(html, 'CONTINENT_ORDER');
 const CAMPS = extractLiteral(html, 'CAMPS');
+const MEMBERS = extractLiteral(html, 'MEMBERS'); // curated hand-authored roster
 
 const regions = Object.keys(CITY).map((name) => ({
   name,
@@ -59,6 +60,18 @@ const camps = CAMPS.map((c) => ({
   description: c.desc || '',
 }));
 
-const out = { continentOrder: CONTINENT_ORDER, regions, camps };
+// Curated members — the demo's hand-authored roster. Seeded so the pilot
+// directory/map are populated. Kept verbatim; visibility/verified as authored.
+const members = MEMBERS.map((m) => ({
+  pn: m.pn, dn: m.dn || '', pronouns: m.pronouns || '', avatar: m.avatar || '',
+  region: m.region || '', bio: m.bio || '', years: m.years || 0, burns: m.burns || 0,
+  camp: m.camp || '', role: m.role || '', skills: m.skills || [], interests: m.interests || [],
+  projects: m.projects || [], looking: m.looking || [], langs: m.langs || [],
+  avail: m.avail || '', regional: m.regional || [],
+  contact: m.contact || 'In-app message', verified: m.verified || 'unverified',
+  vis: m.vis || 'beacon',
+}));
+
+const out = { continentOrder: CONTINENT_ORDER, regions, camps, members };
 fs.writeFileSync(path.join(__dirname, '..', 'prisma', 'seed-data.json'), JSON.stringify(out, null, 2));
-console.log(`extracted: ${regions.length} regions, ${camps.length} camps`);
+console.log(`extracted: ${regions.length} regions, ${camps.length} camps, ${members.length} members`);
