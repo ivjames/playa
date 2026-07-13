@@ -949,9 +949,14 @@ window.STRINGS = {
   crossorigin="anonymous"
   referrerpolicy="no-referrer"></script>
 <script>
-(function () {
+(async function () {
   "use strict";
   var S = window.STRINGS;
+
+  /* LIVE mode (default): the directory, map, camps and regions are driven by
+     the real API (/api/*). The synthetic demo roster only loads with ?demo=1
+     (for screenshots/marketing). See hydrateLive() below. */
+  var LIVE = !/[?&]demo=1\b/.test(location.search);
 
   /* ============================================================
      VISIBILITY MODEL — BETA SIMPLIFICATION: exactly 2 states, Private /
@@ -2039,6 +2044,9 @@ window.STRINGS = {
   }
 
   function resolveMemberCoords(m) {
+    // Live members carry a server-computed coarse point (already jittered
+    // within a ~5km geohash cell). No client-side placement needed.
+    if (m._live) return { lat: m._live.lat, lng: m._live.lng, label: m.homeCity || m.region };
     var base = resolveMemberCity(m);
     var j = coarseJitter(m.pn);
     return { lat: base.lat + j.lat, lng: base.lng + j.lng, label: base.label };
@@ -2535,6 +2543,67 @@ window.STRINGS = {
     { name:"Aah Wonder", region:"Mountain View", url:"", desc:"" },
     { name:"Off the Dome", region:"Reno, NV", url:"http://offthedome.org", desc:"" }
   ];
+
+  /* ============================================================
+     LIVE HYDRATION — in live mode, replace the demo MEMBERS/CAMPS
+     arrays with real data from the API before anything renders.
+     Function declaration is hoisted; the await below runs before all
+     top-level renders, so every view reflects live data.
+     ============================================================ */
+  async function getJSON(url) {
+    // Bounded so a slow/unreachable API can't leave the page blank — hydration
+    // fails soft and the views render empty rather than hanging.
+    var res = await fetch(url, {
+      credentials: 'same-origin', headers: { Accept: 'application/json' },
+      signal: AbortSignal.timeout(6000),
+    });
+    if (!res.ok) throw new Error(url + ' -> ' + res.status);
+    return res.json();
+  }
+  function apiMemberToDemo(p, coords) {
+    return {
+      pn: p.pn, dn: p.dn || '', pronouns: p.pronouns || '', avatar: p.avatar || '',
+      region: p.region || '', bio: p.bio || '', years: p.years || 0, burns: p.burns || 0,
+      camp: p.camp || '', role: p.role || '', skills: p.skills || [], interests: p.interests || [],
+      projects: p.projects || [], looking: p.looking || [], langs: p.langs || [],
+      avail: p.avail || '', regional: p.regional || [],
+      contact: p.contactPref === 'email_after_intro' ? 'Email after intro' : 'In-app message',
+      verified: p.verified || 'unverified', vis: 'beacon',
+      city: p.homeCity || '', _id: p.id, _live: coords || null,
+    };
+  }
+  async function hydrateLive() {
+    // Coarse map points keyed by profile id.
+    var coordsById = {};
+    try {
+      var mapData = await getJSON('/api/map');
+      (mapData.points || []).forEach(function (pt) { coordsById[pt.id] = { lat: pt.lat, lng: pt.lng }; });
+    } catch (e) { /* map optional */ }
+
+    // All Searchable members (paginate through the directory).
+    var members = [];
+    try {
+      for (var page = 1; page <= 100; page++) {
+        var d = await getJSON('/api/directory?page=' + page);
+        (d.results || []).forEach(function (p) { members.push(apiMemberToDemo(p, coordsById[p.id])); });
+        if (!d.results || d.results.length < d.pageSize) break;
+      }
+    } catch (e) { /* leave empty on failure */ }
+    MEMBERS.length = 0; Array.prototype.push.apply(MEMBERS, members);
+
+    // Camps.
+    try {
+      var c = await getJSON('/api/camps');
+      var camps = (c.camps || []).map(function (x) {
+        return { name: x.name, region: x.region || '', url: x.url || '', desc: x.description || '' };
+      });
+      CAMPS.length = 0; Array.prototype.push.apply(CAMPS, camps);
+    } catch (e) { CAMPS.length = 0; }
+
+    // Retune the banner copy for live data.
+    S.demoDataNote = 'Live pilot — every profile below is a real member who chose to be Searchable. Approximate locations are coarse (~5km), never exact.';
+  }
+  if (LIVE) { await hydrateLive(); }
 
   /* ============================================================
      CAMP_GEO — coarse city-centroid coordinates for every distinct
@@ -3321,7 +3390,7 @@ window.STRINGS = {
     mapCircles = [];
     var list = filteredMembers(); // already restricted to onMap via directoryMembers()/inDir === onMap for both states
     list.forEach(function(p){
-      if (!CITY[p.region]) return;
+      if (!p._live && !CITY[p.region]) return;
       // Coarse city-level coords (member's own city/zip if set, else the
       // region centroid) plus deterministic coarse jitter — see
       // resolveMemberCoords(). Fixed-pixel dot (circleMarker) so pins stay
