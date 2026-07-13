@@ -11,7 +11,9 @@
     "start": "node server.js",
     "build": "prisma generate && node -e \"const fs=require('fs');for(const f of ['public/index.html','public/beta.html'])fs.accessSync(f);console.log('build ok: static assets present')\"",
     "migrate:deploy": "prisma migrate deploy",
-    "migrate:dev": "prisma migrate dev"
+    "migrate:dev": "prisma migrate dev",
+    "extract-seed": "node scripts/extract-seed.js",
+    "seed": "node scripts/seed.js"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",

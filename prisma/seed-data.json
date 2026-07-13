@@ -1,0 +1,1646 @@
+{
+  "continentOrder": [
+    "North America",
+    "South America",
+    "Europe",
+    "Africa",
+    "Asia",
+    "Oceania"
+  ],
+  "regions": [
+    {
+      "name": "Atlanta",
+      "continent": "North America",
+      "lat": 33.75,
+      "lng": -84.39
+    },
+    {
+      "name": "Austin",
+      "continent": "North America",
+      "lat": 30.27,
+      "lng": -97.74
+    },
+    {
+      "name": "Boston",
+      "continent": "North America",
+      "lat": 42.36,
+      "lng": -71.06
+    },
+    {
+      "name": "Calgary",
+      "continent": "North America",
+      "lat": 51.05,
+      "lng": -114.07
+    },
+    {
+      "name": "Chicago",
+      "continent": "North America",
+      "lat": 41.88,
+      "lng": -87.63
+    },
+    {
+      "name": "Denver / Boulder",
+      "continent": "North America",
+      "lat": 39.74,
+      "lng": -104.99
+    },
+    {
+      "name": "Detroit",
+      "continent": "North America",
+      "lat": 42.33,
+      "lng": -83.05
+    },
+    {
+      "name": "Guadalajara",
+      "continent": "North America",
+      "lat": 20.66,
+      "lng": -103.35
+    },
+    {
+      "name": "Honolulu",
+      "continent": "North America",
+      "lat": 21.31,
+      "lng": -157.86
+    },
+    {
+      "name": "Los Angeles",
+      "continent": "North America",
+      "lat": 34.05,
+      "lng": -118.24
+    },
+    {
+      "name": "Mexico City",
+      "continent": "North America",
+      "lat": 19.43,
+      "lng": -99.13
+    },
+    {
+      "name": "Miami",
+      "continent": "North America",
+      "lat": 25.76,
+      "lng": -80.19
+    },
+    {
+      "name": "Minneapolis",
+      "continent": "North America",
+      "lat": 44.98,
+      "lng": -93.27
+    },
+    {
+      "name": "Monterrey",
+      "continent": "North America",
+      "lat": 25.69,
+      "lng": -100.32
+    },
+    {
+      "name": "Montreal",
+      "continent": "North America",
+      "lat": 45.5,
+      "lng": -73.57
+    },
+    {
+      "name": "Nashville",
+      "continent": "North America",
+      "lat": 36.16,
+      "lng": -86.78
+    },
+    {
+      "name": "New Orleans",
+      "continent": "North America",
+      "lat": 29.95,
+      "lng": -90.07
+    },
+    {
+      "name": "New York City",
+      "continent": "North America",
+      "lat": 40.71,
+      "lng": -74.01
+    },
+    {
+      "name": "Philadelphia",
+      "continent": "North America",
+      "lat": 39.95,
+      "lng": -75.16
+    },
+    {
+      "name": "Phoenix",
+      "continent": "North America",
+      "lat": 33.45,
+      "lng": -112.07
+    },
+    {
+      "name": "Portland",
+      "continent": "North America",
+      "lat": 45.52,
+      "lng": -122.68
+    },
+    {
+      "name": "Reno / Tahoe",
+      "continent": "North America",
+      "lat": 39.53,
+      "lng": -119.81
+    },
+    {
+      "name": "Salt Lake City",
+      "continent": "North America",
+      "lat": 40.76,
+      "lng": -111.89
+    },
+    {
+      "name": "San Diego",
+      "continent": "North America",
+      "lat": 32.72,
+      "lng": -117.16
+    },
+    {
+      "name": "San Francisco Bay Area",
+      "continent": "North America",
+      "lat": 37.77,
+      "lng": -122.42
+    },
+    {
+      "name": "Seattle",
+      "continent": "North America",
+      "lat": 47.61,
+      "lng": -122.33
+    },
+    {
+      "name": "Toronto",
+      "continent": "North America",
+      "lat": 43.65,
+      "lng": -79.38
+    },
+    {
+      "name": "Vancouver BC",
+      "continent": "North America",
+      "lat": 49.28,
+      "lng": -123.12
+    },
+    {
+      "name": "Washington DC",
+      "continent": "North America",
+      "lat": 38.9,
+      "lng": -77.04
+    },
+    {
+      "name": "Belo Horizonte",
+      "continent": "South America",
+      "lat": -19.92,
+      "lng": -43.94
+    },
+    {
+      "name": "Bogotá",
+      "continent": "South America",
+      "lat": 4.71,
+      "lng": -74.07
+    },
+    {
+      "name": "Brasília",
+      "continent": "South America",
+      "lat": -15.79,
+      "lng": -47.88
+    },
+    {
+      "name": "Buenos Aires",
+      "continent": "South America",
+      "lat": -34.6,
+      "lng": -58.38
+    },
+    {
+      "name": "La Paz",
+      "continent": "South America",
+      "lat": -16.5,
+      "lng": -68.15
+    },
+    {
+      "name": "Lima",
+      "continent": "South America",
+      "lat": -12.05,
+      "lng": -77.04
+    },
+    {
+      "name": "Montevideo",
+      "continent": "South America",
+      "lat": -34.9,
+      "lng": -56.16
+    },
+    {
+      "name": "Quito",
+      "continent": "South America",
+      "lat": -0.18,
+      "lng": -78.47
+    },
+    {
+      "name": "Rio de Janeiro",
+      "continent": "South America",
+      "lat": -22.91,
+      "lng": -43.17
+    },
+    {
+      "name": "Santiago",
+      "continent": "South America",
+      "lat": -33.45,
+      "lng": -70.65
+    },
+    {
+      "name": "São Paulo",
+      "continent": "South America",
+      "lat": -23.55,
+      "lng": -46.63
+    },
+    {
+      "name": "Amsterdam",
+      "continent": "Europe",
+      "lat": 52.37,
+      "lng": 4.89
+    },
+    {
+      "name": "Athens",
+      "continent": "Europe",
+      "lat": 37.98,
+      "lng": 23.73
+    },
+    {
+      "name": "Barcelona",
+      "continent": "Europe",
+      "lat": 41.39,
+      "lng": 2.17
+    },
+    {
+      "name": "Belgrade",
+      "continent": "Europe",
+      "lat": 44.79,
+      "lng": 20.45
+    },
+    {
+      "name": "Berlin",
+      "continent": "Europe",
+      "lat": 52.52,
+      "lng": 13.4
+    },
+    {
+      "name": "Brussels",
+      "continent": "Europe",
+      "lat": 50.85,
+      "lng": 4.35
+    },
+    {
+      "name": "Budapest",
+      "continent": "Europe",
+      "lat": 47.5,
+      "lng": 19.04
+    },
+    {
+      "name": "Copenhagen",
+      "continent": "Europe",
+      "lat": 55.68,
+      "lng": 12.57
+    },
+    {
+      "name": "Dublin",
+      "continent": "Europe",
+      "lat": 53.35,
+      "lng": -6.26
+    },
+    {
+      "name": "Helsinki",
+      "continent": "Europe",
+      "lat": 60.17,
+      "lng": 24.94
+    },
+    {
+      "name": "Istanbul",
+      "continent": "Europe",
+      "lat": 41.01,
+      "lng": 28.98
+    },
+    {
+      "name": "Kyiv",
+      "continent": "Europe",
+      "lat": 50.45,
+      "lng": 30.52
+    },
+    {
+      "name": "Lisbon",
+      "continent": "Europe",
+      "lat": 38.72,
+      "lng": -9.14
+    },
+    {
+      "name": "London UK",
+      "continent": "Europe",
+      "lat": 51.51,
+      "lng": -0.13
+    },
+    {
+      "name": "Madrid",
+      "continent": "Europe",
+      "lat": 40.42,
+      "lng": -3.7
+    },
+    {
+      "name": "Manchester",
+      "continent": "Europe",
+      "lat": 53.48,
+      "lng": -2.24
+    },
+    {
+      "name": "Milan",
+      "continent": "Europe",
+      "lat": 45.46,
+      "lng": 9.19
+    },
+    {
+      "name": "Moscow",
+      "continent": "Europe",
+      "lat": 55.76,
+      "lng": 37.62
+    },
+    {
+      "name": "Munich",
+      "continent": "Europe",
+      "lat": 48.14,
+      "lng": 11.58
+    },
+    {
+      "name": "Oslo",
+      "continent": "Europe",
+      "lat": 59.91,
+      "lng": 10.75
+    },
+    {
+      "name": "Paris",
+      "continent": "Europe",
+      "lat": 48.86,
+      "lng": 2.35
+    },
+    {
+      "name": "Prague",
+      "continent": "Europe",
+      "lat": 50.08,
+      "lng": 14.44
+    },
+    {
+      "name": "Rome",
+      "continent": "Europe",
+      "lat": 41.9,
+      "lng": 12.5
+    },
+    {
+      "name": "Stockholm",
+      "continent": "Europe",
+      "lat": 59.33,
+      "lng": 18.07
+    },
+    {
+      "name": "Vienna",
+      "continent": "Europe",
+      "lat": 48.21,
+      "lng": 16.37
+    },
+    {
+      "name": "Warsaw",
+      "continent": "Europe",
+      "lat": 52.23,
+      "lng": 21.01
+    },
+    {
+      "name": "Zurich",
+      "continent": "Europe",
+      "lat": 47.38,
+      "lng": 8.54
+    },
+    {
+      "name": "Accra",
+      "continent": "Africa",
+      "lat": 5.6,
+      "lng": -0.19
+    },
+    {
+      "name": "Cairo",
+      "continent": "Africa",
+      "lat": 30.04,
+      "lng": 31.24
+    },
+    {
+      "name": "Cape Town (AfrikaBurn)",
+      "continent": "Africa",
+      "lat": -33.92,
+      "lng": 18.42
+    },
+    {
+      "name": "Johannesburg",
+      "continent": "Africa",
+      "lat": -26.2,
+      "lng": 28.05
+    },
+    {
+      "name": "Lagos",
+      "continent": "Africa",
+      "lat": 6.52,
+      "lng": 3.38
+    },
+    {
+      "name": "Marrakech",
+      "continent": "Africa",
+      "lat": 31.63,
+      "lng": -7.99
+    },
+    {
+      "name": "Nairobi",
+      "continent": "Africa",
+      "lat": -1.29,
+      "lng": 36.82
+    },
+    {
+      "name": "Bali",
+      "continent": "Asia",
+      "lat": -8.34,
+      "lng": 115.09
+    },
+    {
+      "name": "Bangalore",
+      "continent": "Asia",
+      "lat": 12.97,
+      "lng": 77.59
+    },
+    {
+      "name": "Bangkok",
+      "continent": "Asia",
+      "lat": 13.76,
+      "lng": 100.5
+    },
+    {
+      "name": "Beijing",
+      "continent": "Asia",
+      "lat": 39.9,
+      "lng": 116.41
+    },
+    {
+      "name": "Chiang Mai",
+      "continent": "Asia",
+      "lat": 18.79,
+      "lng": 98.99
+    },
+    {
+      "name": "Colombo",
+      "continent": "Asia",
+      "lat": 6.93,
+      "lng": 79.85
+    },
+    {
+      "name": "Delhi",
+      "continent": "Asia",
+      "lat": 28.61,
+      "lng": 77.21
+    },
+    {
+      "name": "Dubai",
+      "continent": "Asia",
+      "lat": 25.2,
+      "lng": 55.27
+    },
+    {
+      "name": "Hong Kong",
+      "continent": "Asia",
+      "lat": 22.32,
+      "lng": 114.17
+    },
+    {
+      "name": "Jakarta",
+      "continent": "Asia",
+      "lat": -6.21,
+      "lng": 106.85
+    },
+    {
+      "name": "Kathmandu",
+      "continent": "Asia",
+      "lat": 27.72,
+      "lng": 85.32
+    },
+    {
+      "name": "Manila",
+      "continent": "Asia",
+      "lat": 14.6,
+      "lng": 120.98
+    },
+    {
+      "name": "Mumbai",
+      "continent": "Asia",
+      "lat": 19.08,
+      "lng": 72.88
+    },
+    {
+      "name": "Seoul",
+      "continent": "Asia",
+      "lat": 37.57,
+      "lng": 126.98
+    },
+    {
+      "name": "Shanghai",
+      "continent": "Asia",
+      "lat": 31.23,
+      "lng": 121.47
+    },
+    {
+      "name": "Singapore",
+      "continent": "Asia",
+      "lat": 1.35,
+      "lng": 103.82
+    },
+    {
+      "name": "Taipei",
+      "continent": "Asia",
+      "lat": 25.03,
+      "lng": 121.57
+    },
+    {
+      "name": "Tel Aviv",
+      "continent": "Asia",
+      "lat": 32.08,
+      "lng": 34.78
+    },
+    {
+      "name": "Tokyo",
+      "continent": "Asia",
+      "lat": 35.68,
+      "lng": 139.65
+    },
+    {
+      "name": "Adelaide",
+      "continent": "Oceania",
+      "lat": -34.93,
+      "lng": 138.6
+    },
+    {
+      "name": "Auckland (Kiwiburn)",
+      "continent": "Oceania",
+      "lat": -36.85,
+      "lng": 174.76
+    },
+    {
+      "name": "Brisbane",
+      "continent": "Oceania",
+      "lat": -27.47,
+      "lng": 153.03
+    },
+    {
+      "name": "Canberra",
+      "continent": "Oceania",
+      "lat": -35.28,
+      "lng": 149.13
+    },
+    {
+      "name": "Hobart",
+      "continent": "Oceania",
+      "lat": -42.88,
+      "lng": 147.33
+    },
+    {
+      "name": "Melbourne",
+      "continent": "Oceania",
+      "lat": -37.81,
+      "lng": 144.96
+    },
+    {
+      "name": "Perth",
+      "continent": "Oceania",
+      "lat": -31.95,
+      "lng": 115.86
+    },
+    {
+      "name": "Sydney",
+      "continent": "Oceania",
+      "lat": -33.87,
+      "lng": 151.21
+    },
+    {
+      "name": "Wellington",
+      "continent": "Oceania",
+      "lat": -41.29,
+      "lng": 174.78
+    }
+  ],
+  "camps": [
+    {
+      "name": "Casa de la Rumba",
+      "region": "San Francisco",
+      "url": "https://casadelarumba.com",
+      "description": "The most magical prohibition era Casino where you can come and try our whimsical cocktails while trying your luck at our roulette or Blackjack table all under our glorious circus tent. Come get some rumba to our Casa. Celebrate sharing, life, and try your luck in our little casino. You can come and bet whatever you have on you and we will match it up. Be prepared to walk in a different time and sp…"
+    },
+    {
+      "name": "Chariot Project",
+      "region": "Reno",
+      "url": "https://burningchariots.com/",
+      "description": "Injured? Have a footsie-oopsie-daisy? Fear not! Chariot Project has a rainbow fleet for hurt feet. Our pedal-powered mobility carts are available for checkout by the day to attach to your own bike. While you are here you can explore our collection of canes, orthopedic boots, knee braces, and more to help you on your healing journey."
+    },
+    {
+      "name": "Camp Bird of Paradise",
+      "region": "Mammoth Lakes, CA",
+      "url": "http://www.instagram.com/campbirdofparadise",
+      "description": "Camp Bird of Paradise will have a prominent banner across the front of our permanent large community shade structure which reads \"Camp Bird of Paradise\""
+    },
+    {
+      "name": "The Airship",
+      "region": "Calgary",
+      "url": "",
+      "description": "The Airship is a steampunk inspired bar camp that's returning to the Playa for our second year. Our little crew of miscreants, scoundrels, and artists want to gift some fun and frivolity to the Playa in the form of themed bar night and a lounge for relaxing!"
+    },
+    {
+      "name": "Khaleeya",
+      "region": "Los Angeles",
+      "url": "https://khaleeya.org/",
+      "description": "Come immerse yourself in a world of Moroccan bliss at Khaleeya (formerly TeaHive)—where the hive thrives in harmony."
+    },
+    {
+      "name": "ANTIIX",
+      "region": "Sacramento, CA",
+      "url": "",
+      "description": "Ludus (playful love) Symposium (Meeting for music, drinking and intellectual discussion) is a place to hang out on our friendly deck/bar above the playa and watch cheezy cult movies."
+    },
+    {
+      "name": "Duane's Whirld",
+      "region": "Burlington",
+      "url": "",
+      "description": "DuanesWhirld is enjoying our 19th consecutive year en Playa, with many of our campers trekking from Vermont. Our camp supports the mutant vehicle Fluffy -- accessible public transit masquerading as a cloud wafting across the playa. A wheelchair lift and Braille rails accommodate that many more Burners into the artcar experience. We enjoy mass-gifting our fellow Burners with Deep Playa Beer Deliver…"
+    },
+    {
+      "name": "Sepia Lux Homebase",
+      "region": "Santa Rosa",
+      "url": "https://www.instagram.com/sepialux/",
+      "description": "Come find the Cuttlefish (and Flash the Tortoise) back at their lair and say hi!"
+    },
+    {
+      "name": "Camp Balagan",
+      "region": "Los Angeles",
+      "url": "",
+      "description": "Balagan Camp exists to create a playful, soulful, and immersive Moroccan desert experience rooted in music, connection, and creativity. \"Balagan\" is a joyful chaos — we embrace that spirit with curated sonic journeys, shared rituals, and a warm, open atmosphere for self-expression and cultural fusion."
+    },
+    {
+      "name": "Cult of the Magic Lady",
+      "region": "Oakland",
+      "url": "https://www.facebook.com/cultofthemagiclady/",
+      "description": "Come to our Cult, we have snacks! The snacks are babies, but don't worry, they are alcoholic. We also have a church, for your physical wellbeing and personal gains. And we feed on your shame. We also have a library."
+    },
+    {
+      "name": "Children of Chaos",
+      "region": "Reno",
+      "url": "https://chaoscamp.wordpress.com/",
+      "description": "Children of Chaos, established in 2000, is returning to the playa! Join our Gold Parade, have your fortune told, stop by our conversation bar and have a drink and a chat! Our campers hail from Reno, Portland, Seattle, San Francisco, Denver, and Houston."
+    },
+    {
+      "name": "Planned Playahood",
+      "region": "San Francisco",
+      "url": "http://www.plannedplayahood.org/",
+      "description": ""
+    },
+    {
+      "name": "Camp Zoombox",
+      "region": "Boise",
+      "url": "",
+      "description": "A giant boombox and some rad people"
+    },
+    {
+      "name": "Dancing Cat",
+      "region": "Sebastopol",
+      "url": "",
+      "description": "Dancing Cat Wine Bar! Where there's alittle something for everyone!"
+    },
+    {
+      "name": "SYMBIO",
+      "region": "Miami",
+      "url": "",
+      "description": "Symbio is a Burning Man camp built on the essence of symbiosis—a close-knit family of Playa-loving souls who support and uplift one another. Rooted in connection, collaboration, and radical self-expression, we create a welcoming home for our community while fueling the journey of our beloved mutant vehicle, Dirty Owl. More than just a camp, Symbio is a dynamic fusion of energy, creativity, and sup…"
+    },
+    {
+      "name": "Nomad Collective",
+      "region": "Lake Tahoe",
+      "url": "https://www.instagram.com/nomadcollectivecamp",
+      "description": "Nomad Collective Camp is a sanctuary for those who live and thrive through music. Born from a passion for electronic sound and deep connection, our camp creates an immersive space where beats and community blend seamlessly. We welcome both seasoned Burners and first-time dreamers, fostering creativity, self-expression, and unforgettable sonic journeys. As our family grows, so does our commitment t…"
+    },
+    {
+      "name": "OHM HOME",
+      "region": "Laguna Beach",
+      "url": "http://ohmkar.com",
+      "description": "We are a mutant vehicle support camp. Home of Ohm Kar, Manta and Vibe Apple. Come n boogie. Take the ride."
+    },
+    {
+      "name": "Atomic Octopus",
+      "region": "Las Vegas",
+      "url": "https://brainy.bar",
+      "description": "A neighborhood dive bar that welcomes dreamers, schemers, and big thinkers. Come share ideas with like-minded individuals. Schedules and activities will be posted out front. Time travelers welcome."
+    },
+    {
+      "name": "Wild Child",
+      "region": "Bali",
+      "url": "https://www.instagram.com/wildchildbm",
+      "description": "Run away to our circus community, hosted by world class artists, where every day is filled with workshops designed to ignite your passion for performance. Dive into the world of partner acrobatics, master the art of flow props, explore the freedom of parkour, and unleash your creativity with tricking sessions. Whether you're a seasoned performer or curious beginner our inclusive community welcomes…"
+    },
+    {
+      "name": "Lands Beyond",
+      "region": "Mexico City",
+      "url": "http://www.landsbeyond.life",
+      "description": "Lands Beyond is a haven for strivers and adventurers always seeking the unknown. We help you break through barriers and reach outside your comfort zone to attain your higher self. A globally-minded camp with Mexican flair, come join us for tasty micheladas and all-day aguas frescas inside our cosmic neon-lit dome. Ecstatic dance, breathwork, dynamic meditation, and cacao ceremonies are also on the…"
+    },
+    {
+      "name": "Grilled Cheese Experiment",
+      "region": "Vancouver, BC",
+      "url": "",
+      "description": "Serving gooey grilled cheese realness, the One Sin Spa, and Literal Table Flipping to fine creatures of Black Rock City!"
+    },
+    {
+      "name": "Wild Free Spirit",
+      "region": "Bishop",
+      "url": "",
+      "description": "The Wild Free Spirit Camp is an immersive art experience set inside a large motorhome with seating and immersive lighting. The general welcoming area will be lit with lighting and seating. The immersive art experience and general welcoming areas are open to all ages"
+    },
+    {
+      "name": "Mystical Misfits",
+      "region": "Los Angeles",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "High Desert Cinema",
+      "region": "El Dorado Hills",
+      "url": "",
+      "description": "Movie Night! 8:00pm Hot Buttered popcorn & theater candy! Come hang out!"
+    },
+    {
+      "name": "X marks the spot",
+      "region": "Orangevale",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Suspended Animation",
+      "region": "Seattle, WA",
+      "url": "http://www.suspendedanimationcrew.com",
+      "description": ""
+    },
+    {
+      "name": "TBD Camp",
+      "region": "Houston",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "AdramaNation",
+      "region": "New Orleans",
+      "url": "https://camp-adramanation.squarespace.com/",
+      "description": ""
+    },
+    {
+      "name": "Long Feng MV Support Camp",
+      "region": "Los Angeles",
+      "url": "https://www.instagram.com/longfengartcar/",
+      "description": ""
+    },
+    {
+      "name": "Land of Monkey",
+      "region": "Mexico City",
+      "url": "http://www.landofmonkey.org",
+      "description": ""
+    },
+    {
+      "name": "Pink Ponies",
+      "region": "Portland, Oregon",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Camp Synthesis",
+      "region": "Virginia City, NV",
+      "url": "https://www.facebook.com/campsynthesis",
+      "description": ""
+    },
+    {
+      "name": "Draft Punk",
+      "region": "San Diego",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Shanti Town",
+      "region": "Denver",
+      "url": "https://www.facebook.com/share/16BRaWXHLF/?mibextid=wwXlfr   https://www.instagram.com/shantitownsound23?igsh=ZHU5eGZ3cGpkbGg4&utm_source=qr",
+      "description": ""
+    },
+    {
+      "name": "Rancho Sparkle Pony-The Reckoning",
+      "region": "Raton, NM",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Memento Mori",
+      "region": "Bend",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Camp Codename",
+      "region": "Los Altos",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "WHIRL OF ART",
+      "region": "Houston",
+      "url": "https://www.artfulmindscollective.org/whirl-of-art/",
+      "description": ""
+    },
+    {
+      "name": "Priscilla",
+      "region": "Melbourne",
+      "url": "http://www.wearepriscilla.com",
+      "description": ""
+    },
+    {
+      "name": "Home",
+      "region": "Ibiza, Spain",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Lamplighters",
+      "region": "Everywhere",
+      "url": "https://burningman.org/event/participate/volunteering/teams/lamplighters/e",
+      "description": ""
+    },
+    {
+      "name": "Lollypopolus",
+      "region": "Portland, Tokyo, Boise",
+      "url": "https://www.facebook.com/Lollypopolus",
+      "description": ""
+    },
+    {
+      "name": "The Parlour Room",
+      "region": "San Francisco",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Camp Seem to Leave",
+      "region": "San Francisco",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Tropical Lunartics",
+      "region": "Portland",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Base Camp",
+      "region": "Reno",
+      "url": "https://www.facebook.com/metrochop?mibextid=ZbWKwL",
+      "description": ""
+    },
+    {
+      "name": "Burntown",
+      "region": "Auburn",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Organic Fruit & Veggie Camp",
+      "region": "Tokyo",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Mellow Mountain",
+      "region": "San Francisco Bay",
+      "url": "https://photos.app.goo.gl/vG6Tfu7DUQZQyvEg7",
+      "description": ""
+    },
+    {
+      "name": "Hot Mayo",
+      "region": "Salem",
+      "url": "https://www.facebook.com/camphotmayo/",
+      "description": ""
+    },
+    {
+      "name": "Camp FUA",
+      "region": "Loleta",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "T33M0",
+      "region": "Sydney",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "The Real Dilla",
+      "region": "Sacramento",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Habitat for Insanity",
+      "region": "Pittsburgh, PA",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Burnpops Scorpion Anglerfish",
+      "region": "St. Petersburg, Florida",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "At the Oasis",
+      "region": "Los Angeles + Palm Springs",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Terrapin Station",
+      "region": "Humboldt County",
+      "url": "http://www.instagram.com/thegalacticterrapin",
+      "description": ""
+    },
+    {
+      "name": "MAD Recreational Movers",
+      "region": "Chicago",
+      "url": "https://www.burningmelon.org/mad-recreational-movers",
+      "description": ""
+    },
+    {
+      "name": "Fresh Squeezed!",
+      "region": "Austin",
+      "url": "https://lemonade.art",
+      "description": ""
+    },
+    {
+      "name": "Stars And Bikes",
+      "region": "Minneapolis",
+      "url": "https://starsandbikes.com/",
+      "description": ""
+    },
+    {
+      "name": "Love Puddle",
+      "region": "Santa Cruz",
+      "url": "http://www.lovepuddle.net",
+      "description": ""
+    },
+    {
+      "name": "Afterlife Art Support Camp",
+      "region": "San Francisco Bay Area",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "No Bikini Atoll",
+      "region": "Waimea, Hawai'i Island",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "17 Virgins",
+      "region": "Toronto",
+      "url": "https://17virgins.bm/",
+      "description": ""
+    },
+    {
+      "name": "Stag Camp",
+      "region": "San Diego",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "D'JUNGLE",
+      "region": "Los Ángeles & Tulum",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Icarus Camp",
+      "region": "New York City",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Camp Tada!",
+      "region": "Las Vegas",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Next Year on Luna",
+      "region": "Berkeley",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Live Your Best Porch Life",
+      "region": "Fort Collins",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Breakaway Republic",
+      "region": "San Francisco, CA",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Chico Urban Area",
+      "region": "Chico",
+      "url": "https://www.facebook.com/intergalactictransporter",
+      "description": ""
+    },
+    {
+      "name": "Disco Roboto",
+      "region": "santa barbara",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Camp [No Name]",
+      "region": "Santa Cruz",
+      "url": "http://thecampwithno.name",
+      "description": ""
+    },
+    {
+      "name": "Fire Hummingbird",
+      "region": "Oakland",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Dream",
+      "region": "Tulum",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Deaf Granny's Kitchen",
+      "region": "Winchester, CA",
+      "url": "http://www.deafgrannyskitchen.org",
+      "description": ""
+    },
+    {
+      "name": "Melons Present",
+      "region": "New York",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "A Playa Home Companion",
+      "region": "Plymouth, CA",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Arctic Squeeze",
+      "region": "Santa Rosa",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Mind the Gap",
+      "region": "Boise",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Camp Condundrum",
+      "region": "Berkeley",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Practice Camp",
+      "region": "Kaua'i, Hawai'i",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Joie de Vivre",
+      "region": "New York/Los Angeles",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Black Rock City Rest Area",
+      "region": "Pasadena, CA",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "8-bit Bunny",
+      "region": "Oakland",
+      "url": "https://burn.8bitbunny.com/",
+      "description": ""
+    },
+    {
+      "name": "Black Rock City Shipyard",
+      "region": "New York, NY",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "LumiNova",
+      "region": "Tel Aviv",
+      "url": "http://novaeternal.org",
+      "description": ""
+    },
+    {
+      "name": "I Love Elephants",
+      "region": "Bend Oregon",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Ranger Outpost Tokyo",
+      "region": "Black Rock City",
+      "url": "https://rangers.burningman.org/",
+      "description": ""
+    },
+    {
+      "name": "Bad Education",
+      "region": "Boise, ID",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "KonaZona Coffee and Tiki Bar",
+      "region": "Kona Hawaii",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Great Vibrations",
+      "region": "Las Vegas",
+      "url": "https://www.instagram.com/greatvibrationsbm",
+      "description": ""
+    },
+    {
+      "name": "Arctica Ice Sales",
+      "region": "Iceland",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "BIGTIME",
+      "region": "Austin",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Chicago Handshake",
+      "region": "Chicago",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Soulshakers",
+      "region": "Globel",
+      "url": "https://www.facebook.com/groups/979146872219547",
+      "description": ""
+    },
+    {
+      "name": "Khan You Not Conform",
+      "region": "Olympia",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "The Pretty Cool Camp",
+      "region": "Los Angeles",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Banana Hammocks",
+      "region": "Miami",
+      "url": "http://www.CampBananaHammocks.com",
+      "description": ""
+    },
+    {
+      "name": "Illumination Village",
+      "region": "Bay Area",
+      "url": "https://www.illuminationvillage.org",
+      "description": ""
+    },
+    {
+      "name": "Sian Kamp",
+      "region": "Tulum",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "I Forgot!",
+      "region": "Reno",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "DECENTRAL",
+      "region": "Olympia",
+      "url": "https://campdecentral.org/",
+      "description": ""
+    },
+    {
+      "name": "Black Rock Travel Agency",
+      "region": "San Fransisco",
+      "url": "http://blackrocktravelagency.com",
+      "description": ""
+    },
+    {
+      "name": "Swing City",
+      "region": "Santa Monica",
+      "url": "https://scbrc.us/",
+      "description": ""
+    },
+    {
+      "name": "Cereal Thrillers",
+      "region": "Ocala",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Sunset Lounge",
+      "region": "Tennessee",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Deco Fish",
+      "region": "Placerville",
+      "url": "https://www.deco.fish/",
+      "description": ""
+    },
+    {
+      "name": "Camp P3",
+      "region": "Denver",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Lunars Tuners",
+      "region": "Washington DC",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "El Pulpo Magnifico",
+      "region": "Eureka",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Johnny Tacomas at The Last Resort",
+      "region": "Tacoma and Namco",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "House of Sammich",
+      "region": "Eden",
+      "url": "https://www.facebook.com/thegreatsammichride",
+      "description": ""
+    },
+    {
+      "name": "Desperados",
+      "region": "Santa Cruz",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "plop!",
+      "region": "San Luis Obispo",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Rocket Science",
+      "region": "Mexico City",
+      "url": "http://www.mayanwarrior.mx/",
+      "description": ""
+    },
+    {
+      "name": "High Maintenance Entertainment",
+      "region": "Woodside, CA",
+      "url": "https://highmaintenanceentertainment.odoo.com/",
+      "description": ""
+    },
+    {
+      "name": "Electric Kool-Aid Balloon Room",
+      "region": "Boston",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "The Lost Penguins",
+      "region": "Vancouver",
+      "url": "https://www.lostpenguins.com/",
+      "description": ""
+    },
+    {
+      "name": "Kurenivka",
+      "region": "Kyiv",
+      "url": "https://kurenivka.ua",
+      "description": ""
+    },
+    {
+      "name": "FDA: Food & Dance Administration",
+      "region": "Las Vegas",
+      "url": "https://www.campexclamationmark.com/",
+      "description": ""
+    },
+    {
+      "name": "Lost Highway",
+      "region": "Salt Lake City",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Wrongtown",
+      "region": "Fresno",
+      "url": "https://wrongtown.xyz",
+      "description": ""
+    },
+    {
+      "name": "Camp Elektra",
+      "region": "Munich",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Haven",
+      "region": "Black Rock City",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Pillar of Po Tolo Camp",
+      "region": "Chicago",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Academy of Arts and Sciences",
+      "region": "Seattle",
+      "url": "https://www.facebook.com/brcbismuthcrystals",
+      "description": ""
+    },
+    {
+      "name": "Ballistic Bubbles Dust Patrol",
+      "region": "Novato, CA",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Don't STOP",
+      "region": "San Mateo",
+      "url": "",
+      "description": "Black Rock City is a place where small things can derail your day or night and we want to support our fellow burners by offering small necessities [ex. tampons, condoms, sunscreen, or glowy things] from our Don't Stop Gift Box, or a drink with inspired conversation. Additionally, we offer opportunities to restore through Yoga and breathwork and learn how to repair your bike."
+    },
+    {
+      "name": "Black Rock City Passport Office",
+      "region": "San Jose",
+      "url": "http://brcpassportoffice.com/",
+      "description": ""
+    },
+    {
+      "name": "Fermented Reality",
+      "region": "New York",
+      "url": "https://www.instagram.com/fermented.reality/",
+      "description": ""
+    },
+    {
+      "name": "Jipangu/Bijou Boutique",
+      "region": "San Jose",
+      "url": "",
+      "description": "Come visit us for Japanese sake (21+) and drop-in jewelry making workshops. There is also a Boutique to select or share a special piece of jewelry."
+    },
+    {
+      "name": "Native Tongues",
+      "region": "New York",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Mary's Little Lambs",
+      "region": "Amsterdam",
+      "url": "https://www.instagram.com/themllcamp/",
+      "description": ""
+    },
+    {
+      "name": "Dusty Mule Saloon and Playground",
+      "region": "Denver",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "ESD Station 3:00",
+      "region": "Marrowstone Island",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Mithyko camp",
+      "region": "Monterrey, Mexico",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Mah Na Mah Na",
+      "region": "Geneva",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "The Tiniest Camp",
+      "region": "Geneva",
+      "url": "https://www.facebook.com/BlackRockCity1985/",
+      "description": ""
+    },
+    {
+      "name": "Pretty Pickle",
+      "region": "Thornton",
+      "url": "https://prettypicklecamp.p1r8.net/",
+      "description": ""
+    },
+    {
+      "name": "Salon Soleil",
+      "region": "San Francisco Bay Area",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Making Art at the Mad Tea Party",
+      "region": "Nelson",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Joyism MVSC",
+      "region": "Santa Cruz, CA",
+      "url": "http://www.joyism.org",
+      "description": ""
+    },
+    {
+      "name": "Yellowstone Burners",
+      "region": "Cody",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "CentriPEDAL Porch",
+      "region": "Bend",
+      "url": "https://pedalporch.carrd.co/",
+      "description": ""
+    },
+    {
+      "name": "PopoVille",
+      "region": "San Ramon, CA",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "NYC Community Container",
+      "region": "New York City",
+      "url": "https://nyccontainer.org/",
+      "description": ""
+    },
+    {
+      "name": "The Donner Party",
+      "region": "Donner Pass",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "The Fountain (of youth)",
+      "region": "San Francisco",
+      "url": "https://laurion.notion.site/The-Fountain-Camp-Burning-Man-2025-af5a869ca1e54083951ec8f2c90fc6b3?pvs=4",
+      "description": ""
+    },
+    {
+      "name": "Kentucky Fried Camp",
+      "region": "Lexington, Kentucky",
+      "url": "http://kentuckyfriedcamp.com",
+      "description": ""
+    },
+    {
+      "name": "Aya The Tiger",
+      "region": "Evergreen, Colorado",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Decadent Oasis",
+      "region": "Oakland",
+      "url": "https://dcdnt.art",
+      "description": ""
+    },
+    {
+      "name": "VW Bus Camp",
+      "region": "Tucson",
+      "url": "http://vwbuscamp.com",
+      "description": ""
+    },
+    {
+      "name": "Vibrations in the Desert",
+      "region": "Los Angeles",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "MISTO",
+      "region": "New York",
+      "url": "https://mistocamp.com/en/",
+      "description": ""
+    },
+    {
+      "name": "The Pearly Gate",
+      "region": "Boise, Idaho",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "TRANCEylvania",
+      "region": "Sighetu-Marmatiei",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Cosmic Casbah",
+      "region": "Auburn",
+      "url": "https://www.cosmic-casbah.com/",
+      "description": ""
+    },
+    {
+      "name": "My Favorite Things",
+      "region": "Oakland, California",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "WeHaul",
+      "region": "Salt Lake City",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "The Space Between",
+      "region": "Barcelona",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Twisted Swan Celtic pub",
+      "region": "Albuquerque",
+      "url": "https://www.twistedswan.com/",
+      "description": ""
+    },
+    {
+      "name": "Dustmight",
+      "region": "Vancouver and San Francisco",
+      "url": "https://dustmight.camp/",
+      "description": ""
+    },
+    {
+      "name": "Funky Monkey Camp",
+      "region": "Tahoe",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "THICC VIBEZ",
+      "region": "Topaz",
+      "url": "https://www.instagram.com/thegivingtree_artcar",
+      "description": ""
+    },
+    {
+      "name": "Hot Chocolatito",
+      "region": "Mexico City",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Slushious",
+      "region": "San Francisco",
+      "url": "http://slushious.org",
+      "description": ""
+    },
+    {
+      "name": "Aah Wonder",
+      "region": "Mountain View",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "Off the Dome",
+      "region": "Reno, NV",
+      "url": "http://offthedome.org",
+      "description": ""
+    }
+  ]
+}

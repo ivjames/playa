@@ -19,6 +19,7 @@ const prisma = require('./src/db');
 const auth = require('./src/auth');
 const authRouter = require('./src/routes/auth');
 const profileRouter = require('./src/routes/profile');
+const discoveryRouter = require('./src/routes/discovery');
 
 const app = express();
 app.disable('x-powered-by');
@@ -33,6 +34,7 @@ app.get('/api/health', (_req, res) => res.json({ ok: true }));
 app.get('/api/me', authRouter.me);
 app.use('/api/auth', authRouter);
 app.use('/api/profile', profileRouter);
+app.use('/api', discoveryRouter); // /directory /map /regions /camps /profile/:id
 
 // DELETE /api/account — hard delete (cascades to profile/sessions/etc.)
 app.delete('/api/account', auth.requireAuth, async (req, res, next) => {

@@ -48,10 +48,14 @@ is built to sit behind exactly that proxy vhost.
 cd /var/www/playa
 npm ci --omit=dev            # installs deps (incl. prisma)
 npm run migrate:deploy       # applies prisma/migrations to data/playa.db
+npm run seed                 # seeds regions + camps (idempotent; from committed seed-data.json)
 npm run build                # prisma generate + static-asset check
 pm2 start ecosystem.config.js
 pm2 save
 ```
+
+Re-run `npm run seed` only when `prisma/seed-data.json` changes (regenerate it
+from the beta page with `npm run extract-seed`). It never touches member data.
 
 Confirm it's up:
 

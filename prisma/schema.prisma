@@ -139,3 +139,11 @@ model Block {
 
   @@unique([actorId, targetId])
 }
+
+model GeocodeCache {
+  id        String   @id @default(cuid())
+  query     String   @unique
+  lat       Float
+  lng       Float
+  createdAt DateTime @default(now())
+}

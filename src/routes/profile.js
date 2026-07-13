@@ -2,6 +2,7 @@
 const express = require('express');
 const prisma = require('../db');
 const auth = require('../auth');
+const geo = require('../geo');
 const { encodeList, publicProfile, LIST_FIELDS } = require('../serialize');
 
 const router = express.Router();
@@ -21,10 +22,7 @@ function ageFromDob(dob) {
 async function linkRegion(name) {
   const n = String(name || '').trim();
   if (!n) return null;
-  const region = await prisma.region.upsert({
-    where: { name: n }, update: {}, create: { name: n },
-  });
-  return region.id;
+  return prisma.region.upsert({ where: { name: n }, update: {}, create: { name: n } });
 }
 
 function buildData(body) {
@@ -61,8 +59,12 @@ router.post('/', auth.requireAuth, async (req, res, next) => {
     const data = buildData(body);
     data.pn = pn;
     data.visibility = 'private'; // invariant: new profiles start Private
-    const regionId = await linkRegion(body.region);
-    if (regionId) data.regionId = regionId;
+    const region = await linkRegion(body.region);
+    if (region) data.regionId = region.id;
+    // Coarse location: derive a ~5km geohash from city/region. Exact coords are
+    // used transiently by the geocoder and never stored.
+    const geohash = await geo.resolveGeohash({ city: data.homeCity, region });
+    if (geohash) data.geohash = geohash;
 
     await prisma.user.update({ where: { id: req.user.id }, data: { over18: true } });
     const profile = await prisma.profile.create({
@@ -79,9 +81,18 @@ router.patch('/', auth.requireAuth, async (req, res, next) => {
     if (!req.user.profile) return res.status(404).json({ error: 'no profile yet' });
     const body = req.body || {};
     const data = buildData(body);
+    let region;
     if (body.region !== undefined) {
-      const regionId = await linkRegion(body.region);
-      data.regionId = regionId;
+      region = await linkRegion(body.region);
+      data.regionId = region ? region.id : null;
+    }
+    // Recompute coarse geohash if city or region changed.
+    if (body.homeCity !== undefined || body.region !== undefined) {
+      if (region === undefined && req.user.profile.regionId) {
+        region = await prisma.region.findUnique({ where: { id: req.user.profile.regionId } });
+      }
+      const city = data.homeCity !== undefined ? data.homeCity : req.user.profile.homeCity;
+      data.geohash = await geo.resolveGeohash({ city, region });
     }
     const profile = await prisma.profile.update({
       where: { id: req.user.profile.id }, data, include: { region: true },
