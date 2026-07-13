@@ -862,6 +862,20 @@ window.STRINGS = {
       <div class="onb-steps" id="onb-steps"></div>
     </div>
     <div class="modal-body">
+      <!-- Step 0: sign in (magic link) — shown when signed out -->
+      <div class="onb-panel" id="onb-panel-0">
+        <div class="age-gate">
+          <h3 style="font-size:var(--pe-text-lg);">Sign in to join</h3>
+          <p>Enter your email and we'll send a one-tap sign-in link — no password. Click it and you'll come back here to finish your profile.</p>
+          <div class="form-field" style="max-width:340px;margin:var(--pe-space-4) auto;text-align:left;">
+            <label for="onb-email">Email</label>
+            <input type="email" id="onb-email" autocomplete="email" placeholder="you@example.com" />
+          </div>
+          <div id="onb-auth-status" class="form-hint" style="margin-bottom:var(--pe-space-3);min-height:1.2em;"></div>
+          <button class="btn" id="onb-send-link">Send sign-in link</button>
+        </div>
+      </div>
+
       <!-- Step 1: age gate -->
       <div class="onb-panel active" id="onb-panel-1">
         <div class="age-gate">
@@ -914,6 +928,7 @@ window.STRINGS = {
           </div>
         </div>
         <div class="geo-lockout" id="onb-geo-lockout"></div>
+        <div id="onb-submit-error" class="pe-error" style="display:none;border:var(--pe-border-2);padding:var(--pe-space-3);margin:var(--pe-space-3) 0;"></div>
         <div class="onb-nav">
           <button class="btn btn-outline" data-back="3" id="onb-back-4"></button>
           <button class="btn" data-next="5" id="onb-next-4" data-submit="true"></button>
@@ -2603,7 +2618,15 @@ window.STRINGS = {
     // Retune the banner copy for live data.
     S.demoDataNote = 'Live pilot — every profile below is a real member who chose to be Searchable. Approximate locations are coarse (~5km), never exact.';
   }
+
+  // Current signed-in state, used by the Join / onboarding flow.
+  var ME = { user: null, profile: null };
+  async function loadMe() {
+    try { ME = await getJSON('/api/me'); } catch (e) { ME = { user: null, profile: null }; }
+  }
+
   if (LIVE) { await hydrateLive(); }
+  await loadMe();
 
   /* ============================================================
      CAMP_GEO — coarse city-centroid coordinates for every distinct
@@ -3903,7 +3926,9 @@ window.STRINGS = {
     onbState.step = n;
     document.querySelectorAll('.onb-panel').forEach(function(p){ p.classList.remove('active'); });
     byId('onb-panel-' + n).classList.add('active');
-    renderOnbSteps();
+    // Step 0 (sign-in) sits outside the numbered 1–5 flow, so hide the tracker.
+    onbSteps.style.display = (n >= 1 && n <= 5) ? '' : 'none';
+    if (n >= 1 && n <= 5) renderOnbSteps();
   }
 
   function openOnboarding(){
@@ -3922,7 +3947,22 @@ window.STRINGS = {
     // the filter bar. enhanceSelect() is idempotent, so this is also safe
     // to call again on subsequent opens.
     enhanceAllSelects(byId('onb-fields-form'));
-    goToStep(1);
+    // Branch on auth state: signed out -> sign-in step; already a member ->
+    // a short "you're in" confirmation; signed in without a profile -> the
+    // full profile flow starting at the age gate.
+    if (!ME.user) {
+      byId('onb-auth-status').textContent = '';
+      byId('onb-email').value = '';
+      goToStep(0);
+    } else if (ME.profile) {
+      setText('onb-confirm-title', "You're signed in.");
+      byId('onb-confirm-body').textContent = 'You already have a profile as ' + (ME.profile.pn || 'a member') +
+        ' (' + (ME.profile.visibility === 'searchable' ? 'Searchable' : 'Private') + ').';
+      byId('onb-confirm-summary').textContent = '';
+      goToStep(5);
+    } else {
+      goToStep(1);
+    }
     onbBackdrop.classList.add('show');
     document.body.style.overflow = 'hidden';
     onbClose.focus();
@@ -3939,7 +3979,11 @@ window.STRINGS = {
   document.addEventListener('keydown', function(e){
     if (e.key === 'Escape' && onbBackdrop.classList.contains('show')) closeOnboarding();
   });
-  byId('onb-confirm-close').addEventListener('click', closeOnboarding);
+  byId('onb-confirm-close').addEventListener('click', function(){
+    closeOnboarding();
+    // A freshly created profile needs a reload so state/discovery reflect it.
+    if (onbState.created) location.reload();
+  });
 
   /* ---- Step 1: age gate (hard-enforced, not a checkbox) ---- */
   byId('age-gate-submit').addEventListener('click', function(){
@@ -4056,7 +4100,7 @@ window.STRINGS = {
      that is immediately coarsened to a city-level point; no street
      address or GPS field exists, and a raw ZIP is never displayed. ---- */
   setText('onb-geo-lockout', S.onbGeoLockout);
-  byId('onb-next-4').addEventListener('click', function(){
+  byId('onb-next-4').addEventListener('click', async function(){
     var region = onbLocRegion.value;
     var cityOrZip = byId('onb-loc-city').value.trim();
     onbState.region = region;
@@ -4084,9 +4128,88 @@ window.STRINGS = {
       ' · Visibility: ' + VIS[onbState.chosenTier].label +
       ' · Verification: Unverified (pending review)';
     setText('onb-confirm-summary', summary);
+    if (LIVE) {
+      var errEl = byId('onb-submit-error');
+      errEl.style.display = 'none';
+      var ok = await submitProfile(errEl);
+      if (!ok) return; // stay on step 4 with the error shown
+    }
     goToStep(5);
   });
   byId('onb-back-4').addEventListener('click', function(){ goToStep(3); });
+
+  /* ---- Real signup wiring (LIVE): magic-link sign-in + profile create ---- */
+  byId('onb-send-link').addEventListener('click', async function(){
+    var email = byId('onb-email').value.trim();
+    var status = byId('onb-auth-status');
+    if (!email) { status.textContent = 'Enter your email to continue.'; return; }
+    status.textContent = 'Sending…';
+    try {
+      var res = await fetch('/api/auth/request', {
+        method: 'POST', credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email }),
+      });
+      var j = await res.json();
+      if (!res.ok) { status.textContent = j.error || 'Something went wrong — try again.'; return; }
+      status.innerHTML = 'Check your email for a sign-in link.' + (j.devLink ? ' <a href="' + esc(j.devLink) + '">[dev link]</a>' : '');
+    } catch (e) { status.textContent = 'Network error — try again.'; }
+  });
+
+  async function submitProfile(errEl){
+    function fail(msg){ if (errEl){ errEl.textContent = msg; errEl.style.display = 'block'; } return false; }
+    var body = {
+      dob: byId('onb-dob').value,
+      pn: byId('onb-f-pn').value, dn: byId('onb-f-dn').value,
+      pronouns: byId('onb-f-pronouns').value, avatar: byId('onb-f-avatar').value,
+      bio: byId('onb-f-bio').value, years: byId('onb-f-years').value, burns: byId('onb-f-burns').value,
+      camp: byId('onb-f-camp').value, role: byId('onb-f-role').value,
+      skills: byId('onb-f-skills').value, interests: byId('onb-f-interests').value,
+      projects: byId('onb-f-projects').value, looking: byId('onb-f-looking').value,
+      langs: byId('onb-f-langs').value, regional: byId('onb-f-regional').value,
+      avail: byId('onb-f-avail').value,
+      contactPref: byId('onb-f-contact').value === 'Email after intro' ? 'email_after_intro' : 'in_app',
+      region: onbState.region || byId('onb-f-region2').value, homeCity: onbState.city || '',
+    };
+    var res, j;
+    try {
+      res = await fetch('/api/profile', {
+        method: 'POST', credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body),
+      });
+      j = await res.json();
+    } catch (e) { return fail('Network error — please try again.'); }
+    if (res.status === 401) return fail('Your sign-in link expired. Close this and request a new one.');
+    if (!res.ok) return fail(j && j.error ? j.error : 'Could not save your profile.');
+
+    if (onbState.chosenTier === 'beacon') {
+      try {
+        await fetch('/api/profile/visibility', {
+          method: 'POST', credentials: 'same-origin',
+          headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ visibility: 'searchable' }),
+        });
+      } catch (e) { /* stays Private if this fails — safe default */ }
+    }
+    ME.profile = j.profile; onbState.created = true;
+    var vis = onbState.chosenTier === 'beacon' ? 'Searchable' : 'Private';
+    setText('onb-confirm-title', "You're in.");
+    byId('onb-confirm-body').textContent = 'Your Playa.Earth account is live at ' + vis + ' visibility. ' +
+      (vis === 'Private'
+        ? 'You can explore freely; no one can find you until you switch to Searchable.'
+        : 'Other members can now find you at coarse (~5km) resolution.');
+    return true;
+  }
+
+  // Reflect signed-in state in the Join buttons.
+  if (ME.user) {
+    var joinLbl = ME.profile ? "You're in" : 'Finish signup';
+    setText('btn-join-nav', joinLbl); setText('btn-join-hero', joinLbl);
+  }
+
+  // Returning from a magic link (?onboard=1) with no profile yet -> jump
+  // straight into the profile flow.
+  if (/[?&]onboard=1\b/.test(location.search) && ME.user && !ME.profile) {
+    openOnboarding();
+  }
 
   /* ============================================================
      "PREVIEW AS TIER" — nice-to-have global preview, wires into
