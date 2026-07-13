@@ -3587,6 +3587,5692 @@
       "contact": "In-app message",
       "verified": "verified",
       "vis": "beacon"
+    },
+    {
+      "pn": "Quiet Satellite",
+      "dn": "Taylor Mbeki",
+      "pronouns": "he/him",
+      "avatar": "🌴",
+      "region": "São Paulo",
+      "bio": "Building a home base for wayward Burners in São Paulo, one potluck at a time.",
+      "years": 5,
+      "burns": 6,
+      "camp": "Dustlight Collective",
+      "role": "Community Lead",
+      "skills": [
+        "Sewing",
+        "Welding"
+      ],
+      "interests": [
+        "Astrophotography",
+        "Foraging",
+        "Native flora"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Friends"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "São Precompression",
+        "São Precompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Windswept Prairie",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "WI",
+      "region": "Milan",
+      "bio": "Keeps the Milan regional group chat alive at 2am with gear questions.",
+      "years": 15,
+      "burns": 1,
+      "camp": "Afterglow",
+      "role": "Community Lead",
+      "skills": [
+        "Carpentry",
+        "Woodworking"
+      ],
+      "interests": [
+        "Field recording",
+        "Textile history"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "Dutch",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Prismatic Antler",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🐍",
+      "region": "Minneapolis",
+      "bio": "Camp-less by choice, community by default — Minneapolis's unofficial welcome committee.",
+      "years": 2,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Bike mechanics",
+        "Carpentry"
+      ],
+      "interests": [
+        "Permaculture",
+        "Deep house",
+        "Field recording"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "Indonesian",
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Minneapolis Decompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Rusty Jackal",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🌾",
+      "region": "Copenhagen",
+      "bio": "Building a home base for wayward Burners in Copenhagen, one potluck at a time.",
+      "years": 5,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Cooking",
+        "First aid",
+        "Event hosting"
+      ],
+      "interests": [
+        "Techno",
+        "Native flora"
+      ],
+      "projects": [
+        "A bike prep kit",
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Rides",
+        "Collaborators"
+      ],
+      "langs": [
+        "Hebrew",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Grizzled Raven",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/they",
+      "avatar": "🌊",
+      "region": "Sydney",
+      "bio": "Keeps the Sydney regional group chat alive at 2am with gear questions.",
+      "years": 6,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Shade rigging",
+        "Electrical",
+        "Videography"
+      ],
+      "interests": [
+        "Cycling",
+        "Bioluminescence"
+      ],
+      "projects": [
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Rides",
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "Hebrew",
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Sydney Precompression",
+        "Sydney Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Neon Compass",
+      "dn": "Casey Lindqvist",
+      "pronouns": "he/him",
+      "avatar": "🔧",
+      "region": "Denver / Boulder",
+      "bio": "Long-time Burner who put down roots in the Denver / Boulder community and never looked back.",
+      "years": 10,
+      "burns": 3,
+      "camp": "Camp Contact",
+      "role": "Build Crew",
+      "skills": [
+        "Electrical",
+        "Ride coordination"
+      ],
+      "interests": [
+        "Field recording"
+      ],
+      "projects": [
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wild Jackal",
+      "dn": "Sam Kowalski",
+      "pronouns": "he/they",
+      "avatar": "🛰️",
+      "region": "Detroit",
+      "bio": "Runs a small gifting circle out of Detroit between burns.",
+      "years": 15,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Carpentry",
+        "Community organizing",
+        "First aid"
+      ],
+      "interests": [
+        "Field recording",
+        "Amateur radio"
+      ],
+      "projects": [
+        "A camp-kitchen recipe archive",
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Collaborators",
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Detroit Welcome Social",
+        "Detroit Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Barefoot Coyote",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "🦊",
+      "region": "Guadalajara",
+      "bio": "Keeps the Guadalajara regional group chat alive at 2am with gear questions.",
+      "years": 1,
+      "burns": 3,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Community organizing",
+        "Sewing",
+        "Graphic design"
+      ],
+      "interests": [
+        "Mutual aid",
+        "Foraging",
+        "Deep house"
+      ],
+      "projects": [
+        "The regional zine",
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Dutch",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Guadalajara Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Sunburnt Vulture",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🔥",
+      "region": "Philadelphia",
+      "bio": "Camp-less by choice, community by default — Philadelphia's unofficial welcome committee.",
+      "years": 0,
+      "burns": 0,
+      "camp": "Satellite Crew",
+      "role": "Build Crew",
+      "skills": [
+        "Cooking",
+        "Translation",
+        "Sewing"
+      ],
+      "interests": [
+        "Fermentation",
+        "Field recording",
+        "Cycling"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "Arabic",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Electric Badger",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🐍",
+      "region": "Los Angeles",
+      "bio": "Prefers the low-key regional scene in Los Angeles to the deep-playa chaos, most years.",
+      "years": 10,
+      "burns": 9,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Graphic design",
+        "Event hosting"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Native flora"
+      ],
+      "projects": [
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Los Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wandering Tumbleweed",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "WA",
+      "region": "Sydney",
+      "bio": "Regional meetup regular in Sydney, mostly here for the people between burns.",
+      "years": 6,
+      "burns": 1,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Shade rigging"
+      ],
+      "interests": [
+        "Fire safety"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "French",
+        "German",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Frosted Yucca",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🌻",
+      "region": "Miami",
+      "bio": "Runs a small gifting circle out of Miami between burns.",
+      "years": 9,
+      "burns": 7,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fire performance"
+      ],
+      "interests": [
+        "Field recording"
+      ],
+      "projects": [
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Miami Precompression",
+        "Miami Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Feathered Badger",
+      "dn": "Skyler Dumont",
+      "pronouns": "she/her",
+      "avatar": "🌴",
+      "region": "Minneapolis",
+      "bio": "Keeps the Minneapolis regional group chat alive at 2am with gear questions.",
+      "years": 5,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Sewing",
+        "Fire performance"
+      ],
+      "interests": [
+        "Regional cuisine",
+        "Permaculture"
+      ],
+      "projects": [
+        "An off-grid comms net"
+      ],
+      "looking": [
+        "Rides",
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Minneapolis Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Grizzled Lantern",
+      "dn": "Reese Andersson",
+      "pronouns": "she/her",
+      "avatar": "🎨",
+      "region": "Melbourne",
+      "bio": "Keeps the Melbourne regional group chat alive at 2am with gear questions.",
+      "years": 2,
+      "burns": 2,
+      "camp": "Loose Ends Camp",
+      "role": "Community Lead",
+      "skills": [
+        "Sound design"
+      ],
+      "interests": [
+        "Permaculture",
+        "Field recording"
+      ],
+      "projects": [
+        "The regional zine"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "French",
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Salty Wren",
+      "dn": "Reese Andersson",
+      "pronouns": "they/them",
+      "avatar": "🌊",
+      "region": "Montreal",
+      "bio": "Splits time between local regional meetups and the annual pilgrimage — based in Montreal.",
+      "years": 9,
+      "burns": 4,
+      "camp": "Green Playa",
+      "role": "Logistics",
+      "skills": [
+        "Welding"
+      ],
+      "interests": [
+        "Amateur radio",
+        "Permaculture",
+        "Print culture"
+      ],
+      "projects": [
+        "A regional welcome guide",
+        "The regional zine"
+      ],
+      "looking": [
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "English",
+        "Arabic"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Montreal Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Radiant Jackal",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "RA",
+      "region": "Nashville",
+      "bio": "First-timer finding their footing in the regional network out of Nashville.",
+      "years": 15,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Photography",
+        "First aid"
+      ],
+      "interests": [
+        "Native flora",
+        "Astrophotography",
+        "Permaculture"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Cosmic Satellite",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🪨",
+      "region": "Auckland (Kiwiburn)",
+      "bio": "Active build-night regular out of Auckland (Kiwiburn), hands in every project going.",
+      "years": 9,
+      "burns": 7,
+      "camp": "Camp Contact",
+      "role": "Community Lead",
+      "skills": [
+        "Sound design",
+        "Solar power",
+        "Ride coordination"
+      ],
+      "interests": [
+        "Textile history",
+        "Fermentation"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Friends"
+      ],
+      "langs": [
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Auckland Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Static Marmot",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🎨",
+      "region": "Tokyo",
+      "bio": "Keeps the Tokyo regional group chat alive at 2am with gear questions.",
+      "years": 10,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Event hosting",
+        "Cooking"
+      ],
+      "interests": [
+        "Permaculture",
+        "Field recording",
+        "Mutual aid"
+      ],
+      "projects": [
+        "A reactive LED tunnel",
+        "The regional zine"
+      ],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Barefoot Prairie",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🌵",
+      "region": "Philadelphia",
+      "bio": "Prefers the low-key regional scene in Philadelphia to the deep-playa chaos, most years.",
+      "years": 4,
+      "burns": 5,
+      "camp": "Signal Loss",
+      "role": "Fabrication",
+      "skills": [
+        "Herbalism",
+        "Bike mechanics",
+        "Sound design"
+      ],
+      "interests": [
+        "Print culture",
+        "Native flora",
+        "Foraging"
+      ],
+      "projects": [
+        "The regional zine",
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Camp",
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "English",
+        "Portuguese"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Barefoot Compass",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🐺",
+      "region": "Phoenix",
+      "bio": "Regional meetup regular in Phoenix, mostly here for the people between burns.",
+      "years": 11,
+      "burns": 0,
+      "camp": "Signal Loss",
+      "role": "Logistics",
+      "skills": [
+        "Fabrication"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Kinetic sculpture",
+        "Permaculture"
+      ],
+      "projects": [
+        "A build-log podcast",
+        "A collaborative art wall"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Phoenix Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Sunburnt Lantern",
+      "dn": "Avery Nakamura",
+      "pronouns": "he/him",
+      "avatar": "🌾",
+      "region": "Shanghai",
+      "bio": "Runs a small gifting circle out of Shanghai between burns.",
+      "years": 3,
+      "burns": 4,
+      "camp": "Loose Ends Camp",
+      "role": "Fabrication",
+      "skills": [
+        "Sewing",
+        "Logistics",
+        "Woodworking"
+      ],
+      "interests": [
+        "Amateur radio",
+        "Textile history"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Sunburnt Comet",
+      "dn": "Skyler Dumont",
+      "pronouns": "she/they",
+      "avatar": "🔥",
+      "region": "Reno / Tahoe",
+      "bio": "Prefers the low-key regional scene in Reno / Tahoe to the deep-playa chaos, most years.",
+      "years": 4,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Photography",
+        "Fire performance",
+        "Solar power"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Regional cuisine"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Reno Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Barefoot Owlet",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🦊",
+      "region": "Bangalore",
+      "bio": "Keeps the Bangalore regional group chat alive at 2am with gear questions.",
+      "years": 14,
+      "burns": 7,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Solar power",
+        "Ride coordination",
+        "Community organizing"
+      ],
+      "interests": [
+        "Amateur radio",
+        "Astrophotography"
+      ],
+      "projects": [
+        "A traveling potluck series"
+      ],
+      "looking": [
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Dutch",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Electric Marmot",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "EL",
+      "region": "Boston",
+      "bio": "First-timer finding their footing in the regional network out of Boston.",
+      "years": 5,
+      "burns": 2,
+      "camp": "The Longform",
+      "role": "Hospitality",
+      "skills": [
+        "Bike mechanics",
+        "Welding",
+        "Electrical"
+      ],
+      "interests": [
+        "Foraging"
+      ],
+      "projects": [
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Amber Comet",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/they",
+      "avatar": "AM",
+      "region": "Toronto",
+      "bio": "Prefers the low-key regional scene in Toronto to the deep-playa chaos, most years.",
+      "years": 4,
+      "burns": 5,
+      "camp": "The Wayfinders",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Woodworking",
+        "Shade rigging",
+        "Sound design"
+      ],
+      "interests": [
+        "Cycling"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Collaborators"
+      ],
+      "langs": [
+        "English",
+        "Portuguese"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Toronto Decompression",
+        "Toronto Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Wily Coyote",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🌾",
+      "region": "Seattle",
+      "bio": "Regional meetup regular in Seattle, mostly here for the people between burns.",
+      "years": 4,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Carpentry",
+        "Graphic design"
+      ],
+      "interests": [
+        "Foraging"
+      ],
+      "projects": [
+        "A bike prep kit"
+      ],
+      "looking": [
+        "Friends",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Dutch",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Static Badger",
+      "dn": "Taylor Mbeki",
+      "pronouns": "she/they",
+      "avatar": "ST",
+      "region": "Auckland (Kiwiburn)",
+      "bio": "Keeps the Auckland (Kiwiburn) regional group chat alive at 2am with gear questions.",
+      "years": 10,
+      "burns": 1,
+      "camp": "Dustlight Collective",
+      "role": "Media",
+      "skills": [
+        "Electrical"
+      ],
+      "interests": [
+        "Synthwave"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Auckland Potluck Circle"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Electric Tumbleweed",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🐍",
+      "region": "New York City",
+      "bio": "Camp-less by choice, community by default — New York City's unofficial welcome committee.",
+      "years": 4,
+      "burns": 1,
+      "camp": "Signal Loss",
+      "role": "Fabrication",
+      "skills": [
+        "First aid"
+      ],
+      "interests": [
+        "Textile history"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "A community songbook"
+      ],
+      "looking": [
+        "Friends"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Barefoot Heron",
+      "dn": "Finley Osei",
+      "pronouns": "she/her",
+      "avatar": "BA",
+      "region": "Seattle",
+      "bio": "Shows up for every Seattle decompression and calls it a lifestyle, not an event.",
+      "years": 2,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Event hosting"
+      ],
+      "interests": [
+        "Bioluminescence",
+        "Foraging",
+        "Deep house"
+      ],
+      "projects": [
+        "A collaborative art wall",
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "Arabic",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Seattle Welcome Social",
+        "Seattle Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Ashen Ferret 622",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🌙",
+      "region": "Honolulu",
+      "bio": "Shows up for every Honolulu decompression and calls it a lifestyle, not an event.",
+      "years": 6,
+      "burns": 7,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Solar power"
+      ],
+      "interests": [
+        "Cycling",
+        "Field recording",
+        "Kinetic sculpture"
+      ],
+      "projects": [
+        "A collaborative art wall",
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Honolulu Decompression",
+        "Honolulu Regional Meetup"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Glimmering Wren",
+      "dn": "Riley Blackwood",
+      "pronouns": "she/her",
+      "avatar": "GL",
+      "region": "Bogotá",
+      "bio": "Runs a small gifting circle out of Bogotá between burns.",
+      "years": 6,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Radio",
+        "Herbalism",
+        "Welding"
+      ],
+      "interests": [
+        "Astrophotography",
+        "Bioluminescence",
+        "Field recording"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Bogotá Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Feathered Antler",
+      "dn": "Jamie Ortiz",
+      "pronouns": "they/them",
+      "avatar": "🔧",
+      "region": "Brasília",
+      "bio": "Long-time Burner who put down roots in the Brasília community and never looked back.",
+      "years": 1,
+      "burns": 1,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Graphic design"
+      ],
+      "interests": [
+        "Bioluminescence",
+        "Permaculture"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp",
+        "Friends"
+      ],
+      "langs": [
+        "Mandarin",
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Sunburnt Tumbleweed",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "SU",
+      "region": "Buenos Aires",
+      "bio": "Active build-night regular out of Buenos Aires, hands in every project going.",
+      "years": 2,
+      "burns": 3,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fire performance",
+        "Videography",
+        "Photography"
+      ],
+      "interests": [
+        "Fermentation",
+        "Fire safety",
+        "Techno"
+      ],
+      "projects": [
+        "A collaborative art wall"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Rusty Prairie 121",
+      "dn": "Avery Nakamura",
+      "pronouns": "they/them",
+      "avatar": "RU",
+      "region": "La Paz",
+      "bio": "Building a home base for wayward Burners in La Paz, one potluck at a time.",
+      "years": 9,
+      "burns": 7,
+      "camp": "Camp Contact",
+      "role": "Community Lead",
+      "skills": [
+        "Videography",
+        "First aid",
+        "Ride coordination"
+      ],
+      "interests": [
+        "Astrophotography",
+        "Board games"
+      ],
+      "projects": [
+        "An off-grid comms net"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Arabic",
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "La Build Night",
+        "La Precompression"
+      ],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Prismatic Magpie",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "PR",
+      "region": "Lima",
+      "bio": "Building a home base for wayward Burners in Lima, one potluck at a time.",
+      "years": 14,
+      "burns": 12,
+      "camp": "Green Playa",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Solar power",
+        "First aid"
+      ],
+      "interests": [
+        "Regional cuisine",
+        "Board games",
+        "Field recording"
+      ],
+      "projects": [
+        "A bike prep kit",
+        "A collaborative art wall"
+      ],
+      "looking": [
+        "Camp",
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "Mandarin",
+        "French",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Feathered Compass",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🌾",
+      "region": "San Francisco Bay Area",
+      "bio": "First-timer finding their footing in the regional network out of San Francisco Bay Area.",
+      "years": 11,
+      "burns": 12,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Videography",
+        "Yoga instruction",
+        "LED wiring"
+      ],
+      "interests": [
+        "Bioluminescence"
+      ],
+      "projects": [
+        "A camp-kitchen recipe archive",
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wily Antler",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🐍",
+      "region": "Quito",
+      "bio": "Camp-less by choice, community by default — Quito's unofficial welcome committee.",
+      "years": 14,
+      "burns": 10,
+      "camp": "The Wayfinders",
+      "role": "Community Lead",
+      "skills": [
+        "First aid",
+        "Fire performance"
+      ],
+      "interests": [
+        "Deep house"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "Mandarin",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Iron Heron",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🍄",
+      "region": "Rio de Janeiro",
+      "bio": "Long-time Burner who put down roots in the Rio de Janeiro community and never looked back.",
+      "years": 6,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Woodworking",
+        "Carpentry",
+        "Electrical"
+      ],
+      "interests": [
+        "Astrophotography",
+        "Kinetic sculpture",
+        "Desert ecology"
+      ],
+      "projects": [
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Rio Welcome Social",
+        "Rio Precompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Luminous Vulture",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "LU",
+      "region": "Denver / Boulder",
+      "bio": "Regional meetup regular in Denver / Boulder, mostly here for the people between burns.",
+      "years": 4,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Carpentry",
+        "Graphic design"
+      ],
+      "interests": [
+        "Regional cuisine"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Arabic",
+        "French",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Denver Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Molten Tumbleweed",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🍄",
+      "region": "São Paulo",
+      "bio": "Regional meetup regular in São Paulo, mostly here for the people between burns.",
+      "years": 14,
+      "burns": 10,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Cooking",
+        "Sound design"
+      ],
+      "interests": [
+        "Permaculture",
+        "Kinetic sculpture"
+      ],
+      "projects": [
+        "The regional zine",
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "São Precompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Feral Wren",
+      "dn": "Sam Kowalski",
+      "pronouns": "they/them",
+      "avatar": "FE",
+      "region": "Amsterdam",
+      "bio": "Runs a small gifting circle out of Amsterdam between burns.",
+      "years": 7,
+      "burns": 8,
+      "camp": "Signal Loss",
+      "role": "Media",
+      "skills": [
+        "Herbalism",
+        "Radio"
+      ],
+      "interests": [
+        "Cycling",
+        "Regional cuisine"
+      ],
+      "projects": [
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Amsterdam Welcome Social"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Iron Owlet",
+      "dn": "Morgan Achebe",
+      "pronouns": "he/him",
+      "avatar": "🌻",
+      "region": "Athens",
+      "bio": "Building a home base for wayward Burners in Athens, one potluck at a time.",
+      "years": 1,
+      "burns": 1,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Welding",
+        "Sound design",
+        "Graphic design"
+      ],
+      "interests": [
+        "Synthwave"
+      ],
+      "projects": [
+        "A regional welcome guide",
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Friends",
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Athens Welcome Social",
+        "Athens Potluck Circle"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Wandering Badger",
+      "dn": "Morgan Achebe",
+      "pronouns": "they/them",
+      "avatar": "WA",
+      "region": "Barcelona",
+      "bio": "Shows up for every Barcelona decompression and calls it a lifestyle, not an event.",
+      "years": 9,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Videography",
+        "Electrical"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Print culture",
+        "Board games"
+      ],
+      "projects": [
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "French",
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Barcelona Regional Meetup",
+        "Barcelona Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Cosmic Marmot",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "CO",
+      "region": "Belgrade",
+      "bio": "Shows up for every Belgrade decompression and calls it a lifestyle, not an event.",
+      "years": 9,
+      "burns": 11,
+      "camp": "Loose Ends Camp",
+      "role": "Community Lead",
+      "skills": [
+        "Ride coordination",
+        "Cooking"
+      ],
+      "interests": [
+        "Synthwave"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Portuguese",
+        "French",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Belgrade Decompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Cosmic Coyote",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🐺",
+      "region": "Berlin",
+      "bio": "First-timer finding their footing in the regional network out of Berlin.",
+      "years": 4,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Electrical"
+      ],
+      "interests": [
+        "Foraging"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "French",
+        "Dutch",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Berlin Decompression",
+        "Berlin Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Cosmic Thistle",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "CO",
+      "region": "Brussels",
+      "bio": "Regional meetup regular in Brussels, mostly here for the people between burns.",
+      "years": 8,
+      "burns": 6,
+      "camp": "Camp Contact",
+      "role": "Logistics",
+      "skills": [
+        "Community organizing"
+      ],
+      "interests": [
+        "Native flora"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Brussels Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Glimmering Pelican",
+      "dn": "Sam Kowalski",
+      "pronouns": "he/him",
+      "avatar": "GL",
+      "region": "Budapest",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the Budapest scene before committing to anything.",
+      "years": 3,
+      "burns": 3,
+      "camp": "Camp Contact",
+      "role": "Community Lead",
+      "skills": [
+        "Electrical"
+      ],
+      "interests": [
+        "Permaculture",
+        "Foraging"
+      ],
+      "projects": [
+        "A bike prep kit",
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Rides",
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "English",
+        "Portuguese"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Budapest Decompression",
+        "Budapest Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Dusty Wren",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "DU",
+      "region": "Buenos Aires",
+      "bio": "Splits time between local regional meetups and the annual pilgrimage — based in Buenos Aires.",
+      "years": 13,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fabrication"
+      ],
+      "interests": [
+        "Techno",
+        "Fermentation"
+      ],
+      "projects": [
+        "The regional zine"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "English",
+        "Arabic"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Buenos Decompression",
+        "Buenos Welcome Social"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Cosmic Puddle",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🌊",
+      "region": "Dublin",
+      "bio": "Active build-night regular out of Dublin, hands in every project going.",
+      "years": 8,
+      "burns": 1,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Shade rigging",
+        "Yoga instruction",
+        "First aid"
+      ],
+      "interests": [
+        "Field recording"
+      ],
+      "projects": [
+        "The regional zine",
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Rides",
+        "Collaborators"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Dublin Potluck Circle",
+        "Dublin Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Scrappy Cactus",
+      "dn": "Finley Osei",
+      "pronouns": "he/they",
+      "avatar": "SC",
+      "region": "Helsinki",
+      "bio": "Building a home base for wayward Burners in Helsinki, one potluck at a time.",
+      "years": 11,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Bike mechanics",
+        "Translation"
+      ],
+      "interests": [
+        "Astrophotography"
+      ],
+      "projects": [
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "Arabic",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Helsinki Precompression",
+        "Helsinki Precompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Neon Jackal",
+      "dn": "Sam Kowalski",
+      "pronouns": "he/they",
+      "avatar": "🐍",
+      "region": "Istanbul",
+      "bio": "Shows up for every Istanbul decompression and calls it a lifestyle, not an event.",
+      "years": 12,
+      "burns": 8,
+      "camp": "Afterglow",
+      "role": "Fabrication",
+      "skills": [
+        "Shade rigging",
+        "Community organizing"
+      ],
+      "interests": [
+        "Regional cuisine"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "Dutch",
+        "French",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Istanbul Regional Meetup",
+        "Istanbul Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Dusty Magpie",
+      "dn": "Drew Kapoor",
+      "pronouns": "he/they",
+      "avatar": "🌻",
+      "region": "Kyiv",
+      "bio": "Long-time Burner who put down roots in the Kyiv community and never looked back.",
+      "years": 3,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "LED wiring",
+        "Welding"
+      ],
+      "interests": [
+        "Print culture"
+      ],
+      "projects": [
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Rides",
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Prismatic Pelican",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "PR",
+      "region": "Lisbon",
+      "bio": "Building a home base for wayward Burners in Lisbon, one potluck at a time.",
+      "years": 5,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Woodworking",
+        "Solar power",
+        "Welding"
+      ],
+      "interests": [
+        "Cycling",
+        "Textile history"
+      ],
+      "projects": [
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Camp",
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Lisbon Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Feathered Wren",
+      "dn": "Taylor Mbeki",
+      "pronouns": "they/them",
+      "avatar": "FE",
+      "region": "Tel Aviv",
+      "bio": "Shows up for every Tel Aviv decompression and calls it a lifestyle, not an event.",
+      "years": 3,
+      "burns": 3,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Ride coordination",
+        "Videography"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Astrophotography",
+        "Native flora"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Camp",
+        "Friends"
+      ],
+      "langs": [
+        "Indonesian",
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Rusty Ferret",
+      "dn": "Drew Kapoor",
+      "pronouns": "they/them",
+      "avatar": "🌵",
+      "region": "Madrid",
+      "bio": "Long-time Burner who put down roots in the Madrid community and never looked back.",
+      "years": 4,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "First aid",
+        "Cooking",
+        "Sound design"
+      ],
+      "interests": [
+        "Kinetic sculpture",
+        "Amateur radio",
+        "Bioluminescence"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp",
+        "Rides",
+        "Collaborators"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Madrid Decompression",
+        "Madrid Precompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "flagged",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Cosmic Sparrow",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/him",
+      "avatar": "🐺",
+      "region": "Manchester",
+      "bio": "Prefers the low-key regional scene in Manchester to the deep-playa chaos, most years.",
+      "years": 5,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Translation",
+        "Logistics"
+      ],
+      "interests": [
+        "Board games",
+        "Native flora"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Mandarin",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Manchester Potluck Circle"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Windswept Badger",
+      "dn": "Taylor Mbeki",
+      "pronouns": "they/them",
+      "avatar": "🧭",
+      "region": "Amsterdam",
+      "bio": "Keeps the Amsterdam regional group chat alive at 2am with gear questions.",
+      "years": 8,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Translation",
+        "Solar power"
+      ],
+      "interests": [
+        "Fire safety"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Amsterdam Regional Meetup",
+        "Amsterdam Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Static Ember",
+      "dn": "Jordan Vasquez",
+      "pronouns": "they/them",
+      "avatar": "🌻",
+      "region": "Moscow",
+      "bio": "Keeps the Moscow regional group chat alive at 2am with gear questions.",
+      "years": 11,
+      "burns": 1,
+      "camp": "Loose Ends Camp",
+      "role": "Hospitality",
+      "skills": [
+        "Cooking",
+        "Event hosting"
+      ],
+      "interests": [
+        "Print culture",
+        "Fermentation",
+        "Native flora"
+      ],
+      "projects": [
+        "The regional zine"
+      ],
+      "looking": [
+        "Rides",
+        "Camp"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Moscow Welcome Social",
+        "Moscow Decompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wild Lark 945",
+      "dn": "Drew Kapoor",
+      "pronouns": "he/they",
+      "avatar": "🌾",
+      "region": "Bangkok",
+      "bio": "Runs a small gifting circle out of Bangkok between burns.",
+      "years": 10,
+      "burns": 0,
+      "camp": "Afterglow",
+      "role": "Hospitality",
+      "skills": [
+        "Herbalism",
+        "Videography",
+        "LED wiring"
+      ],
+      "interests": [
+        "Regional cuisine",
+        "Foraging",
+        "Synthwave"
+      ],
+      "projects": [
+        "A build-log podcast",
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "Arabic",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Bangkok Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Feathered Ember",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🌊",
+      "region": "Seattle",
+      "bio": "Splits time between local regional meetups and the annual pilgrimage — based in Seattle.",
+      "years": 13,
+      "burns": 2,
+      "camp": "Dustlight Collective",
+      "role": "Fabrication",
+      "skills": [
+        "Yoga instruction",
+        "Solar power"
+      ],
+      "interests": [
+        "Desert ecology"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "French",
+        "German",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Amber Badger",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "AM",
+      "region": "Paris",
+      "bio": "Building a home base for wayward Burners in Paris, one potluck at a time.",
+      "years": 4,
+      "burns": 5,
+      "camp": "Afterglow",
+      "role": "Hospitality",
+      "skills": [
+        "Carpentry",
+        "Fabrication",
+        "Videography"
+      ],
+      "interests": [
+        "Mutual aid",
+        "Cycling"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Collaborators"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Rusty Satellite",
+      "dn": "Taylor Mbeki",
+      "pronouns": "she/her",
+      "avatar": "🌴",
+      "region": "Salt Lake City",
+      "bio": "Building a home base for wayward Burners in Salt Lake City, one potluck at a time.",
+      "years": 11,
+      "burns": 13,
+      "camp": "Afterglow",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Community organizing",
+        "Fire performance",
+        "Carpentry"
+      ],
+      "interests": [
+        "Fermentation",
+        "Deep house",
+        "Bioluminescence"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Collaborators"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Salt Potluck Circle",
+        "Salt Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Feathered Cactus",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🔧",
+      "region": "Rome",
+      "bio": "Splits time between local regional meetups and the annual pilgrimage — based in Rome.",
+      "years": 11,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fabrication",
+        "Videography"
+      ],
+      "interests": [
+        "Bioluminescence",
+        "Cycling"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Luminous Yucca",
+      "dn": "Jordan Vasquez",
+      "pronouns": "he/him",
+      "avatar": "⚡",
+      "region": "Stockholm",
+      "bio": "Active build-night regular out of Stockholm, hands in every project going.",
+      "years": 14,
+      "burns": 11,
+      "camp": "Green Playa",
+      "role": "Hospitality",
+      "skills": [
+        "Solar power",
+        "Cooking"
+      ],
+      "interests": [
+        "Native flora"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Friends"
+      ],
+      "langs": [
+        "Arabic",
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Stockholm Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Ashen Wren",
+      "dn": "Casey Lindqvist",
+      "pronouns": "he/they",
+      "avatar": "AS",
+      "region": "Vienna",
+      "bio": "Building a home base for wayward Burners in Vienna, one potluck at a time.",
+      "years": 11,
+      "burns": 6,
+      "camp": "Afterglow",
+      "role": "Community Lead",
+      "skills": [
+        "Woodworking",
+        "Photography",
+        "Fabrication"
+      ],
+      "interests": [
+        "Textile history",
+        "Kinetic sculpture",
+        "Fermentation"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Vienna Regional Meetup"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Quiet Prairie 689",
+      "dn": "Sam Kowalski",
+      "pronouns": "he/him",
+      "avatar": "QU",
+      "region": "Warsaw",
+      "bio": "Prefers the low-key regional scene in Warsaw to the deep-playa chaos, most years.",
+      "years": 3,
+      "burns": 5,
+      "camp": "Green Playa",
+      "role": "Logistics",
+      "skills": [
+        "Sound design",
+        "Solar power"
+      ],
+      "interests": [
+        "Astrophotography"
+      ],
+      "projects": [
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Portuguese",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Velvet Pelican",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🌙",
+      "region": "Zurich",
+      "bio": "Building a home base for wayward Burners in Zurich, one potluck at a time.",
+      "years": 9,
+      "burns": 9,
+      "camp": "Signal Loss",
+      "role": "Fabrication",
+      "skills": [
+        "Videography",
+        "Sound design",
+        "Sewing"
+      ],
+      "interests": [
+        "Synthwave"
+      ],
+      "projects": [
+        "A build-log podcast",
+        "A community songbook"
+      ],
+      "looking": [
+        "Friends",
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "Mandarin",
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Barefoot Sparrow",
+      "dn": "Jamie Ortiz",
+      "pronouns": "she/they",
+      "avatar": "BA",
+      "region": "Accra",
+      "bio": "Camp-less by choice, community by default — Accra's unofficial welcome committee.",
+      "years": 9,
+      "burns": 10,
+      "camp": "Satellite Crew",
+      "role": "Hospitality",
+      "skills": [
+        "Herbalism",
+        "Cooking"
+      ],
+      "interests": [
+        "Cycling"
+      ],
+      "projects": [
+        "A build-log podcast",
+        "The regional zine"
+      ],
+      "looking": [
+        "Camp",
+        "Rides",
+        "Collaborators"
+      ],
+      "langs": [
+        "Arabic",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Accra Decompression",
+        "Accra Precompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Radiant Vulture",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "RA",
+      "region": "Cairo",
+      "bio": "Keeps the Cairo regional group chat alive at 2am with gear questions.",
+      "years": 5,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Community organizing",
+        "Photography"
+      ],
+      "interests": [
+        "Bioluminescence",
+        "Regional cuisine"
+      ],
+      "projects": [
+        "A reactive LED tunnel",
+        "The regional zine"
+      ],
+      "looking": [
+        "Friends",
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Mandarin",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Cairo Decompression",
+        "Cairo Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Ashen Thistle",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🧭",
+      "region": "Johannesburg",
+      "bio": "Keeps the Johannesburg regional group chat alive at 2am with gear questions.",
+      "years": 10,
+      "burns": 9,
+      "camp": "The Longform",
+      "role": "Fabrication",
+      "skills": [
+        "Fabrication",
+        "Sound design",
+        "Carpentry"
+      ],
+      "interests": [
+        "Field recording"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "Dutch",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Nocturnal Magpie",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/him",
+      "avatar": "NO",
+      "region": "Johannesburg",
+      "bio": "Keeps the Johannesburg regional group chat alive at 2am with gear questions.",
+      "years": 4,
+      "burns": 5,
+      "camp": "Green Playa",
+      "role": "Logistics",
+      "skills": [
+        "Photography",
+        "Fire performance"
+      ],
+      "interests": [
+        "Amateur radio"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Arabic",
+        "Dutch",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Johannesburg Welcome Social",
+        "Johannesburg Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Amber Vulture",
+      "dn": "Jordan Vasquez",
+      "pronouns": "he/they",
+      "avatar": "🌻",
+      "region": "Lagos",
+      "bio": "Regional meetup regular in Lagos, mostly here for the people between burns.",
+      "years": 14,
+      "burns": 1,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Cooking",
+        "Photography"
+      ],
+      "interests": [
+        "Amateur radio",
+        "Permaculture"
+      ],
+      "projects": [
+        "An off-grid comms net"
+      ],
+      "looking": [
+        "Friends",
+        "Rides",
+        "Collaborators"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Lagos Precompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wandering Antler",
+      "dn": "Casey Lindqvist",
+      "pronouns": "she/they",
+      "avatar": "WA",
+      "region": "Marrakech",
+      "bio": "Splits time between local regional meetups and the annual pilgrimage — based in Marrakech.",
+      "years": 13,
+      "burns": 12,
+      "camp": "Loose Ends Camp",
+      "role": "Fabrication",
+      "skills": [
+        "Ride coordination",
+        "Woodworking",
+        "Yoga instruction"
+      ],
+      "interests": [
+        "Field recording",
+        "Amateur radio",
+        "Print culture"
+      ],
+      "projects": [
+        "A modular shade kit",
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Marrakech Welcome Social",
+        "Marrakech Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Dusty Tumbleweed",
+      "dn": "Morgan Achebe",
+      "pronouns": "she/her",
+      "avatar": "DU",
+      "region": "Canberra",
+      "bio": "Keeps the Canberra regional group chat alive at 2am with gear questions.",
+      "years": 2,
+      "burns": 3,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Radio",
+        "Herbalism",
+        "Sound design"
+      ],
+      "interests": [
+        "Cycling",
+        "Fire safety"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "Arabic",
+        "French",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Canberra Welcome Social",
+        "Canberra Regional Meetup"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Feathered Wren 160",
+      "dn": "Avery Nakamura",
+      "pronouns": "he/him",
+      "avatar": "🪶",
+      "region": "Bali",
+      "bio": "Regional meetup regular in Bali, mostly here for the people between burns.",
+      "years": 12,
+      "burns": 7,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Yoga instruction",
+        "Translation"
+      ],
+      "interests": [
+        "Print culture",
+        "Bioluminescence",
+        "Desert ecology"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Bali Potluck Circle",
+        "Bali Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Electric Dune",
+      "dn": "Jamie Ortiz",
+      "pronouns": "he/they",
+      "avatar": "🔧",
+      "region": "Bangalore",
+      "bio": "Prefers the low-key regional scene in Bangalore to the deep-playa chaos, most years.",
+      "years": 9,
+      "burns": 10,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Photography"
+      ],
+      "interests": [
+        "Board games"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "The regional zine"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Friends"
+      ],
+      "langs": [
+        "Hebrew",
+        "French",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Bangalore Build Night",
+        "Bangalore Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Nocturnal Comet",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "✨",
+      "region": "Bangkok",
+      "bio": "Camp-less by choice, community by default — Bangkok's unofficial welcome committee.",
+      "years": 5,
+      "burns": 6,
+      "camp": "Afterglow",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Graphic design",
+        "Welding"
+      ],
+      "interests": [
+        "Bioluminescence",
+        "Permaculture"
+      ],
+      "projects": [
+        "A reactive LED tunnel",
+        "A community songbook"
+      ],
+      "looking": [
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "German",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Radiant Compass",
+      "dn": "Avery Nakamura",
+      "pronouns": "she/her",
+      "avatar": "RA",
+      "region": "Accra",
+      "bio": "Runs a small gifting circle out of Accra between burns.",
+      "years": 6,
+      "burns": 3,
+      "camp": "Loose Ends Camp",
+      "role": "Fabrication",
+      "skills": [
+        "Bike mechanics",
+        "Event hosting"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Native flora"
+      ],
+      "projects": [
+        "A traveling potluck series"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Accra Potluck Circle",
+        "Accra Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Dusty Lantern",
+      "dn": "Jamie Ortiz",
+      "pronouns": "she/her",
+      "avatar": "DU",
+      "region": "Chiang Mai",
+      "bio": "Long-time Burner who put down roots in the Chiang Mai community and never looked back.",
+      "years": 3,
+      "burns": 0,
+      "camp": "The Longform",
+      "role": "Hospitality",
+      "skills": [
+        "Herbalism"
+      ],
+      "interests": [
+        "Fermentation",
+        "Foraging",
+        "Deep house"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Chiang Build Night",
+        "Chiang Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Tangled Mirage",
+      "dn": "Avery Nakamura",
+      "pronouns": "he/him",
+      "avatar": "TA",
+      "region": "Detroit",
+      "bio": "Camp-less by choice, community by default — Detroit's unofficial welcome committee.",
+      "years": 10,
+      "burns": 7,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fabrication",
+        "Shade rigging"
+      ],
+      "interests": [
+        "Astrophotography",
+        "Field recording"
+      ],
+      "projects": [
+        "A bike prep kit",
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Detroit Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Windswept Ember",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/him",
+      "avatar": "⚡",
+      "region": "Delhi",
+      "bio": "Keeps the Delhi regional group chat alive at 2am with gear questions.",
+      "years": 4,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "LED wiring",
+        "Radio"
+      ],
+      "interests": [
+        "Synthwave",
+        "Textile history",
+        "Deep house"
+      ],
+      "projects": [
+        "The regional zine"
+      ],
+      "looking": [
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Delhi Welcome Social",
+        "Delhi Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Grizzled Cactus",
+      "dn": "Drew Kapoor",
+      "pronouns": "she/her",
+      "avatar": "🔥",
+      "region": "Miami",
+      "bio": "Camp-less by choice, community by default — Miami's unofficial welcome committee.",
+      "years": 10,
+      "burns": 10,
+      "camp": "Loose Ends Camp",
+      "role": "Logistics",
+      "skills": [
+        "Photography",
+        "Event hosting",
+        "Ride coordination"
+      ],
+      "interests": [
+        "Textile history"
+      ],
+      "projects": [
+        "A community songbook",
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Dutch",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Miami Decompression",
+        "Miami Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Barefoot Cactus",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🔧",
+      "region": "Hong Kong",
+      "bio": "Long-time Burner who put down roots in the Hong Kong community and never looked back.",
+      "years": 3,
+      "burns": 3,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Welding",
+        "Yoga instruction",
+        "Sewing"
+      ],
+      "interests": [
+        "Kinetic sculpture",
+        "Regional cuisine",
+        "Desert ecology"
+      ],
+      "projects": [
+        "A regional welcome guide",
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Hong Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Luminous Satellite",
+      "dn": "Finley Osei",
+      "pronouns": "they/them",
+      "avatar": "🍄",
+      "region": "Jakarta",
+      "bio": "Camp-less by choice, community by default — Jakarta's unofficial welcome committee.",
+      "years": 5,
+      "burns": 1,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Woodworking",
+        "Videography",
+        "LED wiring"
+      ],
+      "interests": [
+        "Board games",
+        "Synthwave",
+        "Foraging"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "A bike prep kit"
+      ],
+      "looking": [
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Portuguese",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Static Vulture",
+      "dn": "Finley Osei",
+      "pronouns": "she/her",
+      "avatar": "🍄",
+      "region": "Chicago",
+      "bio": "Regional meetup regular in Chicago, mostly here for the people between burns.",
+      "years": 13,
+      "burns": 2,
+      "camp": "Green Playa",
+      "role": "Fabrication",
+      "skills": [
+        "Bike mechanics",
+        "Sound design"
+      ],
+      "interests": [
+        "Print culture"
+      ],
+      "projects": [
+        "A reactive LED tunnel",
+        "The regional zine"
+      ],
+      "looking": [
+        "Rides",
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Chicago Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Barefoot Otter",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "BA",
+      "region": "Manila",
+      "bio": "First-timer finding their footing in the regional network out of Manila.",
+      "years": 6,
+      "burns": 7,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Herbalism",
+        "Graphic design",
+        "Community organizing"
+      ],
+      "interests": [
+        "Bioluminescence"
+      ],
+      "projects": [
+        "A modular shade kit",
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Friends",
+        "Rides",
+        "Collaborators"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Manila Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "flagged",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Wily Raven",
+      "dn": "Sam Kowalski",
+      "pronouns": "they/them",
+      "avatar": "WI",
+      "region": "Mumbai",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the Mumbai scene before committing to anything.",
+      "years": 12,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Bike mechanics",
+        "Yoga instruction",
+        "Fabrication"
+      ],
+      "interests": [
+        "Kinetic sculpture",
+        "Amateur radio"
+      ],
+      "projects": [
+        "A modular shade kit",
+        "A community songbook"
+      ],
+      "looking": [
+        "Friends"
+      ],
+      "langs": [
+        "Portuguese",
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Mumbai Precompression"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Tangled Puddle",
+      "dn": "Reese Andersson",
+      "pronouns": "she/they",
+      "avatar": "TA",
+      "region": "Seoul",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the Seoul scene before committing to anything.",
+      "years": 0,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Electrical",
+        "Sewing"
+      ],
+      "interests": [
+        "Native flora",
+        "Textile history"
+      ],
+      "projects": [
+        "The regional zine"
+      ],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Seoul Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Feral Prairie",
+      "dn": "Reese Andersson",
+      "pronouns": "they/them",
+      "avatar": "🌊",
+      "region": "Toronto",
+      "bio": "Camp-less by choice, community by default — Toronto's unofficial welcome committee.",
+      "years": 5,
+      "burns": 6,
+      "camp": "Satellite Crew",
+      "role": "Fabrication",
+      "skills": [
+        "Graphic design"
+      ],
+      "interests": [
+        "Cycling"
+      ],
+      "projects": [
+        "A collaborative art wall"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "English",
+        "Spanish"
+      ],
+      "avail": "Can host 1",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Dusty Owlet",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "DU",
+      "region": "Singapore",
+      "bio": "Building a home base for wayward Burners in Singapore, one potluck at a time.",
+      "years": 13,
+      "burns": 13,
+      "camp": "Green Playa",
+      "role": "Logistics",
+      "skills": [
+        "First aid"
+      ],
+      "interests": [
+        "Deep house"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Rides",
+        "Camp"
+      ],
+      "langs": [
+        "English",
+        "Arabic"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Neon Lark",
+      "dn": "Casey Lindqvist",
+      "pronouns": "they/them",
+      "avatar": "🔥",
+      "region": "Taipei",
+      "bio": "Regional meetup regular in Taipei, mostly here for the people between burns.",
+      "years": 7,
+      "burns": 3,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Yoga instruction",
+        "Fabrication",
+        "Photography"
+      ],
+      "interests": [
+        "Field recording",
+        "Native flora"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Taipei Precompression",
+        "Taipei Precompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Barefoot Mirage",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/him",
+      "avatar": "BA",
+      "region": "Munich",
+      "bio": "Prefers the low-key regional scene in Munich to the deep-playa chaos, most years.",
+      "years": 2,
+      "burns": 2,
+      "camp": "Signal Loss",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Electrical",
+        "Fabrication"
+      ],
+      "interests": [
+        "Amateur radio"
+      ],
+      "projects": [
+        "A community songbook",
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Friends"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Munich Potluck Circle"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Prismatic Mirage",
+      "dn": "Reese Andersson",
+      "pronouns": "she/they",
+      "avatar": "PR",
+      "region": "Tokyo",
+      "bio": "Splits time between local regional meetups and the annual pilgrimage — based in Tokyo.",
+      "years": 11,
+      "burns": 11,
+      "camp": "The Wayfinders",
+      "role": "Logistics",
+      "skills": [
+        "Translation",
+        "Carpentry"
+      ],
+      "interests": [
+        "Synthwave",
+        "Bioluminescence"
+      ],
+      "projects": [
+        "A collaborative art wall"
+      ],
+      "looking": [
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "Dutch",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Tokyo Regional Meetup",
+        "Tokyo Decompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Wily Comet",
+      "dn": "Drew Kapoor",
+      "pronouns": "he/they",
+      "avatar": "🔧",
+      "region": "Adelaide",
+      "bio": "Regional meetup regular in Adelaide, mostly here for the people between burns.",
+      "years": 15,
+      "burns": 8,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Herbalism"
+      ],
+      "interests": [
+        "Board games",
+        "Kinetic sculpture",
+        "Textile history"
+      ],
+      "projects": [
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Camp",
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Adelaide Regional Meetup",
+        "Adelaide Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Iron Marmot",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "🦊",
+      "region": "Milan",
+      "bio": "Regional meetup regular in Milan, mostly here for the people between burns.",
+      "years": 7,
+      "burns": 2,
+      "camp": "Loose Ends Camp",
+      "role": "Community Lead",
+      "skills": [
+        "Woodworking"
+      ],
+      "interests": [
+        "Cycling",
+        "Mutual aid"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Milan Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Frosted Magpie",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/they",
+      "avatar": "🐍",
+      "region": "Mumbai",
+      "bio": "Camp-less by choice, community by default — Mumbai's unofficial welcome committee.",
+      "years": 14,
+      "burns": 3,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fabrication",
+        "Carpentry",
+        "Electrical"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Print culture",
+        "Fermentation"
+      ],
+      "projects": [
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Dutch",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Mumbai Precompression",
+        "Mumbai Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Quiet Lantern",
+      "dn": "Quinn O'Sullivan",
+      "pronouns": "she/her",
+      "avatar": "🌊",
+      "region": "Canberra",
+      "bio": "Long-time Burner who put down roots in the Canberra community and never looked back.",
+      "years": 8,
+      "burns": 10,
+      "camp": "The Longform",
+      "role": "Fabrication",
+      "skills": [
+        "Cooking",
+        "Translation"
+      ],
+      "interests": [
+        "Textile history",
+        "Deep house",
+        "Techno"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "German",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wandering Thistle",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🧭",
+      "region": "Hobart",
+      "bio": "Building a home base for wayward Burners in Hobart, one potluck at a time.",
+      "years": 10,
+      "burns": 11,
+      "camp": "Camp Contact",
+      "role": "Community Lead",
+      "skills": [
+        "Sewing",
+        "Sound design"
+      ],
+      "interests": [
+        "Mutual aid",
+        "Permaculture",
+        "Techno"
+      ],
+      "projects": [
+        "A modular shade kit"
+      ],
+      "looking": [
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Barefoot Tumbleweed",
+      "dn": "Quinn O'Sullivan",
+      "pronouns": "he/they",
+      "avatar": "🦊",
+      "region": "Melbourne",
+      "bio": "Camp-less by choice, community by default — Melbourne's unofficial welcome committee.",
+      "years": 5,
+      "burns": 7,
+      "camp": "Green Playa",
+      "role": "Fabrication",
+      "skills": [
+        "Graphic design",
+        "Cooking"
+      ],
+      "interests": [
+        "Regional cuisine"
+      ],
+      "projects": [
+        "A collaborative art wall"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Spanish",
+        "Dutch",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Melbourne Welcome Social",
+        "Melbourne Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Feathered Dune",
+      "dn": "Skyler Dumont",
+      "pronouns": "she/her",
+      "avatar": "FE",
+      "region": "Toronto",
+      "bio": "Regional meetup regular in Toronto, mostly here for the people between burns.",
+      "years": 10,
+      "burns": 10,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Welding"
+      ],
+      "interests": [
+        "Field recording",
+        "Deep house"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "Hebrew",
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Toronto Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Frosted Heron",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "FR",
+      "region": "Sydney",
+      "bio": "Long-time Burner who put down roots in the Sydney community and never looked back.",
+      "years": 0,
+      "burns": 0,
+      "camp": "Green Playa",
+      "role": "Logistics",
+      "skills": [
+        "Electrical",
+        "Fire performance"
+      ],
+      "interests": [
+        "Regional cuisine",
+        "Kinetic sculpture"
+      ],
+      "projects": [
+        "A community songbook"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Sydney Welcome Social",
+        "Sydney Regional Meetup"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Luminous Prairie 308",
+      "dn": "Reese Andersson",
+      "pronouns": "he/they",
+      "avatar": "LU",
+      "region": "Wellington",
+      "bio": "Regional meetup regular in Wellington, mostly here for the people between burns.",
+      "years": 10,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Radio",
+        "LED wiring"
+      ],
+      "interests": [
+        "Textile history",
+        "Astrophotography"
+      ],
+      "projects": [
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "Dutch",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Salty Sparrow",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🌻",
+      "region": "London UK",
+      "bio": "Active build-night regular out of London UK, hands in every project going.",
+      "years": 10,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Graphic design"
+      ],
+      "interests": [
+        "Foraging",
+        "Print culture",
+        "Kinetic sculpture"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "Dutch",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "London Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wily Puddle",
+      "dn": "",
+      "pronouns": "she/they",
+      "avatar": "🧭",
+      "region": "Jakarta",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the Jakarta scene before committing to anything.",
+      "years": 5,
+      "burns": 1,
+      "camp": "Camp Contact",
+      "role": "Build Crew",
+      "skills": [
+        "Shade rigging",
+        "Fabrication",
+        "Logistics"
+      ],
+      "interests": [
+        "Desert ecology"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Jakarta Precompression",
+        "Jakarta Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Amber Mirage",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🛰️",
+      "region": "Berlin",
+      "bio": "Runs a small gifting circle out of Berlin between burns.",
+      "years": 14,
+      "burns": 12,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Translation",
+        "Cooking"
+      ],
+      "interests": [
+        "Synthwave"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "Spanish",
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Nocturnal Marmot",
+      "dn": "Skyler Dumont",
+      "pronouns": "she/her",
+      "avatar": "NO",
+      "region": "San Francisco Bay Area",
+      "bio": "Long-time Burner who put down roots in the San Francisco Bay Area community and never looked back.",
+      "years": 15,
+      "burns": 8,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fire performance",
+        "Carpentry"
+      ],
+      "interests": [
+        "Mutual aid"
+      ],
+      "projects": [
+        "A regional welcome guide",
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Friends",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "San Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "flagged",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Rusty Sparrow",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "RU",
+      "region": "London UK",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the London UK scene before committing to anything.",
+      "years": 6,
+      "burns": 6,
+      "camp": "Green Playa",
+      "role": "Build Crew",
+      "skills": [
+        "Woodworking",
+        "Event hosting"
+      ],
+      "interests": [
+        "Synthwave"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators"
+      ],
+      "langs": [
+        "Hebrew",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "London Regional Meetup",
+        "London Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Prismatic Dune",
+      "dn": "Alex Nguyen",
+      "pronouns": "they/them",
+      "avatar": "🔧",
+      "region": "London UK",
+      "bio": "First-timer finding their footing in the regional network out of London UK.",
+      "years": 10,
+      "burns": 4,
+      "camp": "Camp Contact",
+      "role": "Build Crew",
+      "skills": [
+        "First aid",
+        "Fire performance",
+        "Radio"
+      ],
+      "interests": [
+        "Fire safety",
+        "Bioluminescence",
+        "Board games"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Dutch",
+        "German",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "London Regional Meetup",
+        "London Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Amber Puddle",
+      "dn": "Finley Osei",
+      "pronouns": "he/him",
+      "avatar": "AM",
+      "region": "Amsterdam",
+      "bio": "Keeps the Amsterdam regional group chat alive at 2am with gear questions.",
+      "years": 3,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Woodworking",
+        "Photography"
+      ],
+      "interests": [
+        "Synthwave",
+        "Amateur radio"
+      ],
+      "projects": [
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Rides",
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Amsterdam Potluck Circle"
+      ],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Cosmic Dune 905",
+      "dn": "Robin Fairweather",
+      "pronouns": "he/they",
+      "avatar": "CO",
+      "region": "Mexico City",
+      "bio": "Long-time Burner who put down roots in the Mexico City community and never looked back.",
+      "years": 3,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Ride coordination",
+        "First aid",
+        "Fabrication"
+      ],
+      "interests": [
+        "Fire safety",
+        "Textile history",
+        "Desert ecology"
+      ],
+      "projects": [
+        "A regional welcome guide",
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "Spanish",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Feral Antler",
+      "dn": "Jamie Ortiz",
+      "pronouns": "she/her",
+      "avatar": "FE",
+      "region": "Toronto",
+      "bio": "Prefers the low-key regional scene in Toronto to the deep-playa chaos, most years.",
+      "years": 0,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Shade rigging"
+      ],
+      "interests": [
+        "Amateur radio",
+        "Foraging"
+      ],
+      "projects": [
+        "A regional welcome guide"
+      ],
+      "looking": [
+        "Collaborators",
+        "Rides",
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Toronto Decompression",
+        "Toronto Potluck Circle"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Tangled Vulture",
+      "dn": "Skyler Dumont",
+      "pronouns": "she/her",
+      "avatar": "🪨",
+      "region": "Los Angeles",
+      "bio": "Regional meetup regular in Los Angeles, mostly here for the people between burns.",
+      "years": 11,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Electrical",
+        "LED wiring"
+      ],
+      "interests": [
+        "Kinetic sculpture",
+        "Deep house"
+      ],
+      "projects": [
+        "A reactive LED tunnel",
+        "A collaborative art wall"
+      ],
+      "looking": [
+        "Friends"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Static Satellite",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🐍",
+      "region": "Vancouver BC",
+      "bio": "Regional meetup regular in Vancouver BC, mostly here for the people between burns.",
+      "years": 0,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Herbalism"
+      ],
+      "interests": [
+        "Regional cuisine",
+        "Foraging"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators"
+      ],
+      "langs": [
+        "French",
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Vancouver Regional Meetup",
+        "Vancouver Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Grizzled Pelican",
+      "dn": "Drew Kapoor",
+      "pronouns": "she/her",
+      "avatar": "🪨",
+      "region": "Denver / Boulder",
+      "bio": "Long-time Burner who put down roots in the Denver / Boulder community and never looked back.",
+      "years": 10,
+      "burns": 12,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Shade rigging",
+        "Sewing"
+      ],
+      "interests": [
+        "Deep house",
+        "Astrophotography",
+        "Print culture"
+      ],
+      "projects": [
+        "An off-grid comms net"
+      ],
+      "looking": [
+        "Camp",
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Static Sparrow",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "ST",
+      "region": "Tokyo",
+      "bio": "Building a home base for wayward Burners in Tokyo, one potluck at a time.",
+      "years": 12,
+      "burns": 9,
+      "camp": "The Longform",
+      "role": "Fabrication",
+      "skills": [
+        "Event hosting",
+        "Sound design",
+        "First aid"
+      ],
+      "interests": [
+        "Synthwave",
+        "Native flora"
+      ],
+      "projects": [
+        "A reactive LED tunnel",
+        "A traveling potluck series"
+      ],
+      "looking": [
+        "Camp",
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "Dutch",
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Tokyo Welcome Social",
+        "Tokyo Decompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Velvet Ferret",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "VE",
+      "region": "New Orleans",
+      "bio": "Regional meetup regular in New Orleans, mostly here for the people between burns.",
+      "years": 15,
+      "burns": 14,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Electrical"
+      ],
+      "interests": [
+        "Print culture",
+        "Synthwave"
+      ],
+      "projects": [
+        "A gifting economy toolkit",
+        "The regional zine"
+      ],
+      "looking": [
+        "Collaborators",
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Spanish",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "New Potluck Circle",
+        "New Precompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Glimmering Puddle",
+      "dn": "Robin Fairweather",
+      "pronouns": "she/they",
+      "avatar": "🪨",
+      "region": "Buenos Aires",
+      "bio": "Regional meetup regular in Buenos Aires, mostly here for the people between burns.",
+      "years": 6,
+      "burns": 8,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Ride coordination"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Amateur radio",
+        "Permaculture"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp",
+        "Friends"
+      ],
+      "langs": [
+        "Arabic",
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Buenos Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Ashen Dune",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "AS",
+      "region": "Bangkok",
+      "bio": "Long-time Burner who put down roots in the Bangkok community and never looked back.",
+      "years": 8,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Carpentry",
+        "Translation"
+      ],
+      "interests": [
+        "Regional cuisine",
+        "Permaculture"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "The regional zine"
+      ],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "French",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Sunburnt Heron",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🐍",
+      "region": "Sydney",
+      "bio": "Keeps the Sydney regional group chat alive at 2am with gear questions.",
+      "years": 14,
+      "burns": 9,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Electrical",
+        "Bike mechanics"
+      ],
+      "interests": [
+        "Kinetic sculpture",
+        "Regional cuisine"
+      ],
+      "projects": [
+        "A reactive LED tunnel"
+      ],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Sydney Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Nocturnal Dune",
+      "dn": "Riley Blackwood",
+      "pronouns": "he/they",
+      "avatar": "🌾",
+      "region": "Bangkok",
+      "bio": "Active build-night regular out of Bangkok, hands in every project going.",
+      "years": 3,
+      "burns": 1,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Welding"
+      ],
+      "interests": [
+        "Board games",
+        "Permaculture"
+      ],
+      "projects": [
+        "A bike prep kit",
+        "An off-grid comms net"
+      ],
+      "looking": [
+        "Friends",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Dutch",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Bangkok Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wild Dune",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "WI",
+      "region": "Vancouver BC",
+      "bio": "Regional meetup regular in Vancouver BC, mostly here for the people between burns.",
+      "years": 3,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Fire performance"
+      ],
+      "interests": [
+        "Desert ecology",
+        "Native flora",
+        "Cycling"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Vancouver Build Night",
+        "Vancouver Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wily Tumbleweed",
+      "dn": "Avery Nakamura",
+      "pronouns": "she/her",
+      "avatar": "WI",
+      "region": "Brisbane",
+      "bio": "Keeps the Brisbane regional group chat alive at 2am with gear questions.",
+      "years": 2,
+      "burns": 0,
+      "camp": "Camp Contact",
+      "role": "Hospitality",
+      "skills": [
+        "Fabrication"
+      ],
+      "interests": [
+        "Foraging"
+      ],
+      "projects": [],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Hebrew",
+        "Spanish",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Brisbane Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wily Owlet",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "WI",
+      "region": "Los Angeles",
+      "bio": "Active build-night regular out of Los Angeles, hands in every project going.",
+      "years": 13,
+      "burns": 7,
+      "camp": "Signal Loss",
+      "role": "Hospitality",
+      "skills": [
+        "Ride coordination"
+      ],
+      "interests": [
+        "Textile history",
+        "Deep house"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Los Decompression",
+        "Los Precompression"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Prismatic Vulture",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "PR",
+      "region": "London UK",
+      "bio": "First-timer finding their footing in the regional network out of London UK.",
+      "years": 7,
+      "burns": 7,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Solar power",
+        "Graphic design",
+        "Shade rigging"
+      ],
+      "interests": [
+        "Techno",
+        "Foraging"
+      ],
+      "projects": [
+        "A gifting economy toolkit",
+        "A camp-kitchen recipe archive"
+      ],
+      "looking": [
+        "Friends"
+      ],
+      "langs": [
+        "German",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "London Precompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Glimmering Comet",
+      "dn": "Casey Lindqvist",
+      "pronouns": "she/her",
+      "avatar": "🌴",
+      "region": "Barcelona",
+      "bio": "Runs a small gifting circle out of Barcelona between burns.",
+      "years": 4,
+      "burns": 4,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Shade rigging",
+        "LED wiring",
+        "Community organizing"
+      ],
+      "interests": [
+        "Foraging",
+        "Bioluminescence",
+        "Print culture"
+      ],
+      "projects": [
+        "A traveling potluck series"
+      ],
+      "looking": [
+        "Camp",
+        "Rides"
+      ],
+      "langs": [
+        "Arabic",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Barcelona Decompression"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Barefoot Thistle",
+      "dn": "Sam Kowalski",
+      "pronouns": "they/them",
+      "avatar": "🔧",
+      "region": "Adelaide",
+      "bio": "Active build-night regular out of Adelaide, hands in every project going.",
+      "years": 8,
+      "burns": 8,
+      "camp": "The Wayfinders",
+      "role": "Build Crew",
+      "skills": [
+        "Community organizing",
+        "Fabrication"
+      ],
+      "interests": [
+        "Board games",
+        "Mutual aid",
+        "Kinetic sculpture"
+      ],
+      "projects": [
+        "A build-log podcast",
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Rides",
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Luminous Cactus",
+      "dn": "Finley Osei",
+      "pronouns": "she/they",
+      "avatar": "🐺",
+      "region": "Detroit",
+      "bio": "First-timer finding their footing in the regional network out of Detroit.",
+      "years": 15,
+      "burns": 3,
+      "camp": "Satellite Crew",
+      "role": "Community Lead",
+      "skills": [
+        "Event hosting",
+        "Fire performance"
+      ],
+      "interests": [
+        "Cycling"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "A traveling potluck series"
+      ],
+      "looking": [
+        "Rides",
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Detroit Regional Meetup",
+        "Detroit Welcome Social"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Sunburnt Dune",
+      "dn": "Robin Fairweather",
+      "pronouns": "he/him",
+      "avatar": "SU",
+      "region": "Berlin",
+      "bio": "Prefers the low-key regional scene in Berlin to the deep-playa chaos, most years.",
+      "years": 9,
+      "burns": 9,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Solar power",
+        "Woodworking",
+        "Photography"
+      ],
+      "interests": [
+        "Board games",
+        "Fermentation"
+      ],
+      "projects": [
+        "A bike prep kit",
+        "The regional zine"
+      ],
+      "looking": [
+        "Friends",
+        "Rides",
+        "Collaborators"
+      ],
+      "langs": [
+        "Portuguese",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Berlin Potluck Circle",
+        "Berlin Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Feral Coyote",
+      "dn": "Robin Fairweather",
+      "pronouns": "he/they",
+      "avatar": "FE",
+      "region": "London UK",
+      "bio": "Runs a small gifting circle out of London UK between burns.",
+      "years": 7,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Electrical",
+        "First aid",
+        "Woodworking"
+      ],
+      "interests": [
+        "Bioluminescence",
+        "Field recording",
+        "Astrophotography"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Indonesian",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "London Potluck Circle"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Prismatic Sparrow",
+      "dn": "Drew Kapoor",
+      "pronouns": "they/them",
+      "avatar": "PR",
+      "region": "Amsterdam",
+      "bio": "Keeps the Amsterdam regional group chat alive at 2am with gear questions.",
+      "years": 12,
+      "burns": 0,
+      "camp": "Signal Loss",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Photography",
+        "Electrical",
+        "Radio"
+      ],
+      "interests": [
+        "Fermentation",
+        "Desert ecology"
+      ],
+      "projects": [
+        "A gifting economy toolkit",
+        "A bike prep kit"
+      ],
+      "looking": [
+        "Rides",
+        "Friends"
+      ],
+      "langs": [
+        "Arabic",
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Wily Vulture",
+      "dn": "Quinn O'Sullivan",
+      "pronouns": "she/they",
+      "avatar": "🐍",
+      "region": "Sydney",
+      "bio": "Splits time between local regional meetups and the annual pilgrimage — based in Sydney.",
+      "years": 0,
+      "burns": 2,
+      "camp": "Green Playa",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Sewing",
+        "Logistics"
+      ],
+      "interests": [
+        "Techno",
+        "Synthwave"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Scrappy Antler 308",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "🌻",
+      "region": "Manchester",
+      "bio": "Camp-less by choice, community by default — Manchester's unofficial welcome committee.",
+      "years": 10,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Sewing"
+      ],
+      "interests": [
+        "Deep house",
+        "Fermentation",
+        "Kinetic sculpture"
+      ],
+      "projects": [
+        "An off-grid comms net",
+        "The regional zine"
+      ],
+      "looking": [
+        "Friends",
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Tangled Prairie",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "🎨",
+      "region": "Sydney",
+      "bio": "Runs a small gifting circle out of Sydney between burns.",
+      "years": 1,
+      "burns": 1,
+      "camp": "Loose Ends Camp",
+      "role": "Hospitality",
+      "skills": [
+        "Sewing"
+      ],
+      "interests": [
+        "Synthwave",
+        "Fire safety",
+        "Mutual aid"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "A community songbook"
+      ],
+      "looking": [
+        "Collaborators",
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [],
+      "contact": "In-app message",
+      "verified": "flagged",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Nocturnal Compass",
+      "dn": "Taylor Mbeki",
+      "pronouns": "they/them",
+      "avatar": "✨",
+      "region": "London UK",
+      "bio": "Building a home base for wayward Burners in London UK, one potluck at a time.",
+      "years": 14,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Welding",
+        "Photography",
+        "Solar power"
+      ],
+      "interests": [
+        "Fire safety",
+        "Fermentation"
+      ],
+      "projects": [
+        "A modular shade kit",
+        "A traveling potluck series"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "London Welcome Social"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Feathered Falcon",
+      "dn": "Jamie Ortiz",
+      "pronouns": "she/they",
+      "avatar": "🎨",
+      "region": "Barcelona",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the Barcelona scene before committing to anything.",
+      "years": 4,
+      "burns": 5,
+      "camp": "Dustlight Collective",
+      "role": "Logistics",
+      "skills": [
+        "Fire performance"
+      ],
+      "interests": [
+        "Amateur radio",
+        "Techno"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Barcelona Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Amber Raven",
+      "dn": "",
+      "pronouns": "they/them",
+      "avatar": "🌴",
+      "region": "Cape Town (AfrikaBurn)",
+      "bio": "Runs a small gifting circle out of Cape Town (AfrikaBurn) between burns.",
+      "years": 8,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Bike mechanics",
+        "Event hosting",
+        "LED wiring"
+      ],
+      "interests": [
+        "Native flora",
+        "Synthwave"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Iron Wren",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "🌻",
+      "region": "Austin",
+      "bio": "Camp-less by choice, community by default — Austin's unofficial welcome committee.",
+      "years": 12,
+      "burns": 10,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Bike mechanics",
+        "Ride coordination"
+      ],
+      "interests": [
+        "Fire safety",
+        "Bioluminescence",
+        "Mutual aid"
+      ],
+      "projects": [
+        "A collaborative art wall",
+        "A traveling potluck series"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Austin Decompression",
+        "Austin Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Amber Falcon 300",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "AM",
+      "region": "Berlin",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the Berlin scene before committing to anything.",
+      "years": 0,
+      "burns": 2,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Carpentry",
+        "Graphic design",
+        "Shade rigging"
+      ],
+      "interests": [
+        "Deep house",
+        "Mutual aid"
+      ],
+      "projects": [
+        "A bike prep kit"
+      ],
+      "looking": [
+        "Rides",
+        "Camp"
+      ],
+      "langs": [
+        "Mandarin",
+        "Portuguese",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Berlin Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Amber Badger 822",
+      "dn": "",
+      "pronouns": "he/they",
+      "avatar": "AM",
+      "region": "Toronto",
+      "bio": "Shows up for every Toronto decompression and calls it a lifestyle, not an event.",
+      "years": 4,
+      "burns": 5,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Welding"
+      ],
+      "interests": [
+        "Cycling"
+      ],
+      "projects": [
+        "The regional zine",
+        "An off-grid comms net"
+      ],
+      "looking": [
+        "Rides"
+      ],
+      "langs": [
+        "Dutch",
+        "French",
+        "English"
+      ],
+      "avail": "Not hosting yet",
+      "regional": [
+        "Toronto Welcome Social"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wily Lantern",
+      "dn": "Casey Lindqvist",
+      "pronouns": "they/them",
+      "avatar": "🐍",
+      "region": "Delhi",
+      "bio": "Regional meetup regular in Delhi, mostly here for the people between burns.",
+      "years": 11,
+      "burns": 11,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Herbalism",
+        "Event hosting"
+      ],
+      "interests": [
+        "Foraging",
+        "Field recording"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators"
+      ],
+      "langs": [
+        "German",
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Delhi Precompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Dusty Prairie",
+      "dn": "",
+      "pronouns": "he/him",
+      "avatar": "🌻",
+      "region": "Salt Lake City",
+      "bio": "First-timer finding their footing in the regional network out of Salt Lake City.",
+      "years": 15,
+      "burns": 12,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Solar power",
+        "Radio"
+      ],
+      "interests": [
+        "Field recording",
+        "Permaculture",
+        "Deep house"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Rides"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "avail": "Available for consults",
+      "regional": [
+        "Salt Decompression",
+        "Salt Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Scrappy Coyote",
+      "dn": "Skyler Dumont",
+      "pronouns": "he/him",
+      "avatar": "🛰️",
+      "region": "Reno / Tahoe",
+      "bio": "Building a home base for wayward Burners in Reno / Tahoe, one potluck at a time.",
+      "years": 7,
+      "burns": 7,
+      "camp": "Camp Contact",
+      "role": "Build Crew",
+      "skills": [
+        "Sound design",
+        "First aid",
+        "Ride coordination"
+      ],
+      "interests": [
+        "Textile history",
+        "Permaculture",
+        "Techno"
+      ],
+      "projects": [],
+      "looking": [
+        "Friends",
+        "Collaborators",
+        "Rides"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "avail": "Hosting monthly meetups",
+      "regional": [
+        "Reno Precompression",
+        "Reno Build Night"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wild Thistle",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🌵",
+      "region": "Auckland (Kiwiburn)",
+      "bio": "Regional meetup regular in Auckland (Kiwiburn), mostly here for the people between burns.",
+      "years": 11,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "First aid",
+        "Community organizing"
+      ],
+      "interests": [
+        "Regional cuisine",
+        "Foraging"
+      ],
+      "projects": [
+        "A collaborative art wall",
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Camp",
+        "Friends",
+        "Collaborators"
+      ],
+      "langs": [
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Auckland Welcome Social",
+        "Auckland Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Scrappy Magpie 248",
+      "dn": "Quinn O'Sullivan",
+      "pronouns": "he/they",
+      "avatar": "🌻",
+      "region": "Zurich",
+      "bio": "Long-time Burner who put down roots in the Zurich community and never looked back.",
+      "years": 10,
+      "burns": 11,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Ride coordination",
+        "Cooking"
+      ],
+      "interests": [
+        "Native flora",
+        "Kinetic sculpture",
+        "Amateur radio"
+      ],
+      "projects": [
+        "A traveling potluck series",
+        "A gifting economy toolkit"
+      ],
+      "looking": [
+        "Camp"
+      ],
+      "langs": [
+        "Hebrew",
+        "Arabic",
+        "English"
+      ],
+      "avail": "Can host 1",
+      "regional": [
+        "Zurich Build Night",
+        "Zurich Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Grizzled Heron",
+      "dn": "Robin Fairweather",
+      "pronouns": "she/her",
+      "avatar": "GR",
+      "region": "Minneapolis",
+      "bio": "Building a home base for wayward Burners in Minneapolis, one potluck at a time.",
+      "years": 9,
+      "burns": 6,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Translation"
+      ],
+      "interests": [
+        "Textile history",
+        "Kinetic sculpture",
+        "Bioluminescence"
+      ],
+      "projects": [
+        "A bike prep kit"
+      ],
+      "looking": [
+        "Camp",
+        "Collaborators"
+      ],
+      "langs": [
+        "Portuguese",
+        "Hebrew",
+        "English"
+      ],
+      "avail": "Not hosting",
+      "regional": [
+        "Minneapolis Build Night"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Wandering Puddle",
+      "dn": "Jordan Vasquez",
+      "pronouns": "he/him",
+      "avatar": "🍄",
+      "region": "Hobart",
+      "bio": "Runs a small gifting circle out of Hobart between burns.",
+      "years": 10,
+      "burns": 10,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Sound design"
+      ],
+      "interests": [
+        "Foraging"
+      ],
+      "projects": [],
+      "looking": [
+        "Rides",
+        "Collaborators",
+        "Camp"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "avail": "Can host 2",
+      "regional": [
+        "Hobart Potluck Circle",
+        "Hobart Decompression"
+      ],
+      "contact": "In-app message",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Grizzled Otter",
+      "dn": "Morgan Achebe",
+      "pronouns": "he/him",
+      "avatar": "✨",
+      "region": "Montreal",
+      "bio": "Newcomer-curious, veteran-adjacent — soaking up the Montreal scene before committing to anything.",
+      "years": 5,
+      "burns": 5,
+      "camp": "Signal Loss",
+      "role": "Build Crew",
+      "skills": [
+        "Graphic design",
+        "Sewing"
+      ],
+      "interests": [
+        "Fire safety"
+      ],
+      "projects": [
+        "An off-grid comms net"
+      ],
+      "looking": [
+        "Collaborators",
+        "Friends",
+        "Camp"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Montreal Potluck Circle"
+      ],
+      "contact": "Email after intro",
+      "verified": "unverified",
+      "vis": "ghost"
+    },
+    {
+      "pn": "Barefoot Badger",
+      "dn": "Casey Lindqvist",
+      "pronouns": "he/they",
+      "avatar": "BA",
+      "region": "Mexico City",
+      "bio": "Keeps the Mexico City regional group chat alive at 2am with gear questions.",
+      "years": 10,
+      "burns": 0,
+      "camp": "",
+      "role": "",
+      "skills": [
+        "Yoga instruction",
+        "Ride coordination",
+        "Welding"
+      ],
+      "interests": [
+        "Board games"
+      ],
+      "projects": [],
+      "looking": [
+        "Collaborators",
+        "Friends"
+      ],
+      "langs": [
+        "Arabic",
+        "English"
+      ],
+      "avail": "Hosting potlucks locally",
+      "regional": [
+        "Mexico Regional Meetup"
+      ],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
+    },
+    {
+      "pn": "Salty Thistle",
+      "dn": "",
+      "pronouns": "she/her",
+      "avatar": "🛰️",
+      "region": "Sydney",
+      "bio": "Prefers the low-key regional scene in Sydney to the deep-playa chaos, most years.",
+      "years": 9,
+      "burns": 6,
+      "camp": "Signal Loss",
+      "role": "Newcomer Liaison",
+      "skills": [
+        "Event hosting",
+        "Translation",
+        "LED wiring"
+      ],
+      "interests": [
+        "Foraging"
+      ],
+      "projects": [
+        "A build-log podcast"
+      ],
+      "looking": [
+        "Collaborators"
+      ],
+      "langs": [
+        "Indonesian",
+        "English"
+      ],
+      "avail": "Can host 2",
+      "regional": [],
+      "contact": "Email after intro",
+      "verified": "verified",
+      "vis": "beacon"
     }
   ]
 }

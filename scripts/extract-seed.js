@@ -42,7 +42,21 @@ const CITY = extractLiteral(html, 'CITY');
 const REGION_CONTINENT = extractLiteral(html, 'REGION_CONTINENT');
 const CONTINENT_ORDER = extractLiteral(html, 'CONTINENT_ORDER');
 const CAMPS = extractLiteral(html, 'CAMPS');
-const MEMBERS = extractLiteral(html, 'MEMBERS'); // curated hand-authored roster
+
+// Reproduce the FULL roster (curated 51 + deterministic generator = ~200) by
+// running the demo's own member-building code span in Node. It's pure/seeded,
+// so the output matches the demo exactly. Span: `var VIS =` .. end of the
+// generator IIFE (`MEMBERS = MEMBERS.concat(generateMembers(149));})();`).
+function buildRoster(src) {
+  const start = src.indexOf('var VIS = {');
+  const genIdx = src.indexOf('concat(generateMembers(');
+  if (start < 0 || genIdx < 0) throw new Error('member-generator span not found');
+  const end = src.indexOf('})();', genIdx) + '})();'.length;
+  const code = src.slice(start, end);
+  // eslint-disable-next-line no-new-func
+  return Function(code + '\n; return MEMBERS;')();
+}
+const MEMBERS = buildRoster(html);
 
 const regions = Object.keys(CITY).map((name) => ({
   name,
