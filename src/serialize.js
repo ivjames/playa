@@ -33,6 +33,7 @@ function publicProfile(p, { self = false } = {}) {
     verified: p.verified,
     region: p.region ? p.region.name : (p.regionName || ''),
     homeCity: p.homeCity || '',
+    geo: p.geohash || '', // coarse ~5km bucket — not PII, same fuzz the map uses
   };
   for (const f of LIST_FIELDS) out[f] = decodeList(p[f]);
   if (self) {

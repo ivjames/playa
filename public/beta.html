@@ -2584,7 +2584,7 @@ window.STRINGS = {
       avail: p.avail || '', regional: p.regional || [],
       contact: p.contactPref === 'email_after_intro' ? 'Email after intro' : 'In-app message',
       verified: p.verified || 'unverified', vis: 'beacon',
-      city: p.homeCity || '', _id: p.id, _live: coords || null,
+      city: p.homeCity || '', geo: p.geo || '', _id: p.id, _live: coords || null,
     };
   }
   async function hydrateLive() {
@@ -3822,7 +3822,7 @@ window.STRINGS = {
         field('3. Pronouns', esc(p.pronouns)) +
         field('4. Avatar', avatarHTML(p,'sm')) +
         field('5. Home region', esc(p.region)) +
-        field('6. Approximate location', '<span class="geohash">' + esc((CITY[p.region] && CITY[p.region].geo) || '——————') + '</span> <span class="form-hint">(city-level, never precise)</span>') +
+        field('6. Approximate location', (p.city ? esc(p.city) + ' · ' : '') + '<span class="geohash">' + esc(p.geo || (CITY[p.region] && CITY[p.region].geo) || '——————') + '</span> <span class="form-hint">(city-level, never precise)</span>') +
         fieldFull('7. Bio', esc(p.bio)) +
         field('8. Years burning', esc(p.years)) +
         field('9. Burns attended', esc(p.burns)) +
