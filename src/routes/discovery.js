@@ -76,7 +76,7 @@ router.get('/map', async (req, res, next) => {
     const points = members.map((p) => {
       const pt = geo.displayPoint(p.geohash, p.id);
       if (!pt) return null;
-      return { id: p.id, pn: p.pn, avatar: p.avatar || '', verified: p.verified,
+      return { id: p.id, pn: p.pn, avatar: p.avatar || '',
         region: p.region ? p.region.name : '', lat: pt.lat, lng: pt.lng };
     }).filter(Boolean);
     res.json({ total: points.length, points });

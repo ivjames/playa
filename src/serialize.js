@@ -30,7 +30,7 @@ function publicProfile(p, { self = false } = {}) {
     camp: p.camp || '',
     avail: p.avail || '',
     contactPref: p.contactPref,
-    verified: p.verified,
+    flagged: !!p.flagged,
     region: p.region ? p.region.name : (p.regionName || ''),
     homeCity: p.homeCity || '',
     geo: p.geohash || '', // coarse ~5km bucket — not PII, same fuzz the map uses

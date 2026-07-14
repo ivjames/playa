@@ -33,14 +33,13 @@ data) into a working app, without disturbing the landing page or the design.
 - `User` — email (unique), magicToken/expiry, over18, createdAt, deletedAt
 - `Session` — token, userId, expiresAt
 - `Profile` — 1:1 User; pn, dn, pronouns, avatar, bio, years, burns, role,
-  contactPref, visibility (`private|searchable`), verified
-  (`unverified|verified|flagged`), regionId, geohash (coarse), homeCity
+  contactPref, visibility (`private|searchable`), flagged (admin moderation),
+  regionId, geohash (coarse), homeCity
 - `Profile*` join tables — skills, interests, projects, looking, langs,
   regionalEvents (string lists, normalized where useful)
 - `Region` — name, continent, lat, lng (city-level, public)
 - `Camp` — name, regionId, url, description
 - `CampMember` — campId, profileId, role (`member|lead`)
-- `Verification` — profileId, voucherProfileId, method, status, createdAt
 - `Message` — fromProfileId, toProfileId, body, createdAt, readAt
 - `Report` / `Block` — actor, target, reason, createdAt
 
@@ -53,8 +52,8 @@ data) into a working app, without disturbing the landing page or the design.
 - **Discovery:** `GET /api/directory` (filters, Searchable-only, paginated),
   `GET /api/map` (coarse points, Searchable-only), `GET /api/regions`,
   `GET /api/camps`, `GET /api/profile/:id`
-- **Trust/contact:** `POST /api/verify/request`, `POST /api/verify/:id/approve`,
-  `POST /api/messages`, `GET /api/messages`, `POST /api/report`, `POST /api/block`
+- **Trust/contact:** `POST /api/messages`, `GET /api/messages`,
+  `POST /api/report`, `POST /api/block`
 
 ## Phases
 
@@ -64,8 +63,8 @@ data) into a working app, without disturbing the landing page or the design.
 - **Phase 2 — discovery:** Searchable visibility, directory + map APIs with
   real Nominatim geocoding → geohash fuzzing, camps/regions seeded from the
   demo's open-data lists. Front-end swaps hardcoded arrays for `fetch`.
-- **Phase 3 — trust & contact:** verification vouching, messaging + email
-  notifications, block/report + moderation, account deletion + backup purge.
+- **Phase 3 — trust & contact:** messaging + email notifications,
+  block/report + moderation, account deletion + backup purge.
 - **Phase 4 — polish:** donations (external link via `DONATE_URL`; no in-app
   checkout, never pay-for-visibility) ✓; admin/moderation console at
   `/admin.html` (ADMIN_EMAILS-gated) ✓. **i18n deferred:** the mechanism is in

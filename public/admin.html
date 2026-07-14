@@ -82,11 +82,11 @@
       return '<div class="card" data-id="'+esc(p.id)+'">' +
         '<div class="row"><strong>'+esc(p.pn||'(unknown)')+'</strong>' +
         '<span class="tag">'+esc(t.count)+' report'+(t.count>1?'s':'')+'</span>' +
-        '<span class="muted">'+esc(p.verified||'')+'</span></div>' +
+        '<span class="muted">'+esc(p.flagged ? 'flagged' : '')+'</span></div>' +
         '<ul class="reasons">'+ t.reports.map(function(x){ return '<li>'+esc(x.reason||'(no reason)')+'</li>'; }).join('') +'</ul>' +
         '<div class="row" style="margin-top:10px;">' +
           '<button data-act="flag">Flag</button>' +
-          '<button class="ghost" data-act="unverified">Clear flag</button>' +
+          '<button class="ghost" data-act="clear">Clear flag</button>' +
           '<button class="ghost" data-act="remove">Remove account</button>' +
         '</div></div>';
     }).join('');
@@ -94,7 +94,7 @@
       btn.addEventListener('click', async function(){
         var card = btn.closest('[data-id]'); var id = card.getAttribute('data-id'); var act = btn.getAttribute('data-act');
         if (act==='remove'){ if(!confirm('Permanently remove this account?')) return; await api('/api/admin/remove', { method:'POST', body: JSON.stringify({ profileId:id }) }); }
-        else { await api('/api/admin/flag', { method:'POST', body: JSON.stringify({ profileId:id, verified: act==='flag'?'flagged':'unverified' }) }); }
+        else { await api('/api/admin/flag', { method:'POST', body: JSON.stringify({ profileId:id, flagged: act==='flag' }) }); }
         loadReports();
       });
     });

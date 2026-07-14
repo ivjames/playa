@@ -1,9 +1,7 @@
 'use strict';
 const express = require('express');
 const prisma = require('../db');
-const auth = require('../auth');
 const { sendMail } = require('../mailer');
-const { publicProfile } = require('../serialize');
 
 const router = express.Router();
 
@@ -112,51 +110,6 @@ router.post('/report', requireProfile, async (req, res, next) => {
     if (!targetId || targetId === me) return res.status(400).json({ error: 'invalid target' });
     await prisma.report.create({ data: { actorId: me, targetId, reason } });
     res.json({ ok: true });
-  } catch (e) { next(e); }
-});
-
-// ---- Verification (vouching) ----
-// Subject requests verification, naming a voucher profile (a camp lead or
-// established member). The voucher approves from their pending queue.
-router.post('/verify/request', requireProfile, async (req, res, next) => {
-  try {
-    const subject = req.user.profile;
-    const voucherId = String((req.body && req.body.voucherId) || '');
-    const method = String((req.body && req.body.method) || 'peer').slice(0, 40);
-    if (!voucherId || voucherId === subject.id) return res.status(400).json({ error: 'name a voucher other than yourself' });
-    const voucher = await prisma.profile.findFirst({ where: { id: voucherId, user: { deletedAt: null } }, include: { user: true } });
-    if (!voucher) return res.status(404).json({ error: 'voucher not found' });
-    const existing = await prisma.verification.findFirst({ where: { subjectId: subject.id, status: 'pending' } });
-    if (existing) return res.status(409).json({ error: 'a verification request is already pending' });
-    const v = await prisma.verification.create({ data: { subjectId: subject.id, voucherId, method, status: 'pending' } });
-    if (voucher.user && voucher.user.email) {
-      sendMail(voucher.user.email, 'Playa.Earth verification request',
-        `${subject.pn} asked you to vouch for them on Playa.Earth. Sign in to approve or decline.`).catch(() => {});
-    }
-    res.status(201).json({ ok: true, id: v.id });
-  } catch (e) { next(e); }
-});
-
-router.get('/verify/pending', requireProfile, async (req, res, next) => {
-  try {
-    const me = req.user.profile.id;
-    const pending = await prisma.verification.findMany({
-      where: { voucherId: me, status: 'pending' }, include: { subject: true }, orderBy: { createdAt: 'desc' },
-    });
-    res.json({ pending: pending.map((v) => ({ id: v.id, subject: publicProfile(v.subject), method: v.method })) });
-  } catch (e) { next(e); }
-});
-
-router.post('/verify/:id/decision', requireProfile, async (req, res, next) => {
-  try {
-    const me = req.user.profile.id;
-    const approve = (req.body && req.body.decision) === 'approve';
-    const v = await prisma.verification.findUnique({ where: { id: req.params.id } });
-    if (!v || v.voucherId !== me) return res.status(404).json({ error: 'not found' });
-    if (v.status !== 'pending') return res.status(409).json({ error: 'already decided' });
-    await prisma.verification.update({ where: { id: v.id }, data: { status: approve ? 'approved' : 'rejected' } });
-    if (approve) await prisma.profile.update({ where: { id: v.subjectId }, data: { verified: 'verified' } });
-    res.json({ ok: true, status: approve ? 'approved' : 'rejected' });
   } catch (e) { next(e); }
 });
 

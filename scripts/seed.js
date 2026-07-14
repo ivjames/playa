@@ -85,7 +85,7 @@ async function main() {
       camp: mem.camp || null, role: mem.role || null, avail: mem.avail || null,
       contactPref: mem.contact === 'Email after intro' ? 'email_after_intro' : 'in_app',
       visibility: mem.vis === 'ghost' ? 'private' : 'searchable',
-      verified: ['verified', 'flagged', 'unverified'].includes(mem.verified) ? mem.verified : 'unverified',
+      flagged: !!mem.flagged,
       regionId: region ? region.id : null, geohash, homeCity: mem.city || null,
       skills: enc(mem.skills), interests: enc(mem.interests), projects: enc(mem.projects),
       looking: enc(mem.looking), langs: enc(mem.langs), regional: enc(mem.regional),

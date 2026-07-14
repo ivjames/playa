@@ -58,7 +58,7 @@ model Profile {
   avail       String?
   contactPref String   @default("in_app") // in_app | email_after_intro
   visibility  String   @default("private") // private | searchable
-  verified    String   @default("unverified") // unverified | verified | flagged
+  flagged     Boolean  @default(false) // moderation: hidden/under-review by an admin
   regionId    String?
   region      Region?  @relation(fields: [regionId], references: [id])
   homeCity    String?
@@ -73,11 +73,9 @@ model Profile {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
-  campMemberships        CampMember[]
-  sentMessages           Message[]      @relation("from")
-  recvMessages           Message[]      @relation("to")
-  verificationsRequested Verification[] @relation("subject")
-  verificationsVouched   Verification[] @relation("voucher")
+  campMemberships CampMember[]
+  sentMessages    Message[]    @relation("from")
+  recvMessages    Message[]    @relation("to")
 }
 
 model Camp {
@@ -99,17 +97,6 @@ model CampMember {
   role      String  @default("member") // member | lead
 
   @@unique([campId, profileId])
-}
-
-model Verification {
-  id        String   @id @default(cuid())
-  subjectId String
-  subject   Profile  @relation("subject", fields: [subjectId], references: [id], onDelete: Cascade)
-  voucherId String?
-  voucher   Profile? @relation("voucher", fields: [voucherId], references: [id])
-  method    String?
-  status    String   @default("pending") // pending | approved | rejected
-  createdAt DateTime @default(now())
 }
 
 model Message {

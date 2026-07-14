@@ -40,7 +40,7 @@ app.get('/api/config', (req, res) => res.json({
 app.get('/api/me', authRouter.me);
 app.use('/api/auth', authRouter);
 app.use('/api/profile', profileRouter);
-app.use('/api', socialRouter); // /messages /block /report /verify/*
+app.use('/api', socialRouter); // /messages /block /report
 app.use('/api/admin', adminRouter);
 app.use('/api', discoveryRouter); // /directory /map /regions /camps /profile/:id
 

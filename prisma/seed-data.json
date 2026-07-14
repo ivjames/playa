@@ -1681,7 +1681,6 @@
         "Ignite SF"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "San Marcos, TX",
       "lat": 29.8833,
@@ -1722,7 +1721,6 @@
         "Reno Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Red Deer, AB",
       "lat": 52.2681,
@@ -1763,7 +1761,6 @@
         "PDX Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "South Lake Tahoe, CA",
       "lat": 38.9399,
@@ -1803,7 +1800,6 @@
         "Critical NW"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Richmond, BC",
       "lat": 49.1666,
@@ -1845,7 +1841,6 @@
         "LA Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Santa Monica, CA",
       "lat": 34.0195,
@@ -1887,7 +1882,6 @@
         "NYC Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Pachuca, HGO",
       "lat": 20.1011,
@@ -1930,7 +1924,6 @@
         "Austin Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "The Bronx, NY",
       "lat": 40.8448,
@@ -1971,7 +1964,6 @@
         "Denver Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Lethbridge, AB",
       "lat": 49.6956,
@@ -2013,7 +2005,6 @@
         "Lakes of Fire"
       ],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "Oak Park, IL",
       "lat": 41.885,
@@ -2057,7 +2048,6 @@
         "Hyperborea"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Carson City, NV",
       "lat": 39.1638,
@@ -2099,7 +2089,6 @@
         "CDMX Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Fort Lauderdale, FL",
       "lat": 26.1224,
@@ -2141,7 +2130,6 @@
         "Borderland"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Tarragona, ES",
       "lat": 41.1189,
@@ -2183,7 +2171,6 @@
         "Borderland"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Leipzig, DE",
       "lat": 51.3397,
@@ -2225,7 +2212,6 @@
         "UK Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Munich, DE",
       "lat": 48.1351,
@@ -2268,7 +2254,6 @@
         "Nowhere"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Lausanne, CH",
       "lat": 46.5197,
@@ -2311,7 +2296,6 @@
         "TLV Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Rishon LeZion, IL",
       "lat": 31.971,
@@ -2355,7 +2339,6 @@
         "CPT Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Stellenbosch, ZA",
       "lat": -33.9321,
@@ -2396,7 +2379,6 @@
         "Burning Seed"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Penrith, NSW",
       "lat": -33.7506,
@@ -2437,7 +2419,6 @@
         "Sydney Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Gosford, NSW",
       "lat": -33.4269,
@@ -2479,7 +2460,6 @@
         "Kiwiburn"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Rotorua, NZ",
       "lat": -38.1368,
@@ -2521,7 +2501,6 @@
         "Bali Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Kuta, ID",
       "lat": -8.702,
@@ -2564,7 +2543,6 @@
         "CDMX Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Bogota, CO",
       "lat": 4.711,
@@ -2605,7 +2583,6 @@
         "Vancouver Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Georgetown, TX",
       "lat": 30.6333,
@@ -2646,7 +2623,6 @@
         "Miami Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "San Antonio, TX",
       "lat": 29.4241,
@@ -2687,7 +2663,6 @@
         "Miami Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Hialeah, FL",
       "lat": 25.8576,
@@ -2723,7 +2698,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Miami Beach, FL",
       "lat": 25.7907,
@@ -2765,7 +2739,6 @@
         "Chicago Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Nanaimo, BC",
       "lat": 49.1659,
@@ -2802,7 +2775,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Mississauga, ON",
       "lat": 43.589,
@@ -2844,7 +2816,6 @@
         "Denver Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Houston, TX",
       "lat": 29.7604,
@@ -2886,7 +2857,6 @@
         "Apogaea"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "New Braunfels, TX",
       "lat": 29.703,
@@ -2929,7 +2899,6 @@
         "Austin Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Naperville, IL",
       "lat": 41.7508,
@@ -2969,7 +2938,6 @@
         "Burning Flipside"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Seattle, WA",
       "lat": 47.6101,
@@ -3011,7 +2979,6 @@
         "Critical NW"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Osasco, BR",
       "lat": -23.5325,
@@ -3049,7 +3016,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Hillsboro, OR",
       "lat": 45.5228,
@@ -3089,7 +3055,6 @@
         "PDX Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "West Palm Beach, FL",
       "lat": 26.7153,
@@ -3128,7 +3093,6 @@
       "avail": "Not hosting",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Boca Raton, FL",
       "lat": 26.3683,
@@ -3169,7 +3133,6 @@
         "Reno Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Cuautla, MOR",
       "lat": 18.8111,
@@ -3210,7 +3173,6 @@
         "Reno Decompression"
       ],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Vallejo, CA",
       "lat": 38.1041,
@@ -3252,7 +3214,6 @@
         "LA Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Mexico City, CDMX",
       "lat": 19.4326,
@@ -3290,7 +3251,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Ventura, CA",
       "lat": 34.2746,
@@ -3332,7 +3292,6 @@
         "NYC Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Fort Collins, CO",
       "lat": 40.5853,
@@ -3371,7 +3330,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Mysore, IN",
       "lat": 12.2958,
@@ -3413,7 +3371,6 @@
         "Vancouver Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Vancouver, BC",
       "lat": 49.2488,
@@ -3451,7 +3408,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Canmore, AB",
       "lat": 51.0884,
@@ -3493,7 +3449,6 @@
         "CDMX Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Naucalpan, MEX",
       "lat": 19.4785,
@@ -3530,7 +3485,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Augsburg, DE",
       "lat": 48.3705,
@@ -3574,7 +3528,6 @@
         "TLV Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Tel Aviv, IL",
       "lat": 32.0819,
@@ -3616,7 +3569,6 @@
         "AfrikaBurn"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Paarl, ZA",
       "lat": -33.7342,
@@ -3653,7 +3605,6 @@
         "Burning Seed"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Bathurst, NSW",
       "lat": -33.4193,
@@ -3693,7 +3644,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Auckland, NZ",
       "lat": -36.8485,
@@ -3735,7 +3685,6 @@
         "Bali Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Sanur, ID",
       "lat": -8.6678,
@@ -3777,7 +3726,6 @@
         "São Precompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Jundiaí, BR",
       "lat": -23.1857,
@@ -3815,7 +3763,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Genoa, IT",
       "lat": 44.4056,
@@ -3859,7 +3806,6 @@
         "Minneapolis Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Madison, WI",
       "lat": 43.0731,
@@ -3901,7 +3847,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Aarhus, DK",
       "lat": 56.1629,
@@ -3946,7 +3891,6 @@
         "Sydney Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Goulburn, NSW",
       "lat": -34.7544,
@@ -3984,7 +3928,6 @@
       "avail": "Hosting potlucks locally",
       "regional": [],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Golden, CO",
       "lat": 39.7555,
@@ -4029,7 +3972,6 @@
         "Detroit Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Lansing, MI",
       "lat": 42.7325,
@@ -4073,7 +4015,6 @@
         "Guadalajara Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Zapopan, JAL",
       "lat": 20.7167,
@@ -4115,7 +4056,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Camden, NJ",
       "lat": 39.9259,
@@ -4157,7 +4097,6 @@
         "Los Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Riverside, CA",
       "lat": 33.9806,
@@ -4193,7 +4132,6 @@
       "avail": "Not hosting",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Sydney, NSW",
       "lat": -33.8688,
@@ -4232,7 +4170,6 @@
         "Miami Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Miami, FL",
       "lat": 25.7617,
@@ -4273,7 +4210,6 @@
         "Minneapolis Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Minneapolis, MN",
       "lat": 44.9778,
@@ -4313,7 +4249,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Frankston, VIC",
       "lat": -38.142,
@@ -4355,7 +4290,6 @@
         "Montreal Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Montreal, QC",
       "lat": 45.5017,
@@ -4392,7 +4326,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Franklin, TN",
       "lat": 35.9251,
@@ -4434,7 +4367,6 @@
         "Auckland Build Night"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Hamilton, NZ",
       "lat": -37.787,
@@ -4475,7 +4407,6 @@
       "avail": "Available for consults",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Saitama, JP",
       "lat": 35.8617,
@@ -4518,7 +4449,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Wilmington, DE",
       "lat": 39.7447,
@@ -4559,7 +4489,6 @@
         "Phoenix Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Scottsdale, AZ",
       "lat": 33.4942,
@@ -4597,7 +4526,6 @@
       "avail": "Available for consults",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Hangzhou, CN",
       "lat": 30.2741,
@@ -4638,7 +4566,6 @@
         "Reno Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Truckee, CA",
       "lat": 39.328,
@@ -4678,7 +4605,6 @@
       "avail": "Can host 1",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Hyderabad, IN",
       "lat": 17.385,
@@ -4717,7 +4643,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Portsmouth, NH",
       "lat": 43.0718,
@@ -4758,7 +4683,6 @@
         "Toronto Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Hamilton, ON",
       "lat": 43.2557,
@@ -4797,7 +4721,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Tacoma, WA",
       "lat": 47.2529,
@@ -4834,7 +4757,6 @@
         "Auckland Potluck Circle"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Tauranga, NZ",
       "lat": -37.6878,
@@ -4871,7 +4793,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Staten Island, NY",
       "lat": 40.5795,
@@ -4914,7 +4835,6 @@
         "Seattle Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Everett, WA",
       "lat": 47.979,
@@ -4956,7 +4876,6 @@
         "Honolulu Regional Meetup"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Kailua, HI",
       "lat": 21.4022,
@@ -4997,7 +4916,6 @@
         "Bogotá Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Medellin, CO",
       "lat": 6.2442,
@@ -5034,7 +4952,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Brasilia, DF",
       "lat": -15.7942,
@@ -5076,7 +4993,6 @@
       "avail": "Can host 1",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Buenos Aires, AR",
       "lat": -34.6037,
@@ -5121,7 +5037,6 @@
         "La Precompression"
       ],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "La Paz, BO",
       "lat": -16.4897,
@@ -5164,7 +5079,6 @@
       "avail": "Hosting potlucks locally",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Cusco, PE",
       "lat": -13.5319,
@@ -5204,7 +5118,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "San Francisco, CA",
       "lat": 37.7699,
@@ -5241,7 +5154,6 @@
       "avail": "Can host 1",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Cuenca, EC",
       "lat": -2.9006,
@@ -5283,7 +5195,6 @@
         "Rio Precompression"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Niteroi, BR",
       "lat": -22.8833,
@@ -5324,7 +5235,6 @@
         "Denver Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Colorado Springs, CO",
       "lat": 38.8339,
@@ -5365,7 +5275,6 @@
         "São Precompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "São Paulo, BR",
       "lat": -23.5505,
@@ -5407,7 +5316,6 @@
         "Amsterdam Welcome Social"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Eindhoven, NL",
       "lat": 51.4416,
@@ -5451,7 +5359,6 @@
         "Athens Potluck Circle"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Thessaloniki, GR",
       "lat": 40.6401,
@@ -5495,7 +5402,6 @@
         "Barcelona Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Valencia, ES",
       "lat": 39.4699,
@@ -5535,7 +5441,6 @@
         "Belgrade Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Novi Sad, RS",
       "lat": 45.2671,
@@ -5576,7 +5481,6 @@
         "Berlin Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Dresden, DE",
       "lat": 51.0504,
@@ -5614,7 +5518,6 @@
         "Brussels Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Luxembourg, LU",
       "lat": 49.6116,
@@ -5657,7 +5560,6 @@
         "Budapest Build Night"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Szeged, HU",
       "lat": 46.253,
@@ -5699,7 +5601,6 @@
         "Buenos Welcome Social"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "La Plata, AR",
       "lat": -34.9215,
@@ -5742,7 +5643,6 @@
         "Dublin Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Cork, IE",
       "lat": 51.8985,
@@ -5783,7 +5683,6 @@
         "Helsinki Precompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Espoo, FI",
       "lat": 60.2055,
@@ -5824,7 +5723,6 @@
         "Istanbul Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Izmir, TR",
       "lat": 38.4237,
@@ -5862,7 +5760,6 @@
       "avail": "Hosting potlucks locally",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Kharkiv, UA",
       "lat": 49.9935,
@@ -5905,7 +5802,6 @@
         "Lisbon Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Lisbon, PT",
       "lat": 38.7223,
@@ -5947,7 +5843,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Jaffa, IL",
       "lat": 32.0546,
@@ -5990,7 +5885,6 @@
         "Madrid Precompression"
       ],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "Alcala de Henares, ES",
       "lat": 40.4818,
@@ -6030,7 +5924,6 @@
         "Manchester Potluck Circle"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Birmingham, UK",
       "lat": 52.4862,
@@ -6070,7 +5963,6 @@
         "Amsterdam Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Groningen, NL",
       "lat": 53.2194,
@@ -6112,7 +6004,6 @@
         "Moscow Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Nizhny Novgorod, RU",
       "lat": 56.2965,
@@ -6156,7 +6047,6 @@
         "Bangkok Build Night"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Pattaya, TH",
       "lat": 12.9236,
@@ -6193,7 +6083,6 @@
       "avail": "Available for consults",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Bellevue, WA",
       "lat": 47.6101,
@@ -6233,7 +6122,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Versailles, FR",
       "lat": 48.8049,
@@ -6277,7 +6165,6 @@
         "Salt Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Park City, UT",
       "lat": 40.6461,
@@ -6314,7 +6201,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Bologna, IT",
       "lat": 44.4949,
@@ -6354,7 +6240,6 @@
         "Stockholm Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Stockholm, SE",
       "lat": 59.3293,
@@ -6393,7 +6278,6 @@
         "Vienna Regional Meetup"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Innsbruck, AT",
       "lat": 47.2692,
@@ -6433,7 +6317,6 @@
       "avail": "Can host 1",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Poznan, PL",
       "lat": 52.4064,
@@ -6475,7 +6358,6 @@
       "avail": "Not hosting",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Zurich, CH",
       "lat": 47.3769,
@@ -6518,7 +6400,6 @@
         "Accra Precompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Accra, GH",
       "lat": 5.6037,
@@ -6563,7 +6444,6 @@
         "Cairo Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Aswan, EG",
       "lat": 24.0889,
@@ -6600,7 +6480,6 @@
       "avail": "Can host 1",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Pretoria, ZA",
       "lat": -25.7479,
@@ -6639,7 +6518,6 @@
         "Johannesburg Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Soweto, ZA",
       "lat": -26.2678,
@@ -6681,7 +6559,6 @@
         "Lagos Precompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Abuja, NG",
       "lat": 9.0765,
@@ -6725,7 +6602,6 @@
         "Marrakech Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Agadir, MA",
       "lat": 30.4278,
@@ -6767,7 +6643,6 @@
         "Canberra Regional Meetup"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Canberra, ACT",
       "lat": -35.2809,
@@ -6807,7 +6682,6 @@
         "Bali Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Denpasar, ID",
       "lat": -8.6705,
@@ -6850,7 +6724,6 @@
         "Bangalore Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Chennai, IN",
       "lat": 13.0827,
@@ -6891,7 +6764,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Chiang Mai, TH",
       "lat": 18.7883,
@@ -6932,7 +6804,6 @@
         "Accra Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Kumasi, GH",
       "lat": 6.6885,
@@ -6974,7 +6845,6 @@
         "Chiang Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Chiang Mai, TH",
       "lat": 18.7883,
@@ -7015,7 +6885,6 @@
         "Detroit Build Night"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Flint, MI",
       "lat": 43.0125,
@@ -7058,7 +6927,6 @@
         "Delhi Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Gurgaon, IN",
       "lat": 28.4595,
@@ -7101,7 +6969,6 @@
         "Miami Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Fort Lauderdale, FL",
       "lat": 26.1224,
@@ -7145,7 +7012,6 @@
         "Hong Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Kowloon, HK",
       "lat": 22.3167,
@@ -7188,7 +7054,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Bandung, ID",
       "lat": -6.9175,
@@ -7230,7 +7095,6 @@
         "Chicago Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Aurora, IL",
       "lat": 41.7606,
@@ -7273,7 +7137,6 @@
         "Manila Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "Makati, PH",
       "lat": 14.5547,
@@ -7316,7 +7179,6 @@
         "Mumbai Precompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Nashik, IN",
       "lat": 19.9975,
@@ -7356,7 +7218,6 @@
         "Seoul Build Night"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Seoul, KR",
       "lat": 37.5665,
@@ -7392,7 +7253,6 @@
       "avail": "Can host 1",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Ottawa, ON",
       "lat": 45.4215,
@@ -7430,7 +7290,6 @@
       "avail": "Hosting potlucks locally",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Tampines, SG",
       "lat": 1.3496,
@@ -7471,7 +7330,6 @@
         "Taipei Precompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Taipei, TW",
       "lat": 25.033,
@@ -7513,7 +7371,6 @@
         "Munich Potluck Circle"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Nuremberg, DE",
       "lat": 49.4521,
@@ -7555,7 +7412,6 @@
         "Tokyo Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Tokyo, JP",
       "lat": 35.6762,
@@ -7598,7 +7454,6 @@
         "Adelaide Build Night"
       ],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Whyalla, SA",
       "lat": -33.0333,
@@ -7636,7 +7491,6 @@
         "Milan Decompression"
       ],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Verona, IT",
       "lat": 45.4384,
@@ -7682,7 +7536,6 @@
         "Mumbai Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Navi Mumbai, IN",
       "lat": 19.033,
@@ -7722,7 +7575,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Queanbeyan, NSW",
       "lat": -35.3549,
@@ -7762,7 +7614,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Hobart, TAS",
       "lat": -42.8821,
@@ -7805,7 +7656,6 @@
         "Melbourne Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Shepparton, VIC",
       "lat": -36.3805,
@@ -7844,7 +7694,6 @@
         "Toronto Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "London, ON",
       "lat": 42.9849,
@@ -7886,7 +7735,6 @@
         "Sydney Regional Meetup"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Parramatta, NSW",
       "lat": -33.815,
@@ -7926,7 +7774,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Wellington, NZ",
       "lat": -41.2865,
@@ -7967,7 +7814,6 @@
         "London Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Reading, UK",
       "lat": 51.4543,
@@ -8008,7 +7854,6 @@
         "Jakarta Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Tangerang, ID",
       "lat": -6.1783,
@@ -8046,7 +7891,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Hamburg, DE",
       "lat": 53.5511,
@@ -8088,7 +7932,6 @@
         "San Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "Oakland, CA",
       "lat": 37.8044,
@@ -8127,7 +7970,6 @@
         "London Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Southampton, UK",
       "lat": 50.9097,
@@ -8173,7 +8015,6 @@
         "London Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "ghost",
       "city": "London, UK",
       "lat": 51.5074,
@@ -8216,7 +8057,6 @@
         "Amsterdam Potluck Circle"
       ],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Amsterdam, NL",
       "lat": 52.3676,
@@ -8259,7 +8099,6 @@
       "avail": "Can host 1",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Cuernavaca, MOR",
       "lat": 18.9186,
@@ -8301,7 +8140,6 @@
         "Toronto Potluck Circle"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Kitchener, ON",
       "lat": 43.4516,
@@ -8340,7 +8178,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "San Diego, CA",
       "lat": 32.7157,
@@ -8379,7 +8216,6 @@
         "Vancouver Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Burnaby, BC",
       "lat": 49.2488,
@@ -8420,7 +8256,6 @@
       "avail": "Available for consults",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Aurora, CO",
       "lat": 39.7294,
@@ -8466,7 +8301,6 @@
         "Tokyo Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Yokohama, JP",
       "lat": 35.4437,
@@ -8510,7 +8344,6 @@
         "New Precompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "New Orleans, LA",
       "lat": 29.9511,
@@ -8550,7 +8383,6 @@
         "Buenos Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Mar del Plata, AR",
       "lat": -38.0055,
@@ -8591,7 +8423,6 @@
       "avail": "Available for consults",
       "regional": [],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Phuket, TH",
       "lat": 7.8804,
@@ -8631,7 +8462,6 @@
         "Sydney Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Newcastle, NSW",
       "lat": -32.9283,
@@ -8673,7 +8503,6 @@
         "Bangkok Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Bangkok, TH",
       "lat": 13.7563,
@@ -8714,7 +8543,6 @@
         "Vancouver Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Surrey, BC",
       "lat": 49.1913,
@@ -8753,7 +8581,6 @@
         "Brisbane Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Cairns, QLD",
       "lat": -16.9203,
@@ -8792,7 +8619,6 @@
         "Los Precompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Palm Springs, CA",
       "lat": 33.8303,
@@ -8835,7 +8661,6 @@
         "London Precompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Croydon, UK",
       "lat": 51.3762,
@@ -8878,7 +8703,6 @@
         "Barcelona Decompression"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Zaragoza, ES",
       "lat": 41.6488,
@@ -8920,7 +8744,6 @@
       "avail": "Not hosting",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Adelaide, SA",
       "lat": -34.9285,
@@ -8963,7 +8786,6 @@
         "Detroit Welcome Social"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Windsor, ON",
       "lat": 42.3149,
@@ -9009,7 +8831,6 @@
         "Berlin Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Cologne, DE",
       "lat": 50.9375,
@@ -9051,7 +8872,6 @@
         "London Potluck Circle"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Brighton, UK",
       "lat": 50.8225,
@@ -9093,7 +8913,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Rotterdam, NL",
       "lat": 51.9244,
@@ -9130,7 +8949,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "beacon",
       "city": "Wollongong, NSW",
       "lat": -34.4278,
@@ -9172,7 +8990,6 @@
       "avail": "Hosting monthly meetups",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Newcastle, UK",
       "lat": 54.9783,
@@ -9213,7 +9030,6 @@
       "avail": "Not hosting yet",
       "regional": [],
       "contact": "In-app message",
-      "verified": "flagged",
       "vis": "ghost",
       "city": "Canberra, ACT",
       "lat": -35.2809,
@@ -9257,7 +9073,6 @@
         "London Welcome Social"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Oxford, UK",
       "lat": 51.752,
@@ -9295,7 +9110,6 @@
         "Barcelona Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Barcelona, ES",
       "lat": 41.3874,
@@ -9332,7 +9146,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Johannesburg, ZA",
       "lat": -26.2041,
@@ -9375,7 +9188,6 @@
         "Austin Build Night"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Waco, TX",
       "lat": 31.5493,
@@ -9418,7 +9230,6 @@
         "Berlin Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "ghost",
       "city": "Brandenburg an der Havel, DE",
       "lat": 52.4125,
@@ -9458,7 +9269,6 @@
         "Toronto Welcome Social"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "beacon",
       "city": "Toronto, ON",
       "lat": 43.6532,
@@ -9497,7 +9307,6 @@
         "Delhi Precompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Noida, IN",
       "lat": 28.5355,
@@ -9538,7 +9347,6 @@
         "Salt Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "West Valley City, UT",
       "lat": 40.6916,
@@ -9581,7 +9389,6 @@
         "Reno Build Night"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Incline Village, NV",
       "lat": 39.2404,
@@ -9625,7 +9432,6 @@
         "Auckland Decompression"
       ],
       "contact": "In-app message",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Wellington, NZ",
       "lat": -41.2865,
@@ -9669,7 +9475,6 @@
         "Zurich Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Geneva, CH",
       "lat": 46.2044,
@@ -9711,7 +9516,6 @@
         "Minneapolis Build Night"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Saint Paul, MN",
       "lat": 44.9537,
@@ -9750,7 +9554,6 @@
         "Hobart Decompression"
       ],
       "contact": "In-app message",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Launceston, TAS",
       "lat": -41.4332,
@@ -9791,7 +9594,6 @@
         "Montreal Potluck Circle"
       ],
       "contact": "Email after intro",
-      "verified": "unverified",
       "vis": "ghost",
       "city": "Laval, QC",
       "lat": 45.6066,
@@ -9830,7 +9632,6 @@
         "Mexico Regional Meetup"
       ],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Toluca, MEX",
       "lat": 19.2926,
@@ -9868,7 +9669,6 @@
       "avail": "Can host 2",
       "regional": [],
       "contact": "Email after intro",
-      "verified": "verified",
       "vis": "beacon",
       "city": "Byron Bay, NSW",
       "lat": -28.6474,

@@ -37,14 +37,13 @@ router.get('/reports', requireAdmin, async (_req, res, next) => {
   } catch (e) { next(e); }
 });
 
-// POST /api/admin/flag { profileId, verified: 'flagged'|'verified'|'unverified' }
+// POST /api/admin/flag { profileId, flagged: true|false } -> toggle moderation flag
 router.post('/flag', requireAdmin, async (req, res, next) => {
   try {
     const profileId = String((req.body && req.body.profileId) || '');
-    const verified = ['flagged', 'verified', 'unverified'].includes(req.body && req.body.verified)
-      ? req.body.verified : 'flagged';
-    const p = await prisma.profile.update({ where: { id: profileId }, data: { verified } });
-    res.json({ ok: true, verified: p.verified });
+    const flagged = !!(req.body && req.body.flagged);
+    const p = await prisma.profile.update({ where: { id: profileId }, data: { flagged } });
+    res.json({ ok: true, flagged: p.flagged });
   } catch (e) { next(e); }
 });
 
