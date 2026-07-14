@@ -22,7 +22,17 @@ function ageFromDob(dob) {
 async function linkRegion(name) {
   const n = String(name || '').trim();
   if (!n) return null;
-  return prisma.region.upsert({ where: { name: n }, update: {}, create: { name: n } });
+  const region = await prisma.region.upsert({ where: { name: n }, update: {}, create: { name: n } });
+  // Ensure the region has a coarse centroid so members without a resolvable
+  // city still get a map point (via resolveGeohash's region fallback). We
+  // geocode the region name once and persist it; geocode() is itself cached.
+  if (region.lat == null || region.lng == null) {
+    const g = await geo.geocode(n);
+    if (g) {
+      return prisma.region.update({ where: { id: region.id }, data: { lat: g.lat, lng: g.lng } });
+    }
+  }
+  return region;
 }
 
 function buildData(body) {
