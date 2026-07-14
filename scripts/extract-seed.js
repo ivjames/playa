@@ -88,14 +88,14 @@ const camps = CAMPS.map((c) => ({
 }));
 
 // Curated members — the demo's hand-authored roster. Seeded so the pilot
-// directory/map are populated. Kept verbatim; visibility/verified as authored.
+// directory/map are populated. Kept verbatim; visibility as authored.
 const members = MEMBERS.map((m) => ({
   pn: m.pn, dn: m.dn || '', pronouns: m.pronouns || '', avatar: m.avatar || '',
   region: m.region || '', bio: m.bio || '', years: m.years || 0, burns: m.burns || 0,
   camp: m.camp || '', role: m.role || '', skills: m.skills || [], interests: m.interests || [],
   projects: m.projects || [], looking: m.looking || [], langs: m.langs || [],
   avail: m.avail || '', regional: m.regional || [],
-  contact: m.contact || 'In-app message', verified: m.verified || 'unverified',
+  contact: m.contact || 'In-app message',
   vis: m.vis || 'beacon',
   city: m._city || '', lat: m._lat != null ? m._lat : null, lng: m._lng != null ? m._lng : null,
 }));
