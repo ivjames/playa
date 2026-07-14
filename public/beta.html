@@ -270,6 +270,17 @@ header.site{ border-bottom:var(--pe-border-3); background:var(--pe-bg); position
 .layer-btn[aria-pressed="true"]{ background:var(--pe-ink); color:var(--pe-bone); }
 .layer-btn:hover:not([aria-pressed="true"]){ background:var(--pe-safety-18); }
 
+/* Region activity labels (Leaflet tooltips on the soft region circles) —
+   zine token language, no arrow. */
+.region-label.leaflet-tooltip{
+  background:var(--pe-bone); color:var(--pe-ink);
+  border:var(--pe-border-2); border-radius:0;
+  font:var(--pe-weight) var(--pe-text-xs)/1 var(--pe-font);
+  letter-spacing:var(--pe-track-wide); text-transform:uppercase;
+  box-shadow:var(--pe-shadow-block-in); padding:3px 7px; white-space:nowrap;
+}
+.region-label.leaflet-tooltip::before{ display:none; }
+
 
 /* camp map marker — ink square (divIcon), distinct SHAPE from the round
    burner dot; palette-only (ink fill, bone gap), zero radius. */
@@ -3468,14 +3479,69 @@ window.STRINGS = {
     return shown;
   }
 
+  /* ============================================================
+     SOFT REGION ACTIVITY CIRCLES — a faint translucent circle per
+     active region, centered on its city, radius scaled to that
+     region's member spread (no hard borders). Hover shows the label
+     (Region · N); click filters to the region; the selected region
+     is emphasized and permanently labeled. Guarded on `map`, so a
+     blocked/offline Leaflet just skips.
+     ============================================================ */
+  var regionCircleLayer = null;
+  function haversineM(aLat, aLng, bLat, bLng){
+    var R = 6371000, t = Math.PI / 180;
+    var dLat = (bLat - aLat) * t, dLng = (bLng - aLng) * t;
+    var s = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(aLat * t) * Math.cos(bLat * t) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 2 * R * Math.asin(Math.min(1, Math.sqrt(s)));
+  }
+  function regionActivity(members){
+    var by = {};
+    members.forEach(function(p){
+      var c = CITY[p.region]; if (!c) return; // no centroid -> can't place a circle
+      var a = by[p.region] || (by[p.region] = { region: p.region, lat: c.lat, lng: c.lng, count: 0, maxD: 0 });
+      a.count++;
+      var co = resolveMemberCoords(p);
+      var d = haversineM(c.lat, c.lng, co.lat, co.lng);
+      if (d > a.maxD) a.maxD = d;
+    });
+    return Object.keys(by).map(function(r){
+      var a = by[r];
+      a.radius = Math.max(Math.min(a.maxD * 1.15, 180000), 30000); // 30km floor, 180km cap
+      return a;
+    });
+  }
+  function clearRegionCircles(){ if (regionCircleLayer && map) map.removeLayer(regionCircleLayer); regionCircleLayer = null; }
+  function renderRegionCircles(){
+    if (!map) return;
+    clearRegionCircles();
+    var acts = regionActivity(filteredMembers());
+    if (!acts.length) return;
+    var accent = getComputedStyle(document.documentElement).getPropertyValue('--pe-safety').trim() || 'currentColor';
+    var selected = (regionFilterOverride || (fRegion && fRegion.value)) || null;
+    regionCircleLayer = L.layerGroup();
+    acts.forEach(function(a){
+      var on = a.region === selected;
+      var circle = L.circle([a.lat, a.lng], {
+        radius: a.radius, color: accent, weight: on ? 2 : 1,
+        opacity: on ? 0.7 : 0.28, fillColor: accent, fillOpacity: on ? 0.14 : 0.06,
+      });
+      circle.bindTooltip(a.region + ' · ' + a.count, { permanent: on, direction: 'center', className: 'region-label' });
+      circle.on('click', function(){ regionFilterOverride = a.region; renderDirectory(); renderMapPins(); });
+      regionCircleLayer.addLayer(circle);
+    });
+    regionCircleLayer.addTo(map);
+    regionCircleLayer.eachLayer(function(l){ if (l.bringToBack) l.bringToBack(); });
+  }
+
   function renderMapPins(){
     if (!map) return;
     var showBurners = mapMode === 'burners' || mapMode === 'both';
     var showCamps = mapMode === 'camps' || mapMode === 'both';
 
     var burnerCount = 0, campCount = 0;
-    if (showBurners) { burnerCount = renderBurnerPins(); }
-    else { mapCircles.forEach(function(c){ map.removeLayer(c); }); mapCircles = []; }
+    if (showBurners) { renderRegionCircles(); burnerCount = renderBurnerPins(); }
+    else { clearRegionCircles(); mapCircles.forEach(function(c){ map.removeLayer(c); }); mapCircles = []; }
 
     if (showCamps) { campCount = renderCampPins(); }
     else { mapCampMarkers.forEach(function(m){ map.removeLayer(m); }); mapCampMarkers = []; }
