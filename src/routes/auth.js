@@ -24,7 +24,16 @@ router.post('/request', async (req, res, next) => {
     lastRequest.set(key, now);
     const url = `${env.APP_URL}/api/auth/verify?email=${encodeURIComponent(normalized)}&token=${encodeURIComponent(token)}`;
     const result = await sendMagicLink(normalized, url);
-    // Never reveal whether the address exists. In dev, expose the link for testing.
+    // A user row is upserted for every request regardless, so surfacing a
+    // delivery failure here doesn't reveal whether the address already existed.
+    if (!result.delivered && result.configured) {
+      // The send was attempted and failed (Resend rejection / SMTP timeout).
+      // Report it plainly instead of an opaque 500 so the user can retry and
+      // the operator sees the cause in the server log (see mailer).
+      return res.status(502).json({ error: "couldn't send the sign-in email right now — please try again in a moment" });
+    }
+    // Delivered, or no transport configured. Never reveal whether the address
+    // exists. In dev (no transport), expose the link for testing.
     const body = { ok: true };
     if (!result.delivered && !env.isProd) body.devLink = url;
     res.json(body);
