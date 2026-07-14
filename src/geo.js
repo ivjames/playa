@@ -69,16 +69,25 @@ async function geocode(query) {
 }
 
 // Resolve a coarse geohash for a profile from its city (preferred) or region
-// centroid (fallback). Returns null if nothing resolvable.
+// (fallback). `region` may be a Prisma region record or a plain name string.
+// Returns null only when nothing at all is resolvable.
 async function resolveGeohash({ city, region }) {
+  const regionName = typeof region === 'string' ? region : (region && region.name) || '';
   if (city) {
-    const g = await geocode(region ? `${city}, ${region}` : city);
+    const g = await geocode(regionName ? `${city}, ${regionName}` : city);
     if (g) return coarsen(g.lat, g.lng);
     const g2 = await geocode(city);
     if (g2) return coarsen(g2.lat, g2.lng);
   }
-  if (region && region.lat != null && region.lng != null) {
+  // Stored region centroid, if we have one.
+  if (region && typeof region === 'object' && region.lat != null && region.lng != null) {
     return coarsen(region.lat, region.lng);
+  }
+  // Last resort: geocode the region name itself (covers regions that were
+  // created without stored coordinates and members who gave no city).
+  if (regionName) {
+    const g3 = await geocode(regionName);
+    if (g3) return coarsen(g3.lat, g3.lng);
   }
   return null;
 }

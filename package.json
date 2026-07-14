@@ -14,7 +14,8 @@
     "migrate:dev": "prisma migrate dev",
     "extract-seed": "node scripts/extract-seed.js",
     "seed": "node scripts/seed.js",
-    "seed:clear": "node scripts/clear-seed-members.js"
+    "seed:clear": "node scripts/clear-seed-members.js",
+    "backfill:geohash": "node scripts/backfill-geohash.js"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",
