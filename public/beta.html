@@ -3525,9 +3525,11 @@ window.STRINGS = {
       var circle = L.circle([a.lat, a.lng], {
         radius: a.radius, color: accent, weight: on ? 2 : 1,
         opacity: on ? 0.7 : 0.28, fillColor: accent, fillOpacity: on ? 0.14 : 0.06,
+        interactive: false, // click-through: never intercept pins (camps/people)
       });
-      circle.bindTooltip(a.region + ' · ' + a.count, { permanent: on, direction: 'center', className: 'region-label' });
-      circle.on('click', function(){ regionFilterOverride = a.region; renderDirectory(); renderMapPins(); });
+      // Label only the selected region — permanent tooltips are pointer-events:
+      // none, so they don't interfere either; avoids labeling all ~77 at once.
+      if (on) circle.bindTooltip(a.region + ' · ' + a.count, { permanent: true, direction: 'center', className: 'region-label' });
       regionCircleLayer.addLayer(circle);
     });
     regionCircleLayer.addTo(map);
