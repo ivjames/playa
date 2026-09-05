@@ -16,4 +16,5 @@ npm start           # http://127.0.0.1:8060  (PORT overridable via env or .env)
 ## Deploy
 
 Served on the lab980 droplet the standard way (pm2 + nginx + certbot).
-Default subdomain: `playa.lab980.com`. See [DEPLOY.md](DEPLOY.md).
+Default subdomain: `playa.lab980.com`. `bin/playa` is the operate CLI
+(`deploy` / `restart` / `logs` / `status` / `backup`). See [DEPLOY.md](DEPLOY.md).

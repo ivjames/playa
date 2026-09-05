@@ -1,5 +1,7 @@
-// pm2 process definition for playa (lab980 shape).
-// Start:   pm2 start ecosystem.config.js && pm2 save
+// pm2 process definition for playa (lab980 shape) — the by-hand reference.
+// The operate CLI (bin/playa) registers the same process from its START_CMD
+// on a first deploy, with NODE_ENV=production and PORT in a scrubbed env;
+// prefer `playa deploy` over `pm2 start ecosystem.config.js`.
 // PORT is read from ./.env by server.js (provision-site seeds it).
 module.exports = {
   apps: [
