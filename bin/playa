@@ -13,7 +13,7 @@ case "${1:-}" in
     echo "==> git pull"
     git pull --ff-only
     echo "==> npm ci"
-    npm ci --omit=dev 2>/dev/null || npm install --omit=dev
+    npm ci --omit=dev
     echo "==> prisma migrate deploy"
     npm run migrate:deploy
     echo "==> build (prisma generate + asset check)"
